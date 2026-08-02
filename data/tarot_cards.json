@@ -10,7 +10,15 @@
     "reversed_meaning": "魯莽、缺乏計劃、愚蠢、風險、不負責任",
     "description": "愚者代表著新的開始和無限的可能性。他站在懸崖邊，準備踏出未知的一步，象徵著對未來的信心和勇氣。",
     "image_path": "static/images/cards/fool.jpg",
-    "keywords": ["新開始", "冒險", "純真", "自由", "信心"]
+    "keywords": [
+      "新開始",
+      "冒險",
+      "純真",
+      "自由",
+      "信心"
+    ],
+    "sprite_x": 0,
+    "sprite_y": 0
   },
   {
     "id": "magician",
@@ -23,7 +31,15 @@
     "reversed_meaning": "缺乏技能、意志薄弱、欺騙、操縱、缺乏自信",
     "description": "魔法師擁有將想法轉化為現實的能力。他代表著意志力和技能，能夠運用所有必要的工具來實現目標。",
     "image_path": "static/images/cards/magician.jpg",
-    "keywords": ["意志力", "技能", "創造力", "自信", "實現"]
+    "keywords": [
+      "意志力",
+      "技能",
+      "創造力",
+      "自信",
+      "實現"
+    ],
+    "sprite_x": 1,
+    "sprite_y": 0
   },
   {
     "id": "high_priestess",
@@ -36,7 +52,15 @@
     "reversed_meaning": "缺乏直覺、秘密、隱瞞、缺乏內在聲音",
     "description": "女祭司代表著內在的智慧和直覺。她坐在月亮和太陽之間，象徵著潛意識的深度和神秘知識。",
     "image_path": "static/images/cards/high_priestess.jpg",
-    "keywords": ["直覺", "潛意識", "神秘", "智慧", "內在知識"]
+    "keywords": [
+      "直覺",
+      "潛意識",
+      "神秘",
+      "智慧",
+      "內在知識"
+    ],
+    "sprite_x": 2,
+    "sprite_y": 0
   },
   {
     "id": "empress",
@@ -49,7 +73,15 @@
     "reversed_meaning": "依賴、缺乏成長、創意阻塞、過度保護",
     "description": "皇后代表著豐盛和創造力。她坐在自然中，象徵著母性的力量和生命的豐盛。",
     "image_path": "static/images/cards/empress.jpg",
-    "keywords": ["豐盛", "母性", "創造力", "自然", "富足"]
+    "keywords": [
+      "豐盛",
+      "母性",
+      "創造力",
+      "自然",
+      "富足"
+    ],
+    "sprite_x": 3,
+    "sprite_y": 0
   },
   {
     "id": "emperor",
@@ -62,7 +94,15 @@
     "reversed_meaning": "專制、缺乏靈活性、控制欲過強、缺乏情感",
     "description": "皇帝代表著權威和結構。他坐在王座上，象徵著穩定的領導力和秩序。",
     "image_path": "static/images/cards/emperor.jpg",
-    "keywords": ["權威", "結構", "穩定", "領導力", "控制"]
+    "keywords": [
+      "權威",
+      "結構",
+      "穩定",
+      "領導力",
+      "控制"
+    ],
+    "sprite_x": 4,
+    "sprite_y": 0
   },
   {
     "id": "hierophant",
@@ -75,7 +115,15 @@
     "reversed_meaning": "反叛、非傳統、缺乏指導、精神危機",
     "description": "教皇代表著傳統和精神指導。他象徵著學習和接受傳統智慧的重要性。",
     "image_path": "static/images/cards/hierophant.jpg",
-    "keywords": ["傳統", "精神指導", "學習", "儀式", "信仰"]
+    "keywords": [
+      "傳統",
+      "精神指導",
+      "學習",
+      "儀式",
+      "信仰"
+    ],
+    "sprite_x": 5,
+    "sprite_y": 0
   },
   {
     "id": "lovers",
@@ -88,7 +136,15 @@
     "reversed_meaning": "不和諧、錯誤選擇、價值觀衝突、關係問題",
     "description": "戀人代表著愛情和選擇。這張牌象徵著重要的決定和價值觀的選擇。",
     "image_path": "static/images/cards/lovers.jpg",
-    "keywords": ["愛情", "選擇", "和諧", "關係", "價值觀"]
+    "keywords": [
+      "愛情",
+      "選擇",
+      "和諧",
+      "關係",
+      "價值觀"
+    ],
+    "sprite_x": 6,
+    "sprite_y": 0
   },
   {
     "id": "chariot",
@@ -101,7 +157,15 @@
     "reversed_meaning": "缺乏控制、失敗、缺乏方向、意志薄弱",
     "description": "戰車代表著意志力和勝利。駕駛者控制著兩匹不同方向的馬，象徵著內在的平衡和決心。",
     "image_path": "static/images/cards/chariot.jpg",
-    "keywords": ["意志力", "勝利", "決心", "控制", "成功"]
+    "keywords": [
+      "意志力",
+      "勝利",
+      "決心",
+      "控制",
+      "成功"
+    ],
+    "sprite_x": 7,
+    "sprite_y": 0
   },
   {
     "id": "strength",
@@ -114,7 +178,15 @@
     "reversed_meaning": "缺乏自信、恐懼、缺乏控制、軟弱",
     "description": "力量代表著內在的力量和勇氣。女性溫柔地控制著獅子，象徵著以柔克剛的力量。",
     "image_path": "static/images/cards/strength.jpg",
-    "keywords": ["內在力量", "勇氣", "耐心", "控制", "同情心"]
+    "keywords": [
+      "內在力量",
+      "勇氣",
+      "耐心",
+      "控制",
+      "同情心"
+    ],
+    "sprite_x": 8,
+    "sprite_y": 0
   },
   {
     "id": "hermit",
@@ -127,7 +199,15 @@
     "reversed_meaning": "孤立、缺乏指導、迷失、拒絕幫助",
     "description": "隱者代表著內省和尋求真理。他高舉明燈，象徵著在黑暗中尋找光明和智慧。",
     "image_path": "static/images/cards/hermit.jpg",
-    "keywords": ["內省", "尋求真理", "指導", "孤獨", "智慧"]
+    "keywords": [
+      "內省",
+      "尋求真理",
+      "指導",
+      "孤獨",
+      "智慧"
+    ],
+    "sprite_x": 9,
+    "sprite_y": 0
   },
   {
     "id": "wheel_of_fortune",
@@ -140,7 +220,15 @@
     "reversed_meaning": "缺乏控制、壞運氣、抗拒變化、停滯",
     "description": "命運之輪代表著變化和命運的轉折。輪子不斷轉動，象徵著生命的起伏和變化。",
     "image_path": "static/images/cards/wheel_of_fortune.jpg",
-    "keywords": ["變化", "命運", "週期", "機會", "轉折點"]
+    "keywords": [
+      "變化",
+      "命運",
+      "週期",
+      "機會",
+      "轉折點"
+    ],
+    "sprite_x": 10,
+    "sprite_y": 0
   },
   {
     "id": "justice",
@@ -153,7 +241,15 @@
     "reversed_meaning": "不公正、缺乏平衡、不誠實、法律問題",
     "description": "正義代表著平衡和真理。她手持天平和劍，象徵著公正的判斷和因果報應。",
     "image_path": "static/images/cards/justice.jpg",
-    "keywords": ["正義", "平衡", "真理", "法律", "因果"]
+    "keywords": [
+      "正義",
+      "平衡",
+      "真理",
+      "法律",
+      "因果"
+    ],
+    "sprite_x": 11,
+    "sprite_y": 0
   },
   {
     "id": "hanged_man",
@@ -166,7 +262,15 @@
     "reversed_meaning": "缺乏犧牲、抗拒、停滯、缺乏耐心",
     "description": "倒吊人代表著犧牲和等待。他倒掛在樹上，象徵著從不同角度看待問題的重要性。",
     "image_path": "static/images/cards/hanged_man.jpg",
-    "keywords": ["犧牲", "等待", "新視角", "暫停", "內省"]
+    "keywords": [
+      "犧牲",
+      "等待",
+      "新視角",
+      "暫停",
+      "內省"
+    ],
+    "sprite_x": 12,
+    "sprite_y": 0
   },
   {
     "id": "death",
@@ -179,7 +283,15 @@
     "reversed_meaning": "抗拒變化、停滯、恐懼、缺乏成長",
     "description": "死神代表著結束和轉變。雖然看起來可怕，但實際上象徵著必要的結束和新的開始。",
     "image_path": "static/images/cards/death.jpg",
-    "keywords": ["結束", "轉變", "重生", "釋放", "新開始"]
+    "keywords": [
+      "結束",
+      "轉變",
+      "重生",
+      "釋放",
+      "新開始"
+    ],
+    "sprite_x": 0,
+    "sprite_y": 1
   },
   {
     "id": "temperance",
@@ -192,7 +304,15 @@
     "reversed_meaning": "缺乏平衡、極端、不耐煩、缺乏節制",
     "description": "節制代表著平衡和調和。天使在兩個杯子之間倒水，象徵著內在的平衡和耐心。",
     "image_path": "static/images/cards/temperance.jpg",
-    "keywords": ["平衡", "調和", "耐心", "節制", "中庸"]
+    "keywords": [
+      "平衡",
+      "調和",
+      "耐心",
+      "節制",
+      "中庸"
+    ],
+    "sprite_x": 1,
+    "sprite_y": 1
   },
   {
     "id": "devil",
@@ -205,7 +325,15 @@
     "reversed_meaning": "釋放、自由、克服恐懼、打破束縛",
     "description": "惡魔代表著束縛和誘惑。他象徵著我們內心的恐懼和依賴，以及需要打破的束縛。",
     "image_path": "static/images/cards/devil.jpg",
-    "keywords": ["束縛", "誘惑", "物質主義", "恐懼", "依賴"]
+    "keywords": [
+      "束縛",
+      "誘惑",
+      "物質主義",
+      "恐懼",
+      "依賴"
+    ],
+    "sprite_x": 2,
+    "sprite_y": 1
   },
   {
     "id": "tower",
@@ -218,7 +346,15 @@
     "reversed_meaning": "抗拒變化、避免真相、內在動盪、缺乏覺醒",
     "description": "高塔代表著突然的變化和覺醒。閃電擊中高塔，象徵著舊有結構的破壞和新的開始。",
     "image_path": "static/images/cards/tower.jpg",
-    "keywords": ["突然變化", "覺醒", "破壞", "解放", "真相"]
+    "keywords": [
+      "突然變化",
+      "覺醒",
+      "破壞",
+      "解放",
+      "真相"
+    ],
+    "sprite_x": 3,
+    "sprite_y": 1
   },
   {
     "id": "star",
@@ -231,7 +367,15 @@
     "reversed_meaning": "缺乏希望、絕望、缺乏靈感、迷失方向",
     "description": "星星代表著希望和靈感。女性在星空下倒水，象徵著在黑暗中找到希望和指引。",
     "image_path": "static/images/cards/star.jpg",
-    "keywords": ["希望", "靈感", "平靜", "指引", "恢復"]
+    "keywords": [
+      "希望",
+      "靈感",
+      "平靜",
+      "指引",
+      "恢復"
+    ],
+    "sprite_x": 4,
+    "sprite_y": 1
   },
   {
     "id": "moon",
@@ -244,7 +388,15 @@
     "reversed_meaning": "釋放恐懼、真相、清晰、克服幻覺",
     "description": "月亮代表著幻覺和潛意識。月亮下的狼和狗象徵著我們內心的恐懼和直覺。",
     "image_path": "static/images/cards/moon.jpg",
-    "keywords": ["幻覺", "恐懼", "潛意識", "直覺", "欺騙"]
+    "keywords": [
+      "幻覺",
+      "恐懼",
+      "潛意識",
+      "直覺",
+      "欺騙"
+    ],
+    "sprite_x": 5,
+    "sprite_y": 1
   },
   {
     "id": "sun",
@@ -257,7 +409,15 @@
     "reversed_meaning": "缺乏活力、悲觀、延遲成功、缺乏自信",
     "description": "太陽代表著快樂和成功。孩子騎在白馬上，象徵著純真的快樂和成就。",
     "image_path": "static/images/cards/sun.jpg",
-    "keywords": ["快樂", "成功", "活力", "樂觀", "成就"]
+    "keywords": [
+      "快樂",
+      "成功",
+      "活力",
+      "樂觀",
+      "成就"
+    ],
+    "sprite_x": 6,
+    "sprite_y": 1
   },
   {
     "id": "judgement",
@@ -270,7 +430,15 @@
     "reversed_meaning": "缺乏自我寬恕、停滯、缺乏覺醒、抗拒改變",
     "description": "審判代表著重生和覺醒。天使吹響號角，象徵著靈魂的覺醒和新的開始。",
     "image_path": "static/images/cards/judgement.jpg",
-    "keywords": ["重生", "覺醒", "寬恕", "救贖", "新開始"]
+    "keywords": [
+      "重生",
+      "覺醒",
+      "寬恕",
+      "救贖",
+      "新開始"
+    ],
+    "sprite_x": 7,
+    "sprite_y": 1
   },
   {
     "id": "world",
@@ -283,66 +451,1134 @@
     "reversed_meaning": "缺乏完成、停滯、缺乏成就感、未完成",
     "description": "世界代表著完成和成就。舞者在花環中跳舞，象徵著生命的圓滿和成功。",
     "image_path": "static/images/cards/world.jpg",
-    "keywords": ["完成", "成就", "旅行", "成功", "圓滿"]
+    "keywords": [
+      "完成",
+      "成就",
+      "旅行",
+      "成功",
+      "圓滿"
+    ],
+    "sprite_x": 8,
+    "sprite_y": 1
   },
-
-  {"id": "wands_ace", "name": "權杖王牌", "name_en": "Ace of Wands", "suit": "權杖", "number": 1, "arcana": "minor", "upright_meaning": "新靈感、創造力、熱情、機會", "reversed_meaning": "延遲、缺乏方向、能量低落", "description": "一隻手從雲中伸出，握著一根發芽的權杖，象徵新的創造力和靈感的開始。", "image_path": "static/images/cards/wands_ace.jpg", "keywords": ["靈感", "創造力", "熱情", "新開始"]},
-  {"id": "wands_2", "name": "權杖二", "name_en": "Two of Wands", "suit": "權杖", "number": 2, "arcana": "minor", "upright_meaning": "未來規劃、決策、探索、雄心", "reversed_meaning": "恐懼改變、缺乏計劃、安於現狀", "description": "一個人站在城牆上，手持地球儀，望向遠方，象徵對未來的規劃和探索。", "image_path": "static/images/cards/wands_2.jpg", "keywords": ["規劃", "決策", "探索", "雄心"]},
-  {"id": "wands_3", "name": "權杖三", "name_en": "Three of Wands", "suit": "權杖", "number": 3, "arcana": "minor", "upright_meaning": "展望未來、貿易、擴張、領導力", "reversed_meaning": "挫折、延遲、缺乏遠見", "description": "一個人站在岸邊，望向遠方的船隻，象徵對未來的展望和擴張。", "image_path": "static/images/cards/wands_3.jpg", "keywords": ["展望", "貿易", "擴張", "領導"]},
-  {"id": "wands_4", "name": "權杖四", "name_en": "Four of Wands", "suit": "權杖", "number": 4, "arcana": "minor", "upright_meaning": "慶祝、和諧、穩定、家庭", "reversed_meaning": "過渡期、不安定、缺乏支持", "description": "四根權杖形成一個門廊，人們在下面慶祝，象徵和諧與穩定。", "image_path": "static/images/cards/wands_4.jpg", "keywords": ["慶祝", "和諧", "穩定", "家庭"]},
-  {"id": "wands_5", "name": "權杖五", "name_en": "Five of Wands", "suit": "權杖", "number": 5, "arcana": "minor", "upright_meaning": "衝突、競爭、挑戰、分歧", "reversed_meaning": "避免衝突、和平解決、內在衝突", "description": "五個人拿著權杖互相較量，象徵衝突和競爭。", "image_path": "static/images/cards/wands_5.jpg", "keywords": ["衝突", "競爭", "挑戰", "分歧"]},
-  {"id": "wands_6", "name": "權杖六", "name_en": "Six of Wands", "suit": "權杖", "number": 6, "arcana": "minor", "upright_meaning": "勝利、成功、認可、自信", "reversed_meaning": "驕傲、失敗、缺乏認可", "description": "一個人騎在馬上，手持飾有月桂花環的權杖，象徵勝利和成功。", "image_path": "static/images/cards/wands_6.jpg", "keywords": ["勝利", "成功", "認可", "自信"]},
-  {"id": "wands_7", "name": "權杖七", "name_en": "Seven of Wands", "suit": "權杖", "number": 7, "arcana": "minor", "upright_meaning": "防禦、挑戰、堅持、勇氣", "reversed_meaning": "壓力、放棄、力不從心", "description": "一個人站在高處，用權杖抵擋下方的攻擊，象徵防禦和堅持。", "image_path": "static/images/cards/wands_7.jpg", "keywords": ["防禦", "挑戰", "堅持", "勇氣"]},
-  {"id": "wands_8", "name": "權杖八", "name_en": "Eight of Wands", "suit": "權杖", "number": 8, "arcana": "minor", "upright_meaning": "迅速行動、移動、進展、消息", "reversed_meaning": "延遲、挫折、缺乏進展", "description": "八根權杖在空中飛速移動，象徵迅速的行動和進展。", "image_path": "static/images/cards/wands_8.jpg", "keywords": ["迅速", "行動", "進展", "消息"]},
-  {"id": "wands_9", "name": "權杖九", "name_en": "Nine of Wands", "suit": "權杖", "number": 9, "arcana": "minor", "upright_meaning": "堅韌、毅力、最後衝刺、防禦", "reversed_meaning": "疲憊、固執、拒絕幫助", "description": "一個人受傷但仍然站立，手持權杖，象徵堅韌和毅力。", "image_path": "static/images/cards/wands_9.jpg", "keywords": ["堅韌", "毅力", "防禦", "堅持"]},
-  {"id": "wands_10", "name": "權杖十", "name_en": "Ten of Wands", "suit": "權杖", "number": 10, "arcana": "minor", "upright_meaning": "負擔、責任、壓力、過勞", "reversed_meaning": "釋放、 delegación、輕鬆", "description": "一個人扛著十根沉重的權杖，象徵負擔和壓力。", "image_path": "static/images/cards/wands_10.jpg", "keywords": ["負擔", "責任", "壓力", "過勞"]},
-  {"id": "wands_page", "name": "權杖侍從", "name_en": "Page of Wands", "suit": "權杖", "number": 11, "arcana": "minor", "upright_meaning": "熱情、探索、自由奔放、好消息", "reversed_meaning": "缺乏方向、延遲、挫折", "description": "一個年輕人凝視著手中的權杖，象徵對新事物的熱情和探索。", "image_path": "static/images/cards/wands_page.jpg", "keywords": ["熱情", "探索", "自由", "消息"]},
-  {"id": "wands_knight", "name": "權杖騎士", "name_en": "Knight of Wands", "suit": "權杖", "number": 12, "arcana": "minor", "upright_meaning": "冒險、行動力、衝勁、變化", "reversed_meaning": "魯莽、延遲、缺乏方向", "description": "一個騎士騎著馬，手持權杖，象徵冒險和行動力。", "image_path": "static/images/cards/wands_knight.jpg", "keywords": ["冒險", "行動", "衝勁", "變化"]},
-  {"id": "wands_queen", "name": "權杖皇后", "name_en": "Queen of Wands", "suit": "權杖", "number": 13, "arcana": "minor", "upright_meaning": "自信、獨立、溫暖、決心", "reversed_meaning": "嫉妒、專橫、缺乏自信", "description": "一位皇后坐在王座上，手持權杖，象徵自信和獨立。", "image_path": "static/images/cards/wands_queen.jpg", "keywords": ["自信", "獨立", "溫暖", "決心"]},
-  {"id": "wands_king", "name": "權杖國王", "name_en": "King of Wands", "suit": "權杖", "number": 14, "arcana": "minor", "upright_meaning": "領導力、遠見、企業家精神", "reversed_meaning": "專橫、魯莽、缺乏遠見", "description": "一位國王坐在王座上，手持權杖，象徵領導力和遠見。", "image_path": "static/images/cards/wands_king.jpg", "keywords": ["領導", "遠見", "企業家", "決斷"]},
-
-  {"id": "cups_ace", "name": "聖杯王牌", "name_en": "Ace of Cups", "suit": "聖杯", "number": 1, "arcana": "minor", "upright_meaning": "新感情、愛、慈悲、直覺", "reversed_meaning": "情感封閉、空虛、拒絕愛", "description": "一隻手從雲中伸出，握著一個溢滿水的聖杯，象徵新的感情和愛的開始。", "image_path": "static/images/cards/cups_ace.jpg", "keywords": ["感情", "愛", "慈悲", "直覺"]},
-  {"id": "cups_2", "name": "聖杯二", "name_en": "Two of Cups", "suit": "聖杯", "number": 2, "arcana": "minor", "upright_meaning": "結合、伴侶關係、和諧、吸引", "reversed_meaning": "分手、失衡、缺乏信任", "description": "兩個人互相舉杯，象徵結合和伴侶關係。", "image_path": "static/images/cards/cups_2.jpg", "keywords": ["結合", "伴侶", "和諧", "吸引"]},
-  {"id": "cups_3", "name": "聖杯三", "name_en": "Three of Cups", "suit": "聖杯", "number": 3, "arcana": "minor", "upright_meaning": "慶祝、友誼、社交、歡樂", "reversed_meaning": "過度放縱、孤立、缺乏友誼", "description": "三位女性舉杯慶祝，象徵友誼和歡樂。", "image_path": "static/images/cards/cups_3.jpg", "keywords": ["慶祝", "友誼", "社交", "歡樂"]},
-  {"id": "cups_4", "name": "聖杯四", "name_en": "Four of Cups", "suit": "聖杯", "number": 4, "arcana": "minor", "upright_meaning": "冥想、不滿、冷漠、重新評估", "reversed_meaning": "重新開始、接受機會、覺醒", "description": "一個人坐著，對面前的三個聖杯不感興趣，象徵不滿和冥想。", "image_path": "static/images/cards/cups_4.jpg", "keywords": ["冥想", "不滿", "冷漠", "評估"]},
-  {"id": "cups_5", "name": "聖杯五", "name_en": "Five of Cups", "suit": "聖杯", "number": 5, "arcana": "minor", "upright_meaning": "失落、悲傷、後悔、專注負面", "reversed_meaning": "接受、放下、向前看", "description": "一個人低頭看著倒下的聖杯，象徵失落和悲傷。", "image_path": "static/images/cards/cups_5.jpg", "keywords": ["失落", "悲傷", "後悔", "負面"]},
-  {"id": "cups_6", "name": "聖杯六", "name_en": "Six of Cups", "suit": "聖杯", "number": 6, "arcana": "minor", "upright_meaning": "懷舊、童年回憶、純真、重逢", "reversed_meaning": "活在過去、不切實際、成長", "description": "孩子們互相贈送聖杯，象徵懷舊和純真。", "image_path": "static/images/cards/cups_6.jpg", "keywords": ["懷舊", "回憶", "純真", "重逢"]},
-  {"id": "cups_7", "name": "聖杯七", "name_en": "Seven of Cups", "suit": "聖杯", "number": 7, "arcana": "minor", "upright_meaning": "幻想、選擇、白日夢、 illusions", "reversed_meaning": "清晰、決定、面對現實", "description": "一個人面對七個裝有不同幻象的聖杯，象徵幻想和選擇。", "image_path": "static/images/cards/cups_7.jpg", "keywords": ["幻想", "選擇", "白日夢", "幻象"]},
-  {"id": "cups_8", "name": "聖杯八", "name_en": "Eight of Cups", "suit": "聖杯", "number": 8, "arcana": "minor", "upright_meaning": "離開、失望、尋求意義、旅程", "reversed_meaning": "恐懼改變、停留、逃避", "description": "一個人轉身離開八個聖杯，象徵離開和尋求意義。", "image_path": "static/images/cards/cups_8.jpg", "keywords": ["離開", "失望", "意義", "旅程"]},
-  {"id": "cups_9", "name": "聖杯九", "name_en": "Nine of Cups", "suit": "聖杯", "number": 9, "arcana": "minor", "upright_meaning": "滿足、願望實現、幸福、自信", "reversed_meaning": "貪心、不滿足、虛榮", "description": "一個人坐在聖杯前，面帶微笑，象徵滿足和願望實現。", "image_path": "static/images/cards/cups_9.jpg", "keywords": ["滿足", "願望", "幸福", "自信"]},
-  {"id": "cups_10", "name": "聖杯十", "name_en": "Ten of Cups", "suit": "聖杯", "number": 10, "arcana": "minor", "upright_meaning": "幸福家庭、和諧、圓滿、愛", "reversed_meaning": "家庭不和、失衡、缺乏愛", "description": "一家人望向彩虹上的十個聖杯，象徵幸福家庭和和諧。", "image_path": "static/images/cards/cups_10.jpg", "keywords": ["家庭", "和諧", "圓滿", "愛"]},
-  {"id": "cups_page", "name": "聖杯侍從", "name_en": "Page of Cups", "suit": "聖杯", "number": 11, "arcana": "minor", "upright_meaning": "創意、直覺、新感情、驚喜", "reversed_meaning": "不成熟、情緒化、缺乏方向", "description": "一個年輕人凝視著聖杯中的魚，象徵創意和直覺。", "image_path": "static/images/cards/cups_page.jpg", "keywords": ["創意", "直覺", "感情", "驚喜"]},
-  {"id": "cups_knight", "name": "聖杯騎士", "name_en": "Knight of Cups", "suit": "聖杯", "number": 12, "arcana": "minor", "upright_meaning": "浪漫、魅力、跟隨心靈", "reversed_meaning": "情緒化、不切實際、失望", "description": "一個騎士騎著馬，手持聖杯，象徵浪漫和魅力。", "image_path": "static/images/cards/cups_knight.jpg", "keywords": ["浪漫", "魅力", "心靈", "理想"]},
-  {"id": "cups_queen", "name": "聖杯皇后", "name_en": "Queen of Cups", "suit": "聖杯", "number": 13, "arcana": "minor", "upright_meaning": "同情心、直覺、溫柔、情感智慧", "reversed_meaning": "情緒不穩定、依賴、自我中心", "description": "一位皇后坐在王座上，手持聖杯，象徵同情心和直覺。", "image_path": "static/images/cards/cups_queen.jpg", "keywords": ["同情", "直覺", "溫柔", "智慧"]},
-  {"id": "cups_king", "name": "聖杯國王", "name_en": "King of Cups", "suit": "聖杯", "number": 14, "arcana": "minor", "upright_meaning": "情感平衡、外交、智慧、冷靜", "reversed_meaning": "情緒操控、冷酷、壓力", "description": "一位國王坐在王座上，手持聖杯，象徵情感平衡和外交。", "image_path": "static/images/cards/cups_king.jpg", "keywords": ["平衡", "外交", "智慧", "冷靜"]},
-
-  {"id": "swords_ace", "name": "寶劍王牌", "name_en": "Ace of Swords", "suit": "寶劍", "number": 1, "arcana": "minor", "upright_meaning": "突破、清晰、真理、勝利", "reversed_meaning": "混亂、錯誤、缺乏方向", "description": "一隻手從雲中伸出，握著一把明亮的寶劍，象徵突破和真理。", "image_path": "static/images/cards/swords_ace.jpg", "keywords": ["突破", "清晰", "真理", "勝利"]},
-  {"id": "swords_2", "name": "寶劍二", "name_en": "Two of Swords", "suit": "寶劍", "number": 2, "arcana": "minor", "upright_meaning": "抉擇、平衡、僵局、迴避", "reversed_meaning": "決定、信息、混亂", "description": "一個蒙眼的女性手持兩把交叉的寶劍，象徵抉擇和平衡。", "image_path": "static/images/cards/swords_2.jpg", "keywords": ["抉擇", "平衡", "僵局", "迴避"]},
-  {"id": "swords_3", "name": "寶劍三", "name_en": "Three of Swords", "suit": "寶劍", "number": 3, "arcana": "minor", "upright_meaning": "心碎、悲傷、背叛、分離", "reversed_meaning": "康復、原諒、釋放", "description": "三把寶劍刺穿一顆心，象徵心碎和悲傷。", "image_path": "static/images/cards/swords_3.jpg", "keywords": ["心碎", "悲傷", "背叛", "分離"]},
-  {"id": "swords_4", "name": "寶劍四", "name_en": "Four of Swords", "suit": "寶劍", "number": 4, "arcana": "minor", "upright_meaning": "休息、恢復、冥想、暫停", "reversed_meaning": "焦慮、不安、過度勞累", "description": "一個人躺在棺木上休息，象徵休息和恢復。", "image_path": "static/images/cards/swords_4.jpg", "keywords": ["休息", "恢復", "冥想", "暫停"]},
-  {"id": "swords_5", "name": "寶劍五", "name_en": "Five of Swords", "suit": "寶劍", "number": 5, "arcana": "minor", "upright_meaning": "衝突、失敗、自私、欺騙", "reversed_meaning": "和解、放下、學習教訓", "description": "一個人拿著三把寶劍，望向離去的兩個人，象徵衝突和失敗。", "image_path": "static/images/cards/swords_5.jpg", "keywords": ["衝突", "失敗", "自私", "欺騙"]},
-  {"id": "swords_6", "name": "寶劍六", "name_en": "Six of Swords", "suit": "寶劍", "number": 6, "arcana": "minor", "upright_meaning": "過渡、移動、離開、康復", "reversed_meaning": "停滯、無法前進、回到過去", "description": "一艘船載著六把寶劍和乘客離開，象徵過渡和移動。", "image_path": "static/images/cards/swords_6.jpg", "keywords": ["過渡", "移動", "離開", "康復"]},
-  {"id": "swords_7", "name": "寶劍七", "name_en": "Seven of Swords", "suit": "寶劍", "number": 7, "arcana": "minor", "upright_meaning": "欺騙、策略、機智、逃避", "reversed_meaning": "坦白、面對、被發現", "description": "一個人偷偷拿走五把寶劍，象徵欺騙和策略。", "image_path": "static/images/cards/swords_7.jpg", "keywords": ["欺騙", "策略", "機智", "逃避"]},
-  {"id": "swords_8", "name": "寶劍八", "name_en": "Eight of Swords", "suit": "寶劍", "number": 8, "arcana": "minor", "upright_meaning": "束縛、限制、無力感、恐懼", "reversed_meaning": "釋放、自由、新的視角", "description": "一個被蒙眼綑綁的人周圍環繞著八把寶劍，象徵束縛和限制。", "image_path": "static/images/cards/swords_8.jpg", "keywords": ["束縛", "限制", "無力", "恐懼"]},
-  {"id": "swords_9", "name": "寶劍九", "name_en": "Nine of Swords", "suit": "寶劍", "number": 9, "arcana": "minor", "upright_meaning": "焦慮、惡夢、絕望、擔憂", "reversed_meaning": "康復、希望、放下恐懼", "description": "一個人坐在床上，雙手掩面，象徵焦慮和惡夢。", "image_path": "static/images/cards/swords_9.jpg", "keywords": ["焦慮", "惡夢", "絕望", "擔憂"]},
-  {"id": "swords_10", "name": "寶劍十", "name_en": "Ten of Swords", "suit": "寶劍", "number": 10, "arcana": "minor", "upright_meaning": "結束、背叛、痛苦、轉折點", "reversed_meaning": "康復、重生、新的開始", "description": "一個人俯臥在地上，背上插著十把寶劍，象徵結束和轉折點。", "image_path": "static/images/cards/swords_10.jpg", "keywords": ["結束", "背叛", "痛苦", "轉折"]},
-  {"id": "swords_page", "name": "寶劍侍從", "name_en": "Page of Swords", "suit": "寶劍", "number": 11, "arcana": "minor", "upright_meaning": "好奇心、機智、新想法、溝通", "reversed_meaning": "衝動、缺乏方向、八卦", "description": "一個年輕人手持寶劍，望向遠方，象徵好奇心和機智。", "image_path": "static/images/cards/swords_page.jpg", "keywords": ["好奇", "機智", "想法", "溝通"]},
-  {"id": "swords_knight", "name": "寶劍騎士", "name_en": "Knight of Swords", "suit": "寶劍", "number": 12, "arcana": "minor", "upright_meaning": "果斷、行動力、衝勁、挑戰", "reversed_meaning": "魯莽、攻擊性、缺乏耐心", "description": "一個騎士騎著馬衝向前方，手持寶劍，象徵果斷和行動力。", "image_path": "static/images/cards/swords_knight.jpg", "keywords": ["果斷", "行動", "衝勁", "挑戰"]},
-  {"id": "swords_queen", "name": "寶劍皇后", "name_en": "Queen of Swords", "suit": "寶劍", "number": 13, "arcana": "minor", "upright_meaning": "獨立、清晰思考、公正、直率", "reversed_meaning": "冷酷、刻薄、操縱", "description": "一位皇后坐在王座上，手持寶劍，象徵獨立和清晰思考。", "image_path": "static/images/cards/swords_queen.jpg", "keywords": ["獨立", "清晰", "公正", "直率"]},
-  {"id": "swords_king", "name": "寶劍國王", "name_en": "King of Swords", "suit": "寶劍", "number": 14, "arcana": "minor", "upright_meaning": "權威、邏輯、公正、決斷", "reversed_meaning": "專制、冷酷、操縱", "description": "一位國王坐在王座上，手持寶劍，象徵權威和邏輯。", "image_path": "static/images/cards/swords_king.jpg", "keywords": ["權威", "邏輯", "公正", "決斷"]},
-
-  {"id": "pentacles_ace", "name": "錢幣王牌", "name_en": "Ace of Pentacles", "suit": "錢幣", "number": 1, "arcana": "minor", "upright_meaning": "新機會、繁榮、物質收穫", "reversed_meaning": "失去機會、財務問題、貪心", "description": "一隻手從雲中伸出，握著一枚錢幣，象徵新的機會和繁榮。", "image_path": "static/images/cards/pentacles_ace.jpg", "keywords": ["機會", "繁榮", "物質", "收穫"]},
-  {"id": "pentacles_2", "name": "錢幣二", "name_en": "Two of Pentacles", "suit": "錢幣", "number": 2, "arcana": "minor", "upright_meaning": "平衡、多工、適應、財務管理", "reversed_meaning": "失衡、壓力、過度負擔", "description": "一個人玩弄兩枚錢幣，象徵平衡和多工。", "image_path": "static/images/cards/pentacles_2.jpg", "keywords": ["平衡", "多工", "適應", "財務"]},
-  {"id": "pentacles_3", "name": "錢幣三", "name_en": "Three of Pentacles", "suit": "錢幣", "number": 3, "arcana": "minor", "upright_meaning": "合作、團隊、專業、學習", "reversed_meaning": "缺乏團隊、懶惰、品質低落", "description": "三個人在教堂中合作工作，象徵合作和專業。", "image_path": "static/images/cards/pentacles_3.jpg", "keywords": ["合作", "團隊", "專業", "學習"]},
-  {"id": "pentacles_4", "name": "錢幣四", "name_en": "Four of Pentacles", "suit": "錢幣", "number": 4, "arcana": "minor", "upright_meaning": "控制、安全、節儉、貪心", "reversed_meaning": "慷慨、分享、放下控制", "description": "一個人緊緊抱著錢幣，象徵控制和安全。", "image_path": "static/images/cards/pentacles_4.jpg", "keywords": ["控制", "安全", "節儉", "貪心"]},
-  {"id": "pentacles_5", "name": "錢幣五", "name_en": "Five of Pentacles", "suit": "錢幣", "number": 5, "arcana": "minor", "upright_meaning": "貧窮、失業、困難、孤立", "reversed_meaning": "康復、希望、接受幫助", "description": "兩個人在雪地中行走，經過一扇窗戶，象徵貧窮和困難。", "image_path": "static/images/cards/pentacles_5.jpg", "keywords": ["貧窮", "失業", "困難", "孤立"]},
-  {"id": "pentacles_6", "name": "錢幣六", "name_en": "Six of Pentacles", "suit": "錢幣", "number": 6, "arcana": "minor", "upright_meaning": "慷慨、分享、慈善、平衡", "reversed_meaning": "自私、剝削、債務", "description": "一個人拿著天平，向窮人分發錢幣，象徵慷慨和分享。", "image_path": "static/images/cards/pentacles_6.jpg", "keywords": ["慷慨", "分享", "慈善", "平衡"]},
-  {"id": "pentacles_7", "name": "錢幣七", "name_en": "Seven of Pentacles", "suit": "錢幣", "number": 7, "arcana": "minor", "upright_meaning": "耐心、投資、長期目標、等待收穫", "reversed_meaning": "缺乏耐心、白費努力、失望", "description": "一個人望著種下的錢幣，象徵耐心和等待收穫。", "image_path": "static/images/cards/pentacles_7.jpg", "keywords": ["耐心", "投資", "目標", "收穫"]},
-  {"id": "pentacles_8", "name": "錢幣八", "name_en": "Eight of Pentacles", "suit": "錢幣", "number": 8, "arcana": "minor", "upright_meaning": "勤奮、技能、專注、品質", "reversed_meaning": "懶惰、缺乏進展、品質低落", "description": "一個人專心雕刻錢幣，象徵勤奮和技能。", "image_path": "static/images/cards/pentacles_8.jpg", "keywords": ["勤奮", "技能", "專注", "品質"]},
-  {"id": "pentacles_9", "name": "錢幣九", "name_en": "Nine of Pentacles", "suit": "錢幣", "number": 9, "arcana": "minor", "upright_meaning": "獨立、成功、奢華、自信", "reversed_meaning": "過度消費、依賴、缺乏紀律", "description": "一位優雅的女性在花園中，象徵獨立和成功。", "image_path": "static/images/cards/pentacles_9.jpg", "keywords": ["獨立", "成功", "奢華", "自信"]},
-  {"id": "pentacles_10", "name": "錢幣十", "name_en": "Ten of Pentacles", "suit": "錢幣", "number": 10, "arcana": "minor", "upright_meaning": "財富、家庭、遺產、穩定", "reversed_meaning": "家庭紛爭、財務損失、不穩定", "description": "一家人和寵物在錢幣門廊下，象徵財富和家庭穩定。", "image_path": "static/images/cards/pentacles_10.jpg", "keywords": ["財富", "家庭", "遺產", "穩定"]},
-  {"id": "pentacles_page", "name": "錢幣侍從", "name_en": "Page of Pentacles", "suit": "錢幣", "number": 11, "arcana": "minor", "upright_meaning": "學習、新機會、務實、專注", "reversed_meaning": "缺乏方向、延遲、不務實", "description": "一個年輕人凝視著手中的錢幣，象徵學習和新機會。", "image_path": "static/images/cards/pentacles_page.jpg", "keywords": ["學習", "機會", "務實", "專注"]},
-  {"id": "pentacles_knight", "name": "錢幣騎士", "name_en": "Knight of Pentacles", "suit": "錢幣", "number": 12, "arcana": "minor", "upright_meaning": "勤奮、可靠、耐心、務實", "reversed_meaning": "懶惰、無聊、缺乏進展", "description": "一個騎士騎著馬，手持錢幣，象徵勤奮和可靠。", "image_path": "static/images/cards/pentacles_knight.jpg", "keywords": ["勤奮", "可靠", "耐心", "務實"]},
-  {"id": "pentacles_queen", "name": "錢幣皇后", "name_en": "Queen of Pentacles", "suit": "錢幣", "number": 13, "arcana": "minor", "upright_meaning": "務實、照顧、繁榮、溫暖", "reversed_meaning": "過度保護、依賴、缺乏安全感", "description": "一位皇后坐在王座上，手持錢幣，象徵務實和照顧。", "image_path": "static/images/cards/pentacles_queen.jpg", "keywords": ["務實", "照顧", "繁榮", "溫暖"]},
-  {"id": "pentacles_king", "name": "錢幣國王", "name_en": "King of Pentacles", "suit": "錢幣", "number": 14, "arcana": "minor", "upright_meaning": "財富、領導、務實、安全", "reversed_meaning": "貪心、固執、過度物質", "description": "一位國王坐在王座上，手持錢幣，象徵財富和領導。", "image_path": "static/images/cards/pentacles_king.jpg", "keywords": ["財富", "領導", "務實", "安全"]}
+  {
+    "id": "wands_ace",
+    "name": "權杖王牌",
+    "name_en": "Ace of Wands",
+    "suit": "權杖",
+    "number": 1,
+    "arcana": "minor",
+    "upright_meaning": "新靈感、創造力、熱情、機會",
+    "reversed_meaning": "延遲、缺乏方向、能量低落",
+    "description": "一隻手從雲中伸出，握著一根發芽的權杖，象徵新的創造力和靈感的開始。",
+    "image_path": "static/images/cards/wands_ace.jpg",
+    "keywords": [
+      "靈感",
+      "創造力",
+      "熱情",
+      "新開始"
+    ],
+    "sprite_x": 9,
+    "sprite_y": 1
+  },
+  {
+    "id": "wands_2",
+    "name": "權杖二",
+    "name_en": "Two of Wands",
+    "suit": "權杖",
+    "number": 2,
+    "arcana": "minor",
+    "upright_meaning": "未來規劃、決策、探索、雄心",
+    "reversed_meaning": "恐懼改變、缺乏計劃、安於現狀",
+    "description": "一個人站在城牆上，手持地球儀，望向遠方，象徵對未來的規劃和探索。",
+    "image_path": "static/images/cards/wands_2.jpg",
+    "keywords": [
+      "規劃",
+      "決策",
+      "探索",
+      "雄心"
+    ],
+    "sprite_x": 10,
+    "sprite_y": 1
+  },
+  {
+    "id": "wands_3",
+    "name": "權杖三",
+    "name_en": "Three of Wands",
+    "suit": "權杖",
+    "number": 3,
+    "arcana": "minor",
+    "upright_meaning": "展望未來、貿易、擴張、領導力",
+    "reversed_meaning": "挫折、延遲、缺乏遠見",
+    "description": "一個人站在岸邊，望向遠方的船隻，象徵對未來的展望和擴張。",
+    "image_path": "static/images/cards/wands_3.jpg",
+    "keywords": [
+      "展望",
+      "貿易",
+      "擴張",
+      "領導"
+    ],
+    "sprite_x": 11,
+    "sprite_y": 1
+  },
+  {
+    "id": "wands_4",
+    "name": "權杖四",
+    "name_en": "Four of Wands",
+    "suit": "權杖",
+    "number": 4,
+    "arcana": "minor",
+    "upright_meaning": "慶祝、和諧、穩定、家庭",
+    "reversed_meaning": "過渡期、不安定、缺乏支持",
+    "description": "四根權杖形成一個門廊，人們在下面慶祝，象徵和諧與穩定。",
+    "image_path": "static/images/cards/wands_4.jpg",
+    "keywords": [
+      "慶祝",
+      "和諧",
+      "穩定",
+      "家庭"
+    ],
+    "sprite_x": 12,
+    "sprite_y": 1
+  },
+  {
+    "id": "wands_5",
+    "name": "權杖五",
+    "name_en": "Five of Wands",
+    "suit": "權杖",
+    "number": 5,
+    "arcana": "minor",
+    "upright_meaning": "衝突、競爭、挑戰、分歧",
+    "reversed_meaning": "避免衝突、和平解決、內在衝突",
+    "description": "五個人拿著權杖互相較量，象徵衝突和競爭。",
+    "image_path": "static/images/cards/wands_5.jpg",
+    "keywords": [
+      "衝突",
+      "競爭",
+      "挑戰",
+      "分歧"
+    ],
+    "sprite_x": 0,
+    "sprite_y": 2
+  },
+  {
+    "id": "wands_6",
+    "name": "權杖六",
+    "name_en": "Six of Wands",
+    "suit": "權杖",
+    "number": 6,
+    "arcana": "minor",
+    "upright_meaning": "勝利、成功、認可、自信",
+    "reversed_meaning": "驕傲、失敗、缺乏認可",
+    "description": "一個人騎在馬上，手持飾有月桂花環的權杖，象徵勝利和成功。",
+    "image_path": "static/images/cards/wands_6.jpg",
+    "keywords": [
+      "勝利",
+      "成功",
+      "認可",
+      "自信"
+    ],
+    "sprite_x": 1,
+    "sprite_y": 2
+  },
+  {
+    "id": "wands_7",
+    "name": "權杖七",
+    "name_en": "Seven of Wands",
+    "suit": "權杖",
+    "number": 7,
+    "arcana": "minor",
+    "upright_meaning": "防禦、挑戰、堅持、勇氣",
+    "reversed_meaning": "壓力、放棄、力不從心",
+    "description": "一個人站在高處，用權杖抵擋下方的攻擊，象徵防禦和堅持。",
+    "image_path": "static/images/cards/wands_7.jpg",
+    "keywords": [
+      "防禦",
+      "挑戰",
+      "堅持",
+      "勇氣"
+    ],
+    "sprite_x": 2,
+    "sprite_y": 2
+  },
+  {
+    "id": "wands_8",
+    "name": "權杖八",
+    "name_en": "Eight of Wands",
+    "suit": "權杖",
+    "number": 8,
+    "arcana": "minor",
+    "upright_meaning": "迅速行動、移動、進展、消息",
+    "reversed_meaning": "延遲、挫折、缺乏進展",
+    "description": "八根權杖在空中飛速移動，象徵迅速的行動和進展。",
+    "image_path": "static/images/cards/wands_8.jpg",
+    "keywords": [
+      "迅速",
+      "行動",
+      "進展",
+      "消息"
+    ],
+    "sprite_x": 3,
+    "sprite_y": 2
+  },
+  {
+    "id": "wands_9",
+    "name": "權杖九",
+    "name_en": "Nine of Wands",
+    "suit": "權杖",
+    "number": 9,
+    "arcana": "minor",
+    "upright_meaning": "堅韌、毅力、最後衝刺、防禦",
+    "reversed_meaning": "疲憊、固執、拒絕幫助",
+    "description": "一個人受傷但仍然站立，手持權杖，象徵堅韌和毅力。",
+    "image_path": "static/images/cards/wands_9.jpg",
+    "keywords": [
+      "堅韌",
+      "毅力",
+      "防禦",
+      "堅持"
+    ],
+    "sprite_x": 4,
+    "sprite_y": 2
+  },
+  {
+    "id": "wands_10",
+    "name": "權杖十",
+    "name_en": "Ten of Wands",
+    "suit": "權杖",
+    "number": 10,
+    "arcana": "minor",
+    "upright_meaning": "負擔、責任、壓力、過勞",
+    "reversed_meaning": "釋放、 delegación、輕鬆",
+    "description": "一個人扛著十根沉重的權杖，象徵負擔和壓力。",
+    "image_path": "static/images/cards/wands_10.jpg",
+    "keywords": [
+      "負擔",
+      "責任",
+      "壓力",
+      "過勞"
+    ],
+    "sprite_x": 5,
+    "sprite_y": 2
+  },
+  {
+    "id": "wands_page",
+    "name": "權杖侍從",
+    "name_en": "Page of Wands",
+    "suit": "權杖",
+    "number": 11,
+    "arcana": "minor",
+    "upright_meaning": "熱情、探索、自由奔放、好消息",
+    "reversed_meaning": "缺乏方向、延遲、挫折",
+    "description": "一個年輕人凝視著手中的權杖，象徵對新事物的熱情和探索。",
+    "image_path": "static/images/cards/wands_page.jpg",
+    "keywords": [
+      "熱情",
+      "探索",
+      "自由",
+      "消息"
+    ],
+    "sprite_x": 6,
+    "sprite_y": 2
+  },
+  {
+    "id": "wands_knight",
+    "name": "權杖騎士",
+    "name_en": "Knight of Wands",
+    "suit": "權杖",
+    "number": 12,
+    "arcana": "minor",
+    "upright_meaning": "冒險、行動力、衝勁、變化",
+    "reversed_meaning": "魯莽、延遲、缺乏方向",
+    "description": "一個騎士騎著馬，手持權杖，象徵冒險和行動力。",
+    "image_path": "static/images/cards/wands_knight.jpg",
+    "keywords": [
+      "冒險",
+      "行動",
+      "衝勁",
+      "變化"
+    ],
+    "sprite_x": 7,
+    "sprite_y": 2
+  },
+  {
+    "id": "wands_queen",
+    "name": "權杖皇后",
+    "name_en": "Queen of Wands",
+    "suit": "權杖",
+    "number": 13,
+    "arcana": "minor",
+    "upright_meaning": "自信、獨立、溫暖、決心",
+    "reversed_meaning": "嫉妒、專橫、缺乏自信",
+    "description": "一位皇后坐在王座上，手持權杖，象徵自信和獨立。",
+    "image_path": "static/images/cards/wands_queen.jpg",
+    "keywords": [
+      "自信",
+      "獨立",
+      "溫暖",
+      "決心"
+    ],
+    "sprite_x": 8,
+    "sprite_y": 2
+  },
+  {
+    "id": "wands_king",
+    "name": "權杖國王",
+    "name_en": "King of Wands",
+    "suit": "權杖",
+    "number": 14,
+    "arcana": "minor",
+    "upright_meaning": "領導力、遠見、企業家精神",
+    "reversed_meaning": "專橫、魯莽、缺乏遠見",
+    "description": "一位國王坐在王座上，手持權杖，象徵領導力和遠見。",
+    "image_path": "static/images/cards/wands_king.jpg",
+    "keywords": [
+      "領導",
+      "遠見",
+      "企業家",
+      "決斷"
+    ],
+    "sprite_x": 9,
+    "sprite_y": 2
+  },
+  {
+    "id": "cups_ace",
+    "name": "聖杯王牌",
+    "name_en": "Ace of Cups",
+    "suit": "聖杯",
+    "number": 1,
+    "arcana": "minor",
+    "upright_meaning": "新感情、愛、慈悲、直覺",
+    "reversed_meaning": "情感封閉、空虛、拒絕愛",
+    "description": "一隻手從雲中伸出，握著一個溢滿水的聖杯，象徵新的感情和愛的開始。",
+    "image_path": "static/images/cards/cups_ace.jpg",
+    "keywords": [
+      "感情",
+      "愛",
+      "慈悲",
+      "直覺"
+    ],
+    "sprite_x": 10,
+    "sprite_y": 2
+  },
+  {
+    "id": "cups_2",
+    "name": "聖杯二",
+    "name_en": "Two of Cups",
+    "suit": "聖杯",
+    "number": 2,
+    "arcana": "minor",
+    "upright_meaning": "結合、伴侶關係、和諧、吸引",
+    "reversed_meaning": "分手、失衡、缺乏信任",
+    "description": "兩個人互相舉杯，象徵結合和伴侶關係。",
+    "image_path": "static/images/cards/cups_2.jpg",
+    "keywords": [
+      "結合",
+      "伴侶",
+      "和諧",
+      "吸引"
+    ],
+    "sprite_x": 11,
+    "sprite_y": 2
+  },
+  {
+    "id": "cups_3",
+    "name": "聖杯三",
+    "name_en": "Three of Cups",
+    "suit": "聖杯",
+    "number": 3,
+    "arcana": "minor",
+    "upright_meaning": "慶祝、友誼、社交、歡樂",
+    "reversed_meaning": "過度放縱、孤立、缺乏友誼",
+    "description": "三位女性舉杯慶祝，象徵友誼和歡樂。",
+    "image_path": "static/images/cards/cups_3.jpg",
+    "keywords": [
+      "慶祝",
+      "友誼",
+      "社交",
+      "歡樂"
+    ],
+    "sprite_x": 12,
+    "sprite_y": 2
+  },
+  {
+    "id": "cups_4",
+    "name": "聖杯四",
+    "name_en": "Four of Cups",
+    "suit": "聖杯",
+    "number": 4,
+    "arcana": "minor",
+    "upright_meaning": "冥想、不滿、冷漠、重新評估",
+    "reversed_meaning": "重新開始、接受機會、覺醒",
+    "description": "一個人坐著，對面前的三個聖杯不感興趣，象徵不滿和冥想。",
+    "image_path": "static/images/cards/cups_4.jpg",
+    "keywords": [
+      "冥想",
+      "不滿",
+      "冷漠",
+      "評估"
+    ],
+    "sprite_x": 0,
+    "sprite_y": 3
+  },
+  {
+    "id": "cups_5",
+    "name": "聖杯五",
+    "name_en": "Five of Cups",
+    "suit": "聖杯",
+    "number": 5,
+    "arcana": "minor",
+    "upright_meaning": "失落、悲傷、後悔、專注負面",
+    "reversed_meaning": "接受、放下、向前看",
+    "description": "一個人低頭看著倒下的聖杯，象徵失落和悲傷。",
+    "image_path": "static/images/cards/cups_5.jpg",
+    "keywords": [
+      "失落",
+      "悲傷",
+      "後悔",
+      "負面"
+    ],
+    "sprite_x": 1,
+    "sprite_y": 3
+  },
+  {
+    "id": "cups_6",
+    "name": "聖杯六",
+    "name_en": "Six of Cups",
+    "suit": "聖杯",
+    "number": 6,
+    "arcana": "minor",
+    "upright_meaning": "懷舊、童年回憶、純真、重逢",
+    "reversed_meaning": "活在過去、不切實際、成長",
+    "description": "孩子們互相贈送聖杯，象徵懷舊和純真。",
+    "image_path": "static/images/cards/cups_6.jpg",
+    "keywords": [
+      "懷舊",
+      "回憶",
+      "純真",
+      "重逢"
+    ],
+    "sprite_x": 2,
+    "sprite_y": 3
+  },
+  {
+    "id": "cups_7",
+    "name": "聖杯七",
+    "name_en": "Seven of Cups",
+    "suit": "聖杯",
+    "number": 7,
+    "arcana": "minor",
+    "upright_meaning": "幻想、選擇、白日夢、 illusions",
+    "reversed_meaning": "清晰、決定、面對現實",
+    "description": "一個人面對七個裝有不同幻象的聖杯，象徵幻想和選擇。",
+    "image_path": "static/images/cards/cups_7.jpg",
+    "keywords": [
+      "幻想",
+      "選擇",
+      "白日夢",
+      "幻象"
+    ],
+    "sprite_x": 3,
+    "sprite_y": 3
+  },
+  {
+    "id": "cups_8",
+    "name": "聖杯八",
+    "name_en": "Eight of Cups",
+    "suit": "聖杯",
+    "number": 8,
+    "arcana": "minor",
+    "upright_meaning": "離開、失望、尋求意義、旅程",
+    "reversed_meaning": "恐懼改變、停留、逃避",
+    "description": "一個人轉身離開八個聖杯，象徵離開和尋求意義。",
+    "image_path": "static/images/cards/cups_8.jpg",
+    "keywords": [
+      "離開",
+      "失望",
+      "意義",
+      "旅程"
+    ],
+    "sprite_x": 4,
+    "sprite_y": 3
+  },
+  {
+    "id": "cups_9",
+    "name": "聖杯九",
+    "name_en": "Nine of Cups",
+    "suit": "聖杯",
+    "number": 9,
+    "arcana": "minor",
+    "upright_meaning": "滿足、願望實現、幸福、自信",
+    "reversed_meaning": "貪心、不滿足、虛榮",
+    "description": "一個人坐在聖杯前，面帶微笑，象徵滿足和願望實現。",
+    "image_path": "static/images/cards/cups_9.jpg",
+    "keywords": [
+      "滿足",
+      "願望",
+      "幸福",
+      "自信"
+    ],
+    "sprite_x": 5,
+    "sprite_y": 3
+  },
+  {
+    "id": "cups_10",
+    "name": "聖杯十",
+    "name_en": "Ten of Cups",
+    "suit": "聖杯",
+    "number": 10,
+    "arcana": "minor",
+    "upright_meaning": "幸福家庭、和諧、圓滿、愛",
+    "reversed_meaning": "家庭不和、失衡、缺乏愛",
+    "description": "一家人望向彩虹上的十個聖杯，象徵幸福家庭和和諧。",
+    "image_path": "static/images/cards/cups_10.jpg",
+    "keywords": [
+      "家庭",
+      "和諧",
+      "圓滿",
+      "愛"
+    ],
+    "sprite_x": 6,
+    "sprite_y": 3
+  },
+  {
+    "id": "cups_page",
+    "name": "聖杯侍從",
+    "name_en": "Page of Cups",
+    "suit": "聖杯",
+    "number": 11,
+    "arcana": "minor",
+    "upright_meaning": "創意、直覺、新感情、驚喜",
+    "reversed_meaning": "不成熟、情緒化、缺乏方向",
+    "description": "一個年輕人凝視著聖杯中的魚，象徵創意和直覺。",
+    "image_path": "static/images/cards/cups_page.jpg",
+    "keywords": [
+      "創意",
+      "直覺",
+      "感情",
+      "驚喜"
+    ],
+    "sprite_x": 7,
+    "sprite_y": 3
+  },
+  {
+    "id": "cups_knight",
+    "name": "聖杯騎士",
+    "name_en": "Knight of Cups",
+    "suit": "聖杯",
+    "number": 12,
+    "arcana": "minor",
+    "upright_meaning": "浪漫、魅力、跟隨心靈",
+    "reversed_meaning": "情緒化、不切實際、失望",
+    "description": "一個騎士騎著馬，手持聖杯，象徵浪漫和魅力。",
+    "image_path": "static/images/cards/cups_knight.jpg",
+    "keywords": [
+      "浪漫",
+      "魅力",
+      "心靈",
+      "理想"
+    ],
+    "sprite_x": 8,
+    "sprite_y": 3
+  },
+  {
+    "id": "cups_queen",
+    "name": "聖杯皇后",
+    "name_en": "Queen of Cups",
+    "suit": "聖杯",
+    "number": 13,
+    "arcana": "minor",
+    "upright_meaning": "同情心、直覺、溫柔、情感智慧",
+    "reversed_meaning": "情緒不穩定、依賴、自我中心",
+    "description": "一位皇后坐在王座上，手持聖杯，象徵同情心和直覺。",
+    "image_path": "static/images/cards/cups_queen.jpg",
+    "keywords": [
+      "同情",
+      "直覺",
+      "溫柔",
+      "智慧"
+    ],
+    "sprite_x": 9,
+    "sprite_y": 3
+  },
+  {
+    "id": "cups_king",
+    "name": "聖杯國王",
+    "name_en": "King of Cups",
+    "suit": "聖杯",
+    "number": 14,
+    "arcana": "minor",
+    "upright_meaning": "情感平衡、外交、智慧、冷靜",
+    "reversed_meaning": "情緒操控、冷酷、壓力",
+    "description": "一位國王坐在王座上，手持聖杯，象徵情感平衡和外交。",
+    "image_path": "static/images/cards/cups_king.jpg",
+    "keywords": [
+      "平衡",
+      "外交",
+      "智慧",
+      "冷靜"
+    ],
+    "sprite_x": 10,
+    "sprite_y": 3
+  },
+  {
+    "id": "swords_ace",
+    "name": "寶劍王牌",
+    "name_en": "Ace of Swords",
+    "suit": "寶劍",
+    "number": 1,
+    "arcana": "minor",
+    "upright_meaning": "突破、清晰、真理、勝利",
+    "reversed_meaning": "混亂、錯誤、缺乏方向",
+    "description": "一隻手從雲中伸出，握著一把明亮的寶劍，象徵突破和真理。",
+    "image_path": "static/images/cards/swords_ace.jpg",
+    "keywords": [
+      "突破",
+      "清晰",
+      "真理",
+      "勝利"
+    ],
+    "sprite_x": 11,
+    "sprite_y": 3
+  },
+  {
+    "id": "swords_2",
+    "name": "寶劍二",
+    "name_en": "Two of Swords",
+    "suit": "寶劍",
+    "number": 2,
+    "arcana": "minor",
+    "upright_meaning": "抉擇、平衡、僵局、迴避",
+    "reversed_meaning": "決定、信息、混亂",
+    "description": "一個蒙眼的女性手持兩把交叉的寶劍，象徵抉擇和平衡。",
+    "image_path": "static/images/cards/swords_2.jpg",
+    "keywords": [
+      "抉擇",
+      "平衡",
+      "僵局",
+      "迴避"
+    ],
+    "sprite_x": 12,
+    "sprite_y": 3
+  },
+  {
+    "id": "swords_3",
+    "name": "寶劍三",
+    "name_en": "Three of Swords",
+    "suit": "寶劍",
+    "number": 3,
+    "arcana": "minor",
+    "upright_meaning": "心碎、悲傷、背叛、分離",
+    "reversed_meaning": "康復、原諒、釋放",
+    "description": "三把寶劍刺穿一顆心，象徵心碎和悲傷。",
+    "image_path": "static/images/cards/swords_3.jpg",
+    "keywords": [
+      "心碎",
+      "悲傷",
+      "背叛",
+      "分離"
+    ],
+    "sprite_x": 0,
+    "sprite_y": 4
+  },
+  {
+    "id": "swords_4",
+    "name": "寶劍四",
+    "name_en": "Four of Swords",
+    "suit": "寶劍",
+    "number": 4,
+    "arcana": "minor",
+    "upright_meaning": "休息、恢復、冥想、暫停",
+    "reversed_meaning": "焦慮、不安、過度勞累",
+    "description": "一個人躺在棺木上休息，象徵休息和恢復。",
+    "image_path": "static/images/cards/swords_4.jpg",
+    "keywords": [
+      "休息",
+      "恢復",
+      "冥想",
+      "暫停"
+    ],
+    "sprite_x": 1,
+    "sprite_y": 4
+  },
+  {
+    "id": "swords_5",
+    "name": "寶劍五",
+    "name_en": "Five of Swords",
+    "suit": "寶劍",
+    "number": 5,
+    "arcana": "minor",
+    "upright_meaning": "衝突、失敗、自私、欺騙",
+    "reversed_meaning": "和解、放下、學習教訓",
+    "description": "一個人拿著三把寶劍，望向離去的兩個人，象徵衝突和失敗。",
+    "image_path": "static/images/cards/swords_5.jpg",
+    "keywords": [
+      "衝突",
+      "失敗",
+      "自私",
+      "欺騙"
+    ],
+    "sprite_x": 2,
+    "sprite_y": 4
+  },
+  {
+    "id": "swords_6",
+    "name": "寶劍六",
+    "name_en": "Six of Swords",
+    "suit": "寶劍",
+    "number": 6,
+    "arcana": "minor",
+    "upright_meaning": "過渡、移動、離開、康復",
+    "reversed_meaning": "停滯、無法前進、回到過去",
+    "description": "一艘船載著六把寶劍和乘客離開，象徵過渡和移動。",
+    "image_path": "static/images/cards/swords_6.jpg",
+    "keywords": [
+      "過渡",
+      "移動",
+      "離開",
+      "康復"
+    ],
+    "sprite_x": 3,
+    "sprite_y": 4
+  },
+  {
+    "id": "swords_7",
+    "name": "寶劍七",
+    "name_en": "Seven of Swords",
+    "suit": "寶劍",
+    "number": 7,
+    "arcana": "minor",
+    "upright_meaning": "欺騙、策略、機智、逃避",
+    "reversed_meaning": "坦白、面對、被發現",
+    "description": "一個人偷偷拿走五把寶劍，象徵欺騙和策略。",
+    "image_path": "static/images/cards/swords_7.jpg",
+    "keywords": [
+      "欺騙",
+      "策略",
+      "機智",
+      "逃避"
+    ],
+    "sprite_x": 4,
+    "sprite_y": 4
+  },
+  {
+    "id": "swords_8",
+    "name": "寶劍八",
+    "name_en": "Eight of Swords",
+    "suit": "寶劍",
+    "number": 8,
+    "arcana": "minor",
+    "upright_meaning": "束縛、限制、無力感、恐懼",
+    "reversed_meaning": "釋放、自由、新的視角",
+    "description": "一個被蒙眼綑綁的人周圍環繞著八把寶劍，象徵束縛和限制。",
+    "image_path": "static/images/cards/swords_8.jpg",
+    "keywords": [
+      "束縛",
+      "限制",
+      "無力",
+      "恐懼"
+    ],
+    "sprite_x": 5,
+    "sprite_y": 4
+  },
+  {
+    "id": "swords_9",
+    "name": "寶劍九",
+    "name_en": "Nine of Swords",
+    "suit": "寶劍",
+    "number": 9,
+    "arcana": "minor",
+    "upright_meaning": "焦慮、惡夢、絕望、擔憂",
+    "reversed_meaning": "康復、希望、放下恐懼",
+    "description": "一個人坐在床上，雙手掩面，象徵焦慮和惡夢。",
+    "image_path": "static/images/cards/swords_9.jpg",
+    "keywords": [
+      "焦慮",
+      "惡夢",
+      "絕望",
+      "擔憂"
+    ],
+    "sprite_x": 6,
+    "sprite_y": 4
+  },
+  {
+    "id": "swords_10",
+    "name": "寶劍十",
+    "name_en": "Ten of Swords",
+    "suit": "寶劍",
+    "number": 10,
+    "arcana": "minor",
+    "upright_meaning": "結束、背叛、痛苦、轉折點",
+    "reversed_meaning": "康復、重生、新的開始",
+    "description": "一個人俯臥在地上，背上插著十把寶劍，象徵結束和轉折點。",
+    "image_path": "static/images/cards/swords_10.jpg",
+    "keywords": [
+      "結束",
+      "背叛",
+      "痛苦",
+      "轉折"
+    ],
+    "sprite_x": 7,
+    "sprite_y": 4
+  },
+  {
+    "id": "swords_page",
+    "name": "寶劍侍從",
+    "name_en": "Page of Swords",
+    "suit": "寶劍",
+    "number": 11,
+    "arcana": "minor",
+    "upright_meaning": "好奇心、機智、新想法、溝通",
+    "reversed_meaning": "衝動、缺乏方向、八卦",
+    "description": "一個年輕人手持寶劍，望向遠方，象徵好奇心和機智。",
+    "image_path": "static/images/cards/swords_page.jpg",
+    "keywords": [
+      "好奇",
+      "機智",
+      "想法",
+      "溝通"
+    ],
+    "sprite_x": 8,
+    "sprite_y": 4
+  },
+  {
+    "id": "swords_knight",
+    "name": "寶劍騎士",
+    "name_en": "Knight of Swords",
+    "suit": "寶劍",
+    "number": 12,
+    "arcana": "minor",
+    "upright_meaning": "果斷、行動力、衝勁、挑戰",
+    "reversed_meaning": "魯莽、攻擊性、缺乏耐心",
+    "description": "一個騎士騎著馬衝向前方，手持寶劍，象徵果斷和行動力。",
+    "image_path": "static/images/cards/swords_knight.jpg",
+    "keywords": [
+      "果斷",
+      "行動",
+      "衝勁",
+      "挑戰"
+    ],
+    "sprite_x": 9,
+    "sprite_y": 4
+  },
+  {
+    "id": "swords_queen",
+    "name": "寶劍皇后",
+    "name_en": "Queen of Swords",
+    "suit": "寶劍",
+    "number": 13,
+    "arcana": "minor",
+    "upright_meaning": "獨立、清晰思考、公正、直率",
+    "reversed_meaning": "冷酷、刻薄、操縱",
+    "description": "一位皇后坐在王座上，手持寶劍，象徵獨立和清晰思考。",
+    "image_path": "static/images/cards/swords_queen.jpg",
+    "keywords": [
+      "獨立",
+      "清晰",
+      "公正",
+      "直率"
+    ],
+    "sprite_x": 10,
+    "sprite_y": 4
+  },
+  {
+    "id": "swords_king",
+    "name": "寶劍國王",
+    "name_en": "King of Swords",
+    "suit": "寶劍",
+    "number": 14,
+    "arcana": "minor",
+    "upright_meaning": "權威、邏輯、公正、決斷",
+    "reversed_meaning": "專制、冷酷、操縱",
+    "description": "一位國王坐在王座上，手持寶劍，象徵權威和邏輯。",
+    "image_path": "static/images/cards/swords_king.jpg",
+    "keywords": [
+      "權威",
+      "邏輯",
+      "公正",
+      "決斷"
+    ],
+    "sprite_x": 11,
+    "sprite_y": 4
+  },
+  {
+    "id": "pentacles_ace",
+    "name": "錢幣王牌",
+    "name_en": "Ace of Pentacles",
+    "suit": "錢幣",
+    "number": 1,
+    "arcana": "minor",
+    "upright_meaning": "新機會、繁榮、物質收穫",
+    "reversed_meaning": "失去機會、財務問題、貪心",
+    "description": "一隻手從雲中伸出，握著一枚錢幣，象徵新的機會和繁榮。",
+    "image_path": "static/images/cards/pentacles_ace.jpg",
+    "keywords": [
+      "機會",
+      "繁榮",
+      "物質",
+      "收穫"
+    ],
+    "sprite_x": 12,
+    "sprite_y": 4
+  },
+  {
+    "id": "pentacles_2",
+    "name": "錢幣二",
+    "name_en": "Two of Pentacles",
+    "suit": "錢幣",
+    "number": 2,
+    "arcana": "minor",
+    "upright_meaning": "平衡、多工、適應、財務管理",
+    "reversed_meaning": "失衡、壓力、過度負擔",
+    "description": "一個人玩弄兩枚錢幣，象徵平衡和多工。",
+    "image_path": "static/images/cards/pentacles_2.jpg",
+    "keywords": [
+      "平衡",
+      "多工",
+      "適應",
+      "財務"
+    ],
+    "sprite_x": 0,
+    "sprite_y": 5
+  },
+  {
+    "id": "pentacles_3",
+    "name": "錢幣三",
+    "name_en": "Three of Pentacles",
+    "suit": "錢幣",
+    "number": 3,
+    "arcana": "minor",
+    "upright_meaning": "合作、團隊、專業、學習",
+    "reversed_meaning": "缺乏團隊、懶惰、品質低落",
+    "description": "三個人在教堂中合作工作，象徵合作和專業。",
+    "image_path": "static/images/cards/pentacles_3.jpg",
+    "keywords": [
+      "合作",
+      "團隊",
+      "專業",
+      "學習"
+    ],
+    "sprite_x": 1,
+    "sprite_y": 5
+  },
+  {
+    "id": "pentacles_4",
+    "name": "錢幣四",
+    "name_en": "Four of Pentacles",
+    "suit": "錢幣",
+    "number": 4,
+    "arcana": "minor",
+    "upright_meaning": "控制、安全、節儉、貪心",
+    "reversed_meaning": "慷慨、分享、放下控制",
+    "description": "一個人緊緊抱著錢幣，象徵控制和安全。",
+    "image_path": "static/images/cards/pentacles_4.jpg",
+    "keywords": [
+      "控制",
+      "安全",
+      "節儉",
+      "貪心"
+    ],
+    "sprite_x": 2,
+    "sprite_y": 5
+  },
+  {
+    "id": "pentacles_5",
+    "name": "錢幣五",
+    "name_en": "Five of Pentacles",
+    "suit": "錢幣",
+    "number": 5,
+    "arcana": "minor",
+    "upright_meaning": "貧窮、失業、困難、孤立",
+    "reversed_meaning": "康復、希望、接受幫助",
+    "description": "兩個人在雪地中行走，經過一扇窗戶，象徵貧窮和困難。",
+    "image_path": "static/images/cards/pentacles_5.jpg",
+    "keywords": [
+      "貧窮",
+      "失業",
+      "困難",
+      "孤立"
+    ],
+    "sprite_x": 3,
+    "sprite_y": 5
+  },
+  {
+    "id": "pentacles_6",
+    "name": "錢幣六",
+    "name_en": "Six of Pentacles",
+    "suit": "錢幣",
+    "number": 6,
+    "arcana": "minor",
+    "upright_meaning": "慷慨、分享、慈善、平衡",
+    "reversed_meaning": "自私、剝削、債務",
+    "description": "一個人拿著天平，向窮人分發錢幣，象徵慷慨和分享。",
+    "image_path": "static/images/cards/pentacles_6.jpg",
+    "keywords": [
+      "慷慨",
+      "分享",
+      "慈善",
+      "平衡"
+    ],
+    "sprite_x": 4,
+    "sprite_y": 5
+  },
+  {
+    "id": "pentacles_7",
+    "name": "錢幣七",
+    "name_en": "Seven of Pentacles",
+    "suit": "錢幣",
+    "number": 7,
+    "arcana": "minor",
+    "upright_meaning": "耐心、投資、長期目標、等待收穫",
+    "reversed_meaning": "缺乏耐心、白費努力、失望",
+    "description": "一個人望著種下的錢幣，象徵耐心和等待收穫。",
+    "image_path": "static/images/cards/pentacles_7.jpg",
+    "keywords": [
+      "耐心",
+      "投資",
+      "目標",
+      "收穫"
+    ],
+    "sprite_x": 5,
+    "sprite_y": 5
+  },
+  {
+    "id": "pentacles_8",
+    "name": "錢幣八",
+    "name_en": "Eight of Pentacles",
+    "suit": "錢幣",
+    "number": 8,
+    "arcana": "minor",
+    "upright_meaning": "勤奮、技能、專注、品質",
+    "reversed_meaning": "懶惰、缺乏進展、品質低落",
+    "description": "一個人專心雕刻錢幣，象徵勤奮和技能。",
+    "image_path": "static/images/cards/pentacles_8.jpg",
+    "keywords": [
+      "勤奮",
+      "技能",
+      "專注",
+      "品質"
+    ],
+    "sprite_x": 6,
+    "sprite_y": 5
+  },
+  {
+    "id": "pentacles_9",
+    "name": "錢幣九",
+    "name_en": "Nine of Pentacles",
+    "suit": "錢幣",
+    "number": 9,
+    "arcana": "minor",
+    "upright_meaning": "獨立、成功、奢華、自信",
+    "reversed_meaning": "過度消費、依賴、缺乏紀律",
+    "description": "一位優雅的女性在花園中，象徵獨立和成功。",
+    "image_path": "static/images/cards/pentacles_9.jpg",
+    "keywords": [
+      "獨立",
+      "成功",
+      "奢華",
+      "自信"
+    ],
+    "sprite_x": 7,
+    "sprite_y": 5
+  },
+  {
+    "id": "pentacles_10",
+    "name": "錢幣十",
+    "name_en": "Ten of Pentacles",
+    "suit": "錢幣",
+    "number": 10,
+    "arcana": "minor",
+    "upright_meaning": "財富、家庭、遺產、穩定",
+    "reversed_meaning": "家庭紛爭、財務損失、不穩定",
+    "description": "一家人和寵物在錢幣門廊下，象徵財富和家庭穩定。",
+    "image_path": "static/images/cards/pentacles_10.jpg",
+    "keywords": [
+      "財富",
+      "家庭",
+      "遺產",
+      "穩定"
+    ],
+    "sprite_x": 8,
+    "sprite_y": 5
+  },
+  {
+    "id": "pentacles_page",
+    "name": "錢幣侍從",
+    "name_en": "Page of Pentacles",
+    "suit": "錢幣",
+    "number": 11,
+    "arcana": "minor",
+    "upright_meaning": "學習、新機會、務實、專注",
+    "reversed_meaning": "缺乏方向、延遲、不務實",
+    "description": "一個年輕人凝視著手中的錢幣，象徵學習和新機會。",
+    "image_path": "static/images/cards/pentacles_page.jpg",
+    "keywords": [
+      "學習",
+      "機會",
+      "務實",
+      "專注"
+    ],
+    "sprite_x": 9,
+    "sprite_y": 5
+  },
+  {
+    "id": "pentacles_knight",
+    "name": "錢幣騎士",
+    "name_en": "Knight of Pentacles",
+    "suit": "錢幣",
+    "number": 12,
+    "arcana": "minor",
+    "upright_meaning": "勤奮、可靠、耐心、務實",
+    "reversed_meaning": "懶惰、無聊、缺乏進展",
+    "description": "一個騎士騎著馬，手持錢幣，象徵勤奮和可靠。",
+    "image_path": "static/images/cards/pentacles_knight.jpg",
+    "keywords": [
+      "勤奮",
+      "可靠",
+      "耐心",
+      "務實"
+    ],
+    "sprite_x": 10,
+    "sprite_y": 5
+  },
+  {
+    "id": "pentacles_queen",
+    "name": "錢幣皇后",
+    "name_en": "Queen of Pentacles",
+    "suit": "錢幣",
+    "number": 13,
+    "arcana": "minor",
+    "upright_meaning": "務實、照顧、繁榮、溫暖",
+    "reversed_meaning": "過度保護、依賴、缺乏安全感",
+    "description": "一位皇后坐在王座上，手持錢幣，象徵務實和照顧。",
+    "image_path": "static/images/cards/pentacles_queen.jpg",
+    "keywords": [
+      "務實",
+      "照顧",
+      "繁榮",
+      "溫暖"
+    ],
+    "sprite_x": 11,
+    "sprite_y": 5
+  },
+  {
+    "id": "pentacles_king",
+    "name": "錢幣國王",
+    "name_en": "King of Pentacles",
+    "suit": "錢幣",
+    "number": 14,
+    "arcana": "minor",
+    "upright_meaning": "財富、領導、務實、安全",
+    "reversed_meaning": "貪心、固執、過度物質",
+    "description": "一位國王坐在王座上，手持錢幣，象徵財富和領導。",
+    "image_path": "static/images/cards/pentacles_king.jpg",
+    "keywords": [
+      "財富",
+      "領導",
+      "務實",
+      "安全"
+    ],
+    "sprite_x": 12,
+    "sprite_y": 5
+  }
 ]
