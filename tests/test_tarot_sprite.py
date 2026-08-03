@@ -379,5 +379,67 @@ class TestHistoryPageNoPreload(unittest.TestCase):
                          "history 頁不應引用 sprite URL")
 
 
+class TestApiReturnsSpriteCoords(unittest.TestCase):
+    """驗證 draw API 同時回傳 sprite 座標,且既有欄位未消失。
+
+    說明:
+      - app.py 使用自訂 CSRF middleware,token 透過 session + X-CSRF-Token header 驗證
+      - 模板中以 `Divination.init('{{ csrf_token() }}')` 內嵌 token
+      - 故 token 可從 GET /single-card 的 HTML 中以 regex 抽出
+    """
+
+    def setUp(self):
+        self.client = app.test_client()
+        self.client.testing = True
+
+    def _get_csrf_token(self):
+        """從 /single-card 頁面取得 csrf_token。"""
+        resp = self.client.get('/single-card')
+        import re
+        # csrf_token() 會 render 成 64 字元 hex,前後被單引號包住
+        m = re.search(rb"Divination\.init\('([a-f0-9]+)'\)", resp.data)
+        return m.group(1).decode() if m else None
+
+    def test_draw_single_includes_sprite_coords(self):
+        token = self._get_csrf_token()
+        self.assertIsNotNone(token, "從 /single-card 抽不到 csrf_token")
+        resp = self.client.post(
+            '/api/draw-single',
+            json={'question': 'test', '_csrf_token': token},
+            headers={'X-CSRF-Token': token}
+        )
+        self.assertEqual(resp.status_code, 200,
+                         f"API 回傳非 200: {resp.status_code} body={resp.data!r}")
+        data = resp.get_json()
+        self.assertTrue(data['success'], f"API success=False: {data}")
+        card = data['data']['card']
+        self.assertIn('sprite_x', card, "API 缺少 sprite_x 欄位")
+        self.assertIn('sprite_y', card, "API 缺少 sprite_y 欄位")
+        self.assertIsInstance(card['sprite_x'], int, f"sprite_x 非 int: {type(card['sprite_x'])}")
+        self.assertIsInstance(card['sprite_y'], int, f"sprite_y 非 int: {type(card['sprite_y'])}")
+        # 座標應落在 sprite sheet 範圍內
+        self.assertGreaterEqual(card['sprite_x'], 0)
+        self.assertLessEqual(card['sprite_x'], 12)
+        self.assertGreaterEqual(card['sprite_y'], 0)
+        self.assertLessEqual(card['sprite_y'], 5)
+
+    def test_api_backward_compat_existing_fields(self):
+        """確保新增 sprite 座標後,既有欄位仍完整保留。"""
+        token = self._get_csrf_token()
+        self.assertIsNotNone(token)
+        resp = self.client.post(
+            '/api/draw-single',
+            json={'question': 'test', '_csrf_token': token},
+            headers={'X-CSRF-Token': token}
+        )
+        data = resp.get_json()
+        self.assertTrue(data['success'])
+        card = data['data']['card']
+        required_fields = ('id', 'name', 'name_en', 'suit',
+                           'upright_meaning', 'reversed_meaning')
+        for field in required_fields:
+            self.assertIn(field, card, f"API 失去既有欄位: {field}")
+
+
 if __name__ == '__main__':
     unittest.main()
