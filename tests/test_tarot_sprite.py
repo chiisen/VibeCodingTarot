@@ -315,5 +315,16 @@ class TestDivinationJsSprite(unittest.TestCase):
         self.assertIn("sprite_x === undefined", content)
 
 
+class TestBaseTemplateCss(unittest.TestCase):
+
+    BASE_PATH = os.path.join(os.path.dirname(__file__), '..',
+                             'templates', 'base.html')
+
+    def test_base_includes_card_sprite_css(self):
+        with open(self.BASE_PATH, encoding='utf-8') as f:
+            content = f.read()
+        self.assertIn('card-sprite.css', content)
+
+
 if __name__ == '__main__':
     unittest.main()
