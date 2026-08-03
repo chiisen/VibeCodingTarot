@@ -1,0 +1,16 @@
+# 開發用額外套件，runtime 不需要。
+#
+# 用途：
+#   - tools/build_sprite.py：從 tools/source_cards/ 內 78 張原圖組裝 sprite sheet
+#   - tools/download_sources.py 不需要 Pillow(只用到 urllib)
+#
+# 安裝：
+#   pip install -r requirements-dev.txt
+#
+# 何時需要 rebuild sprite：
+#   - 替換 tools/source_cards/ 內任何牌圖
+#   - 修改 data/tarot_cards.json 的 sprite_x / sprite_y
+#   - 變更 CELL_W / CELL_H / COLS / ROWS 常數
+#
+# 一般使用者 clone 專案後,若只想運行 web app,不需要安裝此檔。
+Pillow==10.4.0

@@ -12,10 +12,20 @@
 - 安裝 graphify `post-commit` 自動重建 hook（僅重建程式碼差異，無 LLM 呼叫）
 - 安裝 graphify `post-checkout` 同步 hook
 - 註冊 `graph.json` 專用 merge driver 至 `.gitattributes`
+- 新增 `requirements-dev.txt`，宣告 sprite rebuild 工具鏈依賴 `Pillow==10.4.0`
 
 ### 變更
 - `.gitignore` 新增 graphify-out 本機狀態與 workflow temp 排除規則（追蹤核心產物）
 - `.gitignore` 新增 `.claude/` 排除（Claude Code 本機設定）
+- `tools/download_sources.py`：`_http_get_bytes` 退避機制從僅 429 擴展到 HTTP 5xx (500/502/503/504) 與 `urllib.error.URLError`，仍採 2s→4s→8s→16s 指數退避
+- `tools/download_sources.py`：User-Agent 由瀏覽器偽裝 (`Mozilla/5.0 ...`) 改為符合 Wikimedia User-Agent 政策的識別型 UA (`VibeCodingTarot/1.0 (https://github.com/chiisen/VibeCodingTarot; sprite rebuild tool)`)
+- `tools/build_sprite.py`：缺圖時由 `print(WARN)` 改為 `sys.exit(1)`，並刪除任何已存在的 stale sprite，避免占卜頁使用半殘 sprite 出現黑色格子
+- `tools/build_sprite.py`：docstring 新增 Pillow 依賴與 `requirements-dev.txt` 安裝說明
+
+### 修復
+- 修復新開發者 clone 後執行 `python tools/build_sprite.py` 會因缺少 Pillow 而 `ModuleNotFoundError` 的問題
+- 修復 `download_sources.py` 對 Wikimedia 5xx 與網路錯誤直接 raise、沒有退避的問題
+- 修復 `build_sprite.py` 缺圖時仍產出半殘 sprite、測試誤判通過的問題
 
 ## [1.0.2] - 2026-08-02
 

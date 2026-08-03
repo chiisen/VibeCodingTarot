@@ -12,6 +12,7 @@ import json
 import os
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -20,15 +21,19 @@ ROOT = Path(__file__).resolve().parent.parent
 SOURCE_DIR = ROOT / 'tools' / 'source_cards'
 DATA_PATH = ROOT / 'data' / 'tarot_cards.json'
 
-# Wikimedia Commons 要求明確的 User-Agent, 否則 upload.wikimedia.org 會回 403。
-# 測試發現只有瀏覽器型 UA 才能成功下載 upload.wikimedia.org。
+# Wikimedia User-Agent 政策:必須明確識別工具與聯絡管道,
+# 不接受偽裝成瀏覽器的 UA(會被視為違反 policy)。
+# https://meta.wikimedia.org/wiki/User-Agent_policy
 HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
-                  'AppleWebKit/537.36 (KHTML, like Gecko) '
-                  'Chrome/120.0.0.0 Safari/537.36',
+    'User-Agent': 'VibeCodingTarot/1.0 (https://github.com/chiisen/VibeCodingTarot; sprite rebuild tool)',
     'Accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
     'Accept-Language': 'zh-TW,zh;q=0.9,en;q=0.8',
 }
+
+# 退避觸發條件:429 (rate limit) 與 5xx (server 端錯誤)
+RETRYABLE_HTTP_CODES = {429, 500, 502, 503, 504}
+MAX_RETRIES = 5
+INITIAL_BACKOFF_SECONDS = 2.0
 
 # 大阿爾克那英文名 (對應 name_en 去除 "The " 前綴後的單字)
 MAJOR_ARCANA_NAMES = {
@@ -101,16 +106,33 @@ def resolve_url(filename: str) -> str:
 
 
 def _http_get_bytes(url: str, timeout: int = 60) -> bytes:
-    """GET with exponential backoff on HTTP 429."""
-    delay = 2.0
-    for attempt in range(5):
+    """GET with exponential backoff on retryable HTTP errors and URLError.
+
+    Retryable conditions:
+      - HTTP 429 (rate limit)
+      - HTTP 5xx (server 端錯誤: 500 / 502 / 503 / 504)
+      - urllib.error.URLError (DNS 解析失敗、連線被拒、timeout 等)
+
+    退避策略: 2s → 4s → 8s → 16s(最多 MAX_RETRIES 次嘗試)
+    """
+    delay = INITIAL_BACKOFF_SECONDS
+    for attempt in range(MAX_RETRIES):
         req = urllib.request.Request(url, headers=HEADERS)
         try:
             with urllib.request.urlopen(req, timeout=timeout) as r:
                 return r.read()
         except urllib.error.HTTPError as e:
-            if e.code == 429 and attempt < 4:
-                print(f'    (429 等候 {delay:.0f}s ...)', file=sys.stderr, end=' ', flush=True)
+            if e.code in RETRYABLE_HTTP_CODES and attempt < MAX_RETRIES - 1:
+                print(f'    (HTTP {e.code} 等候 {delay:.0f}s ...)', file=sys.stderr, end=' ', flush=True)
+                time.sleep(delay)
+                delay *= 2
+                continue
+            raise
+        except urllib.error.URLError as e:
+            # DNS 失敗、連線被拒、timeout 等
+            if attempt < MAX_RETRIES - 1:
+                reason = getattr(e, 'reason', e)
+                print(f'    (URLError {reason!r} 等候 {delay:.0f}s ...)', file=sys.stderr, end=' ', flush=True)
                 time.sleep(delay)
                 delay *= 2
                 continue
