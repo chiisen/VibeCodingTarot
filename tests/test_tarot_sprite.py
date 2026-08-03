@@ -366,5 +366,18 @@ class TestDivinationPagePreload(unittest.TestCase):
                              f"{filename} 仍有 inline .card-face 渲染")
 
 
+class TestHistoryPageNoPreload(unittest.TestCase):
+
+    def test_history_does_not_preload_sprite(self):
+        path = os.path.join(os.path.dirname(__file__), '..',
+                            'templates', 'history.html')
+        with open(path, encoding='utf-8') as f:
+            content = f.read()
+        self.assertNotIn('rel="preload"', content,
+                         "history 頁不應預載 sprite,改用 lazy load")
+        self.assertNotIn('tarot_sprite.jpg', content,
+                         "history 頁不應引用 sprite URL")
+
+
 if __name__ == '__main__':
     unittest.main()
