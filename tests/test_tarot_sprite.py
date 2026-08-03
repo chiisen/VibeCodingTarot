@@ -327,27 +327,43 @@ class TestBaseTemplateCss(unittest.TestCase):
 
 
 class TestDivinationPagePreload(unittest.TestCase):
-    """驗證占卜頁模板包含 sprite sheet preload link 與卡面容器。"""
+    """驗證占卜頁模板包含 sprite sheet preload link 與實際卡面容器。"""
 
-    def _assert_preload(self, page_path):
-        with open(page_path, encoding='utf-8') as f:
-            content = f.read()
+    TEMPLATE_DIR = os.path.join(os.path.dirname(__file__), '..', 'templates')
+
+    def _read(self, filename):
+        with open(os.path.join(self.TEMPLATE_DIR, filename), encoding='utf-8') as f:
+            return f.read()
+
+    def _assert_preload(self, content):
         self.assertIn('rel="preload"', content)
         self.assertIn('as="image"', content)
         self.assertIn('tarot_sprite.jpg', content)
-        self.assertIn('.tarot-card-image', content)
 
     def test_single_card_has_preload(self):
-        self._assert_preload(os.path.join(os.path.dirname(__file__), '..',
-                                          'templates', 'single_card.html'))
+        content = self._read('single_card.html')
+        self._assert_preload(content)
+        self.assertIn('id="cardContainer"', content)
+        self.assertIn("Divination.renderCard(", content)
 
     def test_three_cards_has_preload(self):
-        self._assert_preload(os.path.join(os.path.dirname(__file__), '..',
-                                          'templates', 'three_cards.html'))
+        content = self._read('three_cards.html')
+        self._assert_preload(content)
+        self.assertIn('id="card${index + 1}Container"', content)
+        self.assertIn("Divination.renderCard(", content)
 
     def test_celtic_cross_has_preload(self):
-        self._assert_preload(os.path.join(os.path.dirname(__file__), '..',
-                                          'templates', 'celtic_cross.html'))
+        content = self._read('celtic_cross.html')
+        self._assert_preload(content)
+        self.assertIn('id="celticCard${index + 1}Container"', content)
+        self.assertIn("Divination.renderCard(", content)
+
+    def test_no_inline_card_face_rendering(self):
+        """舊的 inline .card-face 渲染必須移除,否則 sprite CSS 不會生效。"""
+        for filename in ('single_card.html', 'three_cards.html', 'celtic_cross.html'):
+            content = self._read(filename)
+            self.assertNotIn('class="card-face"', content,
+                             f"{filename} 仍有 inline .card-face 渲染")
 
 
 if __name__ == '__main__':

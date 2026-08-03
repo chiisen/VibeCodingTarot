@@ -3,7 +3,6 @@
 {% block head %}
 {{ super() }}
 <link rel="preload" as="image" href="{{ url_for('static', filename='img/tarot_sprite.jpg') }}">
-{# 卡面容器使用 .tarot-card-image (由 Divination.renderCard 注入) #}
 {% endblock %}
 
 {% block title %}凱爾特十字占卜{% endblock %}
@@ -160,17 +159,16 @@
 
         celticCrossResult.innerHTML = `
             <div class="celtic-result-grid">
-                ${cards.map(cardData => `
+                ${cards.map((cardData, index) => `
                     <div class="celtic-result-item">
                         <div class="celtic-item-header">
                             <span class="celtic-pos-badge">${cardData.position}</span>
                             <span class="card-position ${cardData.is_reversed ? 'reversed' : 'upright'}">${cardData.is_reversed ? '逆位' : '正位'}</span>
                         </div>
-                        <div class="card-image ${cardData.is_reversed ? 'reversed' : ''}">
-                            <div class="card-face">
-                                <div class="card-name">${cardData.card.name}</div>
-                                <div class="card-name-en">${cardData.card.name_en}</div>
-                            </div>
+                        <div id="celticCard${index + 1}Container" class="card-image"></div>
+                        <div class="card-title">
+                            <div class="card-name">${cardData.card.name}</div>
+                            <div class="card-name-en">${cardData.card.name_en}</div>
                         </div>
                         <div class="card-meaning">
                             <p>${cardData.is_reversed ? cardData.card.reversed_meaning : cardData.card.upright_meaning}</p>
@@ -186,6 +184,15 @@
             </div>
             ` : ''}
         `;
+
+        // 以 sprite sheet 渲染每張卡面
+        cards.forEach((cardData, index) => {
+            Divination.renderCard(
+                cardData.card,
+                cardData.is_reversed,
+                document.getElementById(`celticCard${index + 1}Container`)
+            );
+        });
     }
 </script>
 {% endblock %}

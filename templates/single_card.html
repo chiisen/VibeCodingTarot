@@ -3,7 +3,6 @@
 {% block head %}
 {{ super() }}
 <link rel="preload" as="image" href="{{ url_for('static', filename='img/tarot_sprite.jpg') }}">
-{# 卡面容器使用 .tarot-card-image (由 Divination.renderCard 注入) #}
 {% endblock %}
 
 {% block title %}單張牌占卜{% endblock %}
@@ -118,14 +117,13 @@
 
         cardResult.innerHTML = `
             <div class="card-display">
-                <div class="card-image ${isReversed ? 'reversed' : ''}">
-                    <div class="card-face">
+                <div id="cardContainer" class="card-image"></div>
+                <div class="card-info">
+                    <div class="card-title">
                         <div class="card-name">${card.name}</div>
                         <div class="card-name-en">${card.name_en}</div>
                         <div class="card-suit">${card.suit}</div>
                     </div>
-                </div>
-                <div class="card-info">
                     <div class="card-position">
                         <span class="position-label">位置：</span>
                         <span class="position-value ${isReversed ? 'reversed' : 'upright'}">
@@ -155,6 +153,9 @@
                 </div>
             </div>
         `;
+
+        // 以 sprite sheet 渲染卡面
+        Divination.renderCard(card, isReversed, document.getElementById('cardContainer'));
     }
 </script>
 {% endblock %}
