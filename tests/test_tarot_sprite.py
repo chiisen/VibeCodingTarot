@@ -40,5 +40,21 @@ class TestSpriteCoordinates(unittest.TestCase):
         self.assertEqual(duplicates, [], f"座標重複: {duplicates}")
 
 
+class TestSpriteSheetAsset(unittest.TestCase):
+
+    SPRITE_PATH = os.path.join(os.path.dirname(__file__), '..',
+                               'static', 'img', 'tarot_sprite.jpg')
+
+    def test_sprite_jpg_exists(self):
+        self.assertTrue(os.path.exists(self.SPRITE_PATH),
+                        f"找不到 sprite sheet: {self.SPRITE_PATH}")
+
+    def test_sprite_jpg_dimensions(self):
+        from PIL import Image
+        with Image.open(self.SPRITE_PATH) as img:
+            self.assertEqual(img.size, (2600, 2040),
+                             f"sprite 尺寸錯誤: {img.size}, 預期 (2600, 2040)")
+
+
 if __name__ == '__main__':
     unittest.main()

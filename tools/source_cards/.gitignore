@@ -1,0 +1,4 @@
+# 原始塔羅牌圖為 67MB,從 Wikimedia Commons 下載, 不進版本庫
+# 透過 tools/download_sources.py 重新取得
+*.jpg
+!tarot_sprite.jpg
