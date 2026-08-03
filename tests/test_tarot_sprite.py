@@ -326,5 +326,29 @@ class TestBaseTemplateCss(unittest.TestCase):
         self.assertIn('card-sprite.css', content)
 
 
+class TestDivinationPagePreload(unittest.TestCase):
+    """驗證占卜頁模板包含 sprite sheet preload link 與卡面容器。"""
+
+    def _assert_preload(self, page_path):
+        with open(page_path, encoding='utf-8') as f:
+            content = f.read()
+        self.assertIn('rel="preload"', content)
+        self.assertIn('as="image"', content)
+        self.assertIn('tarot_sprite.jpg', content)
+        self.assertIn('.tarot-card-image', content)
+
+    def test_single_card_has_preload(self):
+        self._assert_preload(os.path.join(os.path.dirname(__file__), '..',
+                                          'templates', 'single_card.html'))
+
+    def test_three_cards_has_preload(self):
+        self._assert_preload(os.path.join(os.path.dirname(__file__), '..',
+                                          'templates', 'three_cards.html'))
+
+    def test_celtic_cross_has_preload(self):
+        self._assert_preload(os.path.join(os.path.dirname(__file__), '..',
+                                          'templates', 'celtic_cross.html'))
+
+
 if __name__ == '__main__':
     unittest.main()

@@ -1,5 +1,11 @@
 {% extends 'base.html' %}
 
+{% block head %}
+{{ super() }}
+<link rel="preload" as="image" href="{{ url_for('static', filename='img/tarot_sprite.jpg') }}">
+{# 卡面容器使用 .tarot-card-image (由 Divination.renderCard 注入) #}
+{% endblock %}
+
 {% block title %}三張牌占卜{% endblock %}
 {% block subtitle %}三張牌占卜{% endblock %}
 
