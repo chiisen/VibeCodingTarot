@@ -15,6 +15,58 @@ const Divination = {
         return div.innerHTML;
     },
 
+    // 渲染單張塔羅牌到容器元素
+    renderCard(card, isReversed, container) {
+        if (!card || !container) {
+            console.warn('[Divination.renderCard] 缺少 card 或 container');
+            return;
+        }
+
+        const spriteX = (card.sprite_x === undefined) ? 0
+            : Math.min(Math.max(card.sprite_x, 0), 12);
+        const spriteY = (card.sprite_y === undefined) ? 0
+            : Math.min(Math.max(card.sprite_y, 0), 5);
+
+        if (card.sprite_x !== undefined && (card.sprite_x < 0 || card.sprite_x > 12)) {
+            console.warn('[tarot-sprite] 座標越界', card.id, card.sprite_x, card.sprite_y);
+        }
+        if (card.sprite_y !== undefined && (card.sprite_y < 0 || card.sprite_y > 5)) {
+            console.warn('[tarot-sprite] 座標越界', card.id, card.sprite_x, card.sprite_y);
+        }
+
+        const fallback = () => {
+            container.innerHTML = `
+                <div class="tarot-card-fallback">
+                    <div class="fallback-name">${this.escapeHtml(card.name)}</div>
+                    <div class="fallback-suit">${this.escapeHtml(card.suit || '')}</div>
+                </div>
+            `;
+        };
+
+        if (card.sprite_x === undefined || card.sprite_y === undefined) {
+            fallback();
+            return;
+        }
+
+        const posX = -spriteX * 200;
+        const posY = -spriteY * 340;
+        container.innerHTML = `
+            <div class="tarot-card-image loading"></div>
+        `;
+        const imgEl = container.querySelector('.tarot-card-image');
+        imgEl.setAttribute('data-card', this.escapeHtml(card.id));
+        imgEl.setAttribute('data-reversed', isReversed ? 'true' : 'false');
+        imgEl.style.setProperty('--sprite-pos', `${posX}px ${posY}px`);
+
+        const bgImg = new Image();
+        bgImg.onload = () => imgEl.classList.remove('loading');
+        bgImg.onerror = () => {
+            console.warn('[tarot-sprite] 載入失敗,fallback 至文字版', card.id);
+            fallback();
+        };
+        bgImg.src = '/static/img/tarot_sprite.jpg';
+    },
+
     // 初始化
     init(csrfToken) {
 

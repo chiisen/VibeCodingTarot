@@ -282,5 +282,33 @@ class TestCardSpriteCss(unittest.TestCase):
         self.assertIn('pulse', content)
 
 
+class TestDivinationJsSprite(unittest.TestCase):
+
+    JS_PATH = os.path.join(os.path.dirname(__file__), '..',
+                           'static', 'js', 'divination.js')
+
+    def test_renderCard_method_exists(self):
+        content = open(self.JS_PATH, encoding='utf-8').read()
+        self.assertIn('renderCard', content)
+        self.assertIn("setProperty('--sprite-pos'", content)
+
+    def test_sets_data_card_attribute(self):
+        content = open(self.JS_PATH, encoding='utf-8').read()
+        self.assertIn("setAttribute('data-card'", content)
+
+    def test_sets_data_reversed_attribute(self):
+        content = open(self.JS_PATH, encoding='utf-8').read()
+        self.assertIn("setAttribute('data-reversed'", content)
+
+    def test_clamps_sprite_coords(self):
+        content = open(self.JS_PATH, encoding='utf-8').read()
+        self.assertIn('Math.min', content)
+        self.assertIn('Math.max', content)
+
+    def test_handles_missing_sprite_coords(self):
+        content = open(self.JS_PATH, encoding='utf-8').read()
+        self.assertIn("sprite_x === undefined", content)
+
+
 if __name__ == '__main__':
     unittest.main()
