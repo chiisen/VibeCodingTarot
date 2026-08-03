@@ -263,18 +263,21 @@ class TestCardSpriteCss(unittest.TestCase):
                         f"找不到 CSS: {self.CSS_PATH}")
 
     def test_css_contains_base_rule(self):
-        content = open(self.CSS_PATH, encoding='utf-8').read()
+        with open(self.CSS_PATH, encoding='utf-8') as f:
+            content = f.read()
         self.assertIn('.tarot-card-image', content)
         self.assertIn('--sprite-pos', content)
         self.assertIn('background-image', content)
 
     def test_css_contains_reversed_rule(self):
-        content = open(self.CSS_PATH, encoding='utf-8').read()
+        with open(self.CSS_PATH, encoding='utf-8') as f:
+            content = f.read()
         self.assertIn('[data-reversed="true"]', content)
         self.assertIn('rotate(180deg)', content)
 
     def test_css_contains_pulse_animation(self):
-        content = open(self.CSS_PATH, encoding='utf-8').read()
+        with open(self.CSS_PATH, encoding='utf-8') as f:
+            content = f.read()
         self.assertIn('@keyframes', content)
         self.assertIn('pulse', content)
 
