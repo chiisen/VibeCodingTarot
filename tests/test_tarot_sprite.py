@@ -253,5 +253,31 @@ class TestDownloadSourcesBackoff(unittest.TestCase):
         self.assertIn('https://', ua, "User-Agent 應包含聯絡管道")
 
 
+class TestCardSpriteCss(unittest.TestCase):
+
+    CSS_PATH = os.path.join(os.path.dirname(__file__), '..',
+                            'static', 'css', 'card-sprite.css')
+
+    def test_css_file_exists(self):
+        self.assertTrue(os.path.exists(self.CSS_PATH),
+                        f"找不到 CSS: {self.CSS_PATH}")
+
+    def test_css_contains_base_rule(self):
+        content = open(self.CSS_PATH, encoding='utf-8').read()
+        self.assertIn('.tarot-card-image', content)
+        self.assertIn('--sprite-pos', content)
+        self.assertIn('background-image', content)
+
+    def test_css_contains_reversed_rule(self):
+        content = open(self.CSS_PATH, encoding='utf-8').read()
+        self.assertIn('[data-reversed="true"]', content)
+        self.assertIn('rotate(180deg)', content)
+
+    def test_css_contains_pulse_animation(self):
+        content = open(self.CSS_PATH, encoding='utf-8').read()
+        self.assertIn('@keyframes', content)
+        self.assertIn('pulse', content)
+
+
 if __name__ == '__main__':
     unittest.main()

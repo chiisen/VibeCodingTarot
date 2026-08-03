@@ -1,0 +1,55 @@
+/* 塔羅牌卡面 sprite sheet 渲染 */
+
+.tarot-card-image {
+    background-image: url('../img/tarot_sprite.jpg');
+    background-size: 2600px 2040px;
+    background-repeat: no-repeat;
+    background-position: var(--sprite-pos, 0 0);
+    width: 200px;
+    height: 340px;
+    position: relative;
+    background-color: var(--color-cosmos, #1a1a2e);
+    transition: background-position 0.3s ease;
+}
+
+/* 逆位 */
+.tarot-card-image[data-reversed="true"] {
+    transform: rotate(180deg);
+}
+
+/* 載入中 pulse 動畫 */
+.tarot-card-image.loading {
+    animation: tarot-sprite-pulse 1.2s ease-in-out infinite;
+}
+
+@keyframes tarot-sprite-pulse {
+    0%, 100% { opacity: 0.6; }
+    50% { opacity: 1.0; }
+}
+
+/* Fallback 文字版(當 sprite 缺失或座標無效) */
+.tarot-card-fallback {
+    width: 200px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-cosmos, #1a1a2e);
+    border: 1px solid var(--color-gold, #c9a96e);
+    color: var(--color-stardust, #e8dcc8);
+    text-align: center;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.tarot-card-fallback .fallback-name {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 22px;
+    margin-bottom: 6px;
+}
+
+.tarot-card-fallback .fallback-suit {
+    font-size: 14px;
+    color: var(--color-gold-dim, #8a7a5a);
+}
