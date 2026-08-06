@@ -1,0 +1,127 @@
+{% extends 'base.html' %}
+
+{% block title %}占卜指南{% endblock %}
+{% block subtitle %}如何提問與牌陣指引{% endblock %}
+
+{% block content %}
+<section class="divination-section">
+    <div class="divination-header">
+        <h2>占卜指南</h2>
+        <p>學會正確提問，選擇適合的牌陣，讓占卜更貼近您的需求</p>
+    </div>
+
+    <!-- 如何提問 -->
+    <div class="guide-block">
+        <h3>💡 如何提問</h3>
+        <p class="guide-lead">塔羅牌解讀的品質，很大程度取決於問題的品質。好的問題能讓牌陣聚焦，給出更清晰的指引。</p>
+        <div class="guide-content">
+            <div class="guide-column">
+                <h4>✅ 好問題的特點</h4>
+                <ul>
+                    <li><strong>開放式</strong>：引導思考而非是非題</li>
+                    <li><strong>具體</strong>：聚焦單一情境或關係</li>
+                    <li><strong>個人相關</strong>：關於您自身而非他人</li>
+                    <li><strong>賦能導向</strong>：重視「我可以如何做」</li>
+                </ul>
+            </div>
+            <div class="guide-column">
+                <h4>❌ 避免的問法</h4>
+                <ul>
+                    <li>是非題：「他會跟我復合嗎？」</li>
+                    <li>預測題：「我會中樂透嗎？」</li>
+                    <li>他人題：「我老闆在想什麼？」</li>
+                    <li>模糊題：「我的運勢如何？」</li>
+                </ul>
+            </div>
+            <div class="guide-column">
+                <h4>✍️ 提問範例</h4>
+                <ul>
+                    <li>「我如何改善與伴侶的溝通？」</li>
+                    <li>「這份工作轉職，我該如何準備？」</li>
+                    <li>「面對這個抉擇，我需要留意什麼？」</li>
+                    <li>「阻礙我前進的原因是什麼？」</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- 牌陣說明 -->
+    <div class="guide-block">
+        <h3>🃏 牌陣說明與使用時機</h3>
+        <p class="guide-lead">每種牌陣的深度與適用情境不同，選擇最適合您問題的牌陣。</p>
+
+        <div class="options-grid">
+            <div class="option-card">
+                <div class="card-icon">I</div>
+                <h4>單張牌占卜</h4>
+                <p>快速、聚焦的單一指引</p>
+                <div class="spread-timing">
+                    <h5>適用時機</h5>
+                    <ul>
+                        <li>每日一牌練習</li>
+                        <li>急需當下指引</li>
+                        <li>簡單的選擇確認</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="option-card">
+                <div class="card-icon">III</div>
+                <h4>三張牌占卜</h4>
+                <p>過去、現在、未來的時間軸</p>
+                <div class="spread-timing">
+                    <h5>適用時機</h5>
+                    <ul>
+                        <li>事件或關係的發展脈絡</li>
+                        <li>需要了解前因後果</li>
+                        <li>中長期的狀況分析</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="option-card">
+                <div class="card-icon">X</div>
+                <h4>凱爾特十字</h4>
+                <p>十張牌的全方位深度解析</p>
+                <div class="spread-timing">
+                    <h5>適用時機</h5>
+                    <ul>
+                        <li>複雜的人生難題</li>
+                        <li>需要全面檢視各種面向</li>
+                        <li>重大決策前的深度剖析</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 解讀心法 -->
+    <div class="guide-block">
+        <h3>🔮 解讀心法</h3>
+        <div class="guide-content">
+            <div class="guide-column">
+                <h4>1. 連結牌陣故事</h4>
+                <p>把每張牌當作故事的一頁，觀察牌與牌之間的關聯、對比與進展。</p>
+            </div>
+            <div class="guide-column">
+                <h4>2. 正逆位平衡</h4>
+                <p>逆位不是壞事，而是提醒該關注的面向。整體牌陣的正逆位分布有其意義。</p>
+            </div>
+            <div class="guide-column">
+                <h4>3. 回到自身</h4>
+                <p>塔羅牌是內心的鏡子，最後把指引帶回您的真實處境，做出屬於自己的決定。</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 開始占卜 -->
+    <div class="guide-cta">
+        <p>準備好了嗎？選擇一個牌陣開始探索。</p>
+        <div class="cta-buttons">
+            <a href="/single-card" class="action-button">單張牌占卜</a>
+            <a href="/three-cards" class="action-button">三張牌占卜</a>
+            <a href="/celtic-cross" class="action-button">凱爾特十字</a>
+        </div>
+    </div>
+</section>
+{% endblock %}

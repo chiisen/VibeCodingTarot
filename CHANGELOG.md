@@ -8,6 +8,9 @@
 ## [Unreleased]
 
 ### 新增
+- 新增占卜指南頁面 (`/guide`)：如何提問（好問題/避免問法/提問範例）、三種牌陣說明與使用時機、解讀心法，導覽列新增「占卜指南」連結
+- 歷史記錄新增個人筆記功能：`Divination.updateReadingNote()` 方法，記錄列表與詳情彈窗可新增/編輯/清除筆記（localStorage 持久化）
+- 補齊歷史記錄頁樣式（列表、彈窗、筆記、空狀態）與 `/guide` 頁樣式
 - 整合 Rider-Waite 古典 78 張塔羅牌 sprite sheet (`static/img/tarot_sprite.jpg`，2600×2040 px，Wikimedia Commons Public Domain 授權)
 - 新增 `static/css/card-sprite.css` 卡面樣式表，含 `.tarot-card-image` 背景定位規則、`[data-reversed="true"]` 逆位 transform、`@keyframes tarot-sprite-pulse` 載入動畫、`.tarot-card-fallback` 文字降級版
 - 新增 `Divination.renderCard(card, isReversed, container)` 方法，支援 sprite sheet 渲染、座標 clamp 防呆、缺座標 / sprite 404 自動降級為文字版

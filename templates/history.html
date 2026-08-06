@@ -80,8 +80,15 @@
 
                 <div class="history-actions-item">
                     <button class="action-button small" onclick="viewReading('${reading.id}')">查看詳情</button>
+                    <button class="action-button small" onclick="editNote('${reading.id}')">${reading.note ? '編輯筆記' : '新增筆記'}</button>
                     <button class="action-button small danger" onclick="deleteReading('${reading.id}')">刪除</button>
                 </div>
+                ${reading.note ? `
+                <div class="history-note">
+                    <div class="history-note-label">📝 個人筆記</div>
+                    <div class="history-note-content">${Divination.escapeHtml(reading.note)}</div>
+                </div>
+                ` : ''}
             </div>
         `).join('');
     }
@@ -132,6 +139,12 @@
                     <div class="detail-cards">
                         ${renderDetailCards(reading)}
                     </div>
+                    ${reading.note ? `
+                    <div class="detail-note">
+                        <strong>個人筆記：</strong>
+                        ${Divination.escapeHtml(reading.note)}
+                    </div>
+                    ` : ''}
                 </div>
             </div>
         `;
@@ -180,6 +193,55 @@
                 </div>
             `).join('');
         }
+    }
+
+    // 新增/編輯個人筆記
+    function editNote(id) {
+        const readings = Divination.getReadings();
+        const reading = readings.find(r => r.id === id);
+        if (!reading) return;
+
+        const modal = document.createElement('div');
+        modal.className = 'modal-overlay';
+        modal.innerHTML = `
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>${reading.note ? '編輯個人筆記' : '新增個人筆記'}</h3>
+                    <button class="modal-close" onclick="this.closest('.modal-overlay').remove()">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="note-time">${Divination.formatTime(reading.timestamp)}</div>
+                    <div class="note-question">
+                        ${reading.question ? `"${Divination.escapeHtml(reading.question)}"` : '未輸入問題'}
+                    </div>
+                    <textarea id="noteInput" class="note-input" rows="4"
+                        placeholder="記錄您的想法、心情或占卜後的領悟...">${Divination.escapeHtml(reading.note || '')}</textarea>
+                </div>
+                <div class="modal-footer">
+                    <button class="action-button small" onclick="saveNote('${reading.id}')">儲存筆記</button>
+                    <button class="action-button small" onclick="this.closest('.modal-overlay').remove()">取消</button>
+                </div>
+            </div>
+        `;
+        document.body.appendChild(modal);
+        modal.addEventListener('click', function(e) {
+            if (e.target === modal) modal.remove();
+        });
+    }
+
+    // 儲存個人筆記
+    function saveNote(id) {
+        const noteInput = document.getElementById('noteInput');
+        const note = noteInput ? noteInput.value.trim() : '';
+
+        if (Divination.updateReadingNote(id, note)) {
+            Divination.showSuccess(note ? '筆記已儲存' : '筆記已清除');
+            loadReadings();
+        } else {
+            Divination.showError('儲存筆記失敗');
+        }
+        const modal = noteInput ? noteInput.closest('.modal-overlay') : null;
+        if (modal) modal.remove();
     }
 
     // 刪除記錄

@@ -123,6 +123,14 @@ def three_cards():
     response.headers['Cache-Control'] = f'public, max-age={APP_CONSTANTS["HTML_CACHE_MAX_AGE"]}'
     return response
 
+@app.route('/guide')
+def guide():
+    """占卜指南頁面：如何提問與牌陣說明"""
+    logger.info('訪問占卜指南頁面')
+    response = make_response(render_template('guide.html', active_page='guide', version=APP_VERSION))
+    response.headers['Cache-Control'] = f'public, max-age={APP_CONSTANTS["HTML_CACHE_MAX_AGE"]}'
+    return response
+
 @app.route('/history')
 def history():
     """占卜歷史記錄頁面"""

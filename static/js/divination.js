@@ -293,6 +293,21 @@ const Divination = {
         }
     },
 
+    // 新增/更新占卜記錄的個人筆記
+    updateReadingNote(id, note) {
+        try {
+            const readings = this.getReadings();
+            const reading = readings.find(r => r.id === id);
+            if (!reading) return false;
+            reading.note = note;
+            localStorage.setItem(this.STORAGE_KEY, JSON.stringify(readings));
+            return true;
+        } catch (e) {
+            console.error('更新占卜記錄筆記失敗:', e);
+            return false;
+        }
+    },
+
     // 清空所有記錄
     clearReadings() {
         try {

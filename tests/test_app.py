@@ -45,6 +45,13 @@ class TestTarotApp(unittest.TestCase):
         response = self.app.get('/history')
         self.assertEqual(response.status_code, 200)
 
+    def test_guide_page(self):
+        """測試占卜指南頁面渲染"""
+        response = self.app.get('/guide')
+        self.assertEqual(response.status_code, 200)
+        self.assertIn('如何提問'.encode('utf-8'), response.data)
+        self.assertIn('牌陣'.encode('utf-8'), response.data)
+
     def test_tarot_cards_have_sprite_coordinates(self):
         """每張牌都應包含 13 欄 6 列 sprite 座標。"""
         cards_path = Path(__file__).parents[1] / 'data' / 'tarot_cards.json'

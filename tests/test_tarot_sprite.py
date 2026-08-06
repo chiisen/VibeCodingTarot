@@ -314,6 +314,13 @@ class TestDivinationJsSprite(unittest.TestCase):
             content = f.read()
         self.assertIn("sprite_x === undefined", content)
 
+    def test_updateReadingNote_method_exists(self):
+        """占卜模組應提供個人筆記更新方法。"""
+        with open(self.JS_PATH, encoding='utf-8') as f:
+            content = f.read()
+        self.assertIn('updateReadingNote', content)
+        self.assertIn('reading.note = note', content)
+
 
 class TestBaseTemplateCss(unittest.TestCase):
 
