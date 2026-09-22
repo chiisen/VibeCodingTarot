@@ -12,11 +12,15 @@
   "10": "setup_git_sync.ps1",
   "11": "Tarot Card Sprite Redesign — 設計規格",
   "12": "Tarot Card Sprite Redesign Implementation Plan",
-  "13": "TestCardFlipCss",
+  "13": "TestTemplatesUseFlip",
   "14": "test_tarot_sprite.py",
-  "15": "TestTemplatesUseFlip",
-  "16": "TestDivinationPagePreload",
+  "15": "TestRenderCardWithFlip",
+  "16": "驗證項目",
   "17": "TestApiReturnsSpriteCoords",
   "18": "TestBuildSpriteFailFast",
-  "19": "TestDownloadSourcesBackoff"
+  "19": "TestDownloadSourcesBackoff",
+  "20": "download_sources.py",
+  "21": "TestDivinationJsSprite",
+  "22": "build_sprite.py",
+  "23": "__init__.py"
 }

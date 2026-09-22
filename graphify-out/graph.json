@@ -84,6 +84,226 @@
   },
   "nodes": [
     {
+      "label": "app.py",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "app",
+      "community": 1,
+      "community_name": "app.py",
+      "norm_label": "app.py"
+    },
+    {
+      "label": "get_version()",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L62",
+      "_origin": "ast",
+      "id": "app_get_version",
+      "community": 1,
+      "community_name": "app.py",
+      "norm_label": "get_version()"
+    },
+    {
+      "label": "generate_csrf_token()",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L73",
+      "_origin": "ast",
+      "id": "app_generate_csrf_token",
+      "community": 1,
+      "community_name": "app.py",
+      "norm_label": "generate_csrf_token()"
+    },
+    {
+      "label": "validate_csrf_token()",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L85",
+      "_origin": "ast",
+      "id": "app_validate_csrf_token",
+      "community": 1,
+      "community_name": "app.py",
+      "norm_label": "validate_csrf_token()"
+    },
+    {
+      "label": "load_tarot_cards()",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L91",
+      "_origin": "ast",
+      "id": "app_load_tarot_cards",
+      "community": 1,
+      "community_name": "app.py",
+      "norm_label": "load_tarot_cards()"
+    },
+    {
+      "label": "route",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "route",
+      "community": 1,
+      "community_name": "app.py",
+      "norm_label": "route"
+    },
+    {
+      "label": "index()",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L103",
+      "_origin": "ast",
+      "id": "app_index",
+      "community": 1,
+      "community_name": "app.py",
+      "norm_label": "index()"
+    },
+    {
+      "label": "single_card()",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L111",
+      "_origin": "ast",
+      "id": "app_single_card",
+      "community": 1,
+      "community_name": "app.py",
+      "norm_label": "single_card()"
+    },
+    {
+      "label": "three_cards()",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L119",
+      "_origin": "ast",
+      "id": "app_three_cards",
+      "community": 1,
+      "community_name": "app.py",
+      "norm_label": "three_cards()"
+    },
+    {
+      "label": "guide()",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L127",
+      "_origin": "ast",
+      "id": "app_guide",
+      "community": 1,
+      "community_name": "app.py",
+      "norm_label": "guide()"
+    },
+    {
+      "label": "history()",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L135",
+      "_origin": "ast",
+      "id": "app_history",
+      "community": 1,
+      "community_name": "app.py",
+      "norm_label": "history()"
+    },
+    {
+      "label": "celtic_cross()",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L143",
+      "_origin": "ast",
+      "id": "app_celtic_cross",
+      "community": 1,
+      "community_name": "app.py",
+      "norm_label": "celtic_cross()"
+    },
+    {
+      "label": "draw_single_card()",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L151",
+      "_origin": "ast",
+      "id": "app_draw_single_card",
+      "community": 1,
+      "community_name": "app.py",
+      "norm_label": "draw_single_card()"
+    },
+    {
+      "label": "draw_three_cards()",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L187",
+      "_origin": "ast",
+      "id": "app_draw_three_cards",
+      "community": 1,
+      "community_name": "app.py",
+      "norm_label": "draw_three_cards()"
+    },
+    {
+      "label": "draw_celtic_cross()",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L231",
+      "_origin": "ast",
+      "id": "app_draw_celtic_cross",
+      "community": 1,
+      "community_name": "app.py",
+      "norm_label": "draw_celtic_cross()"
+    },
+    {
+      "label": "get_card_info()",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L278",
+      "_origin": "ast",
+      "id": "app_get_card_info",
+      "community": 1,
+      "community_name": "app.py",
+      "norm_label": "get_card_info()"
+    },
+    {
+      "label": "save_reading()",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L303",
+      "_origin": "ast",
+      "id": "app_save_reading",
+      "community": 1,
+      "community_name": "app.py",
+      "norm_label": "save_reading()"
+    },
+    {
+      "label": "\u751f\u6210 CSRF token \u4e26\u5b58\u5165 session",
+      "file_type": "rationale",
+      "source_file": "app.py",
+      "source_location": "L74",
+      "_origin": "ast",
+      "id": "app_rationale_74",
+      "community": 1,
+      "community_name": "app.py",
+      "norm_label": "\u751f\u6210 csrf token \u4e26\u5b58\u5165 session"
+    },
+    {
+      "label": "\u9a57\u8b49 CSRF token\uff0c\u5931\u8d25\u6642\u56de\u50b3 False",
+      "file_type": "rationale",
+      "source_file": "app.py",
+      "source_location": "L86",
+      "_origin": "ast",
+      "id": "app_rationale_86",
+      "community": 1,
+      "community_name": "app.py",
+      "norm_label": "\u9a57\u8b49 csrf token,\u5931\u8d25\u6642\u56de\u50b3 false"
+    },
+    {
+      "label": "setup_git_sync.ps1",
+      "file_type": "code",
+      "source_file": "setup_git_sync.ps1",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "setup_git_sync",
+      "community": 10,
+      "community_name": "setup_git_sync.ps1",
+      "norm_label": "setup_git_sync.ps1"
+    },
+    {
       "label": "divination.js",
       "file_type": "code",
       "source_file": "static/js/divination.js",
@@ -109,12 +329,353 @@
       "label": "divinationStyle",
       "file_type": "code",
       "source_file": "static/js/divination.js",
-      "source_location": "L330",
+      "source_location": "L345",
       "_origin": "ast",
       "id": "static_js_divination_divinationstyle",
       "community": 7,
       "community_name": "divination.js",
       "norm_label": "divinationstyle"
+    },
+    {
+      "label": "main.js",
+      "file_type": "code",
+      "source_file": "static/js/main.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "static_js_main",
+      "community": 5,
+      "community_name": "main.js",
+      "norm_label": "main.js"
+    },
+    {
+      "label": "CONSTANTS",
+      "file_type": "code",
+      "source_file": "static/js/main.js",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "static_js_main_constants",
+      "community": 5,
+      "community_name": "main.js",
+      "norm_label": "constants"
+    },
+    {
+      "label": "shareResult()",
+      "file_type": "code",
+      "source_file": "static/js/main.js",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "static_js_main_shareresult",
+      "community": 5,
+      "community_name": "main.js",
+      "norm_label": "shareresult()"
+    },
+    {
+      "label": "initializePage()",
+      "file_type": "code",
+      "source_file": "static/js/main.js",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "static_js_main_initializepage",
+      "community": 5,
+      "community_name": "main.js",
+      "norm_label": "initializepage()"
+    },
+    {
+      "label": "addAnimationEffects()",
+      "file_type": "code",
+      "source_file": "static/js/main.js",
+      "source_location": "L56",
+      "_origin": "ast",
+      "id": "static_js_main_addanimationeffects",
+      "community": 5,
+      "community_name": "main.js",
+      "norm_label": "addanimationeffects()"
+    },
+    {
+      "label": "setupEventListeners()",
+      "file_type": "code",
+      "source_file": "static/js/main.js",
+      "source_location": "L82",
+      "_origin": "ast",
+      "id": "static_js_main_setupeventlisteners",
+      "community": 5,
+      "community_name": "main.js",
+      "norm_label": "setupeventlisteners()"
+    },
+    {
+      "label": "goToSingleCard()",
+      "file_type": "code",
+      "source_file": "static/js/main.js",
+      "source_location": "L107",
+      "_origin": "ast",
+      "id": "static_js_main_gotosinglecard",
+      "community": 5,
+      "community_name": "main.js",
+      "norm_label": "gotosinglecard()"
+    },
+    {
+      "label": "goToThreeCards()",
+      "file_type": "code",
+      "source_file": "static/js/main.js",
+      "source_location": "L111",
+      "_origin": "ast",
+      "id": "static_js_main_gotothreecards",
+      "community": 5,
+      "community_name": "main.js",
+      "norm_label": "gotothreecards()"
+    },
+    {
+      "label": "goToCelticCross()",
+      "file_type": "code",
+      "source_file": "static/js/main.js",
+      "source_location": "L115",
+      "_origin": "ast",
+      "id": "static_js_main_gotocelticcross",
+      "community": 5,
+      "community_name": "main.js",
+      "norm_label": "gotocelticcross()"
+    },
+    {
+      "label": "animateCardDraw()",
+      "file_type": "code",
+      "source_file": "static/js/main.js",
+      "source_location": "L120",
+      "_origin": "ast",
+      "id": "static_js_main_animatecarddraw",
+      "community": 5,
+      "community_name": "main.js",
+      "norm_label": "animatecarddraw()"
+    },
+    {
+      "label": "animateResultShow()",
+      "file_type": "code",
+      "source_file": "static/js/main.js",
+      "source_location": "L133",
+      "_origin": "ast",
+      "id": "static_js_main_animateresultshow",
+      "community": 5,
+      "community_name": "main.js",
+      "norm_label": "animateresultshow()"
+    },
+    {
+      "label": "style",
+      "file_type": "code",
+      "source_file": "static/js/main.js",
+      "source_location": "L147",
+      "_origin": "ast",
+      "id": "static_js_main_style",
+      "community": 5,
+      "community_name": "main.js",
+      "norm_label": "style"
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "tests/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "tests_init",
+      "community": 23,
+      "community_name": "__init__.py",
+      "norm_label": "__init__.py"
+    },
+    {
+      "label": "test_app.py",
+      "file_type": "code",
+      "source_file": "tests/test_app.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "tests_test_app",
+      "community": 4,
+      "community_name": "TestTarotApp",
+      "norm_label": "test_app.py"
+    },
+    {
+      "label": "TestTarotApp",
+      "file_type": "code",
+      "source_file": "tests/test_app.py",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "tests_test_app_testtarotapp",
+      "community": 4,
+      "community_name": "TestTarotApp",
+      "norm_label": "testtarotapp"
+    },
+    {
+      "label": ".setUp()",
+      "file_type": "code",
+      "source_file": "tests/test_app.py",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "tests_test_app_testtarotapp_setup",
+      "community": 4,
+      "community_name": "TestTarotApp",
+      "norm_label": ".setup()"
+    },
+    {
+      "label": ".test_index_page()",
+      "file_type": "code",
+      "source_file": "tests/test_app.py",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "tests_test_app_testtarotapp_test_index_page",
+      "community": 4,
+      "community_name": "TestTarotApp",
+      "norm_label": ".test_index_page()"
+    },
+    {
+      "label": ".test_single_card_page()",
+      "file_type": "code",
+      "source_file": "tests/test_app.py",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "tests_test_app_testtarotapp_test_single_card_page",
+      "community": 4,
+      "community_name": "TestTarotApp",
+      "norm_label": ".test_single_card_page()"
+    },
+    {
+      "label": ".test_three_cards_page()",
+      "file_type": "code",
+      "source_file": "tests/test_app.py",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "tests_test_app_testtarotapp_test_three_cards_page",
+      "community": 4,
+      "community_name": "TestTarotApp",
+      "norm_label": ".test_three_cards_page()"
+    },
+    {
+      "label": ".test_celtic_cross_page()",
+      "file_type": "code",
+      "source_file": "tests/test_app.py",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "tests_test_app_testtarotapp_test_celtic_cross_page",
+      "community": 4,
+      "community_name": "TestTarotApp",
+      "norm_label": ".test_celtic_cross_page()"
+    },
+    {
+      "label": ".test_history_page()",
+      "file_type": "code",
+      "source_file": "tests/test_app.py",
+      "source_location": "L43",
+      "_origin": "ast",
+      "id": "tests_test_app_testtarotapp_test_history_page",
+      "community": 4,
+      "community_name": "TestTarotApp",
+      "norm_label": ".test_history_page()"
+    },
+    {
+      "label": ".test_guide_page()",
+      "file_type": "code",
+      "source_file": "tests/test_app.py",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "tests_test_app_testtarotapp_test_guide_page",
+      "community": 4,
+      "community_name": "TestTarotApp",
+      "norm_label": ".test_guide_page()"
+    },
+    {
+      "label": ".test_tarot_cards_have_sprite_coordinates()",
+      "file_type": "code",
+      "source_file": "tests/test_app.py",
+      "source_location": "L55",
+      "_origin": "ast",
+      "id": "tests_test_app_testtarotapp_test_tarot_cards_have_sprite_coordinates",
+      "community": 4,
+      "community_name": "TestTarotApp",
+      "norm_label": ".test_tarot_cards_have_sprite_coordinates()"
+    },
+    {
+      "label": ".test_tarot_cards_follow_sprite_order()",
+      "file_type": "code",
+      "source_file": "tests/test_app.py",
+      "source_location": "L66",
+      "_origin": "ast",
+      "id": "tests_test_app_testtarotapp_test_tarot_cards_follow_sprite_order",
+      "community": 4,
+      "community_name": "TestTarotApp",
+      "norm_label": ".test_tarot_cards_follow_sprite_order()"
+    },
+    {
+      "label": ".test_api_draw_single_without_csrf()",
+      "file_type": "code",
+      "source_file": "tests/test_app.py",
+      "source_location": "L79",
+      "_origin": "ast",
+      "id": "tests_test_app_testtarotapp_test_api_draw_single_without_csrf",
+      "community": 4,
+      "community_name": "TestTarotApp",
+      "norm_label": ".test_api_draw_single_without_csrf()"
+    },
+    {
+      "label": ".test_api_draw_single_valid_csrf()",
+      "file_type": "code",
+      "source_file": "tests/test_app.py",
+      "source_location": "L84",
+      "_origin": "ast",
+      "id": "tests_test_app_testtarotapp_test_api_draw_single_valid_csrf",
+      "community": 4,
+      "community_name": "TestTarotApp",
+      "norm_label": ".test_api_draw_single_valid_csrf()"
+    },
+    {
+      "label": "\u6e2c\u8a66\u55ae\u5f35\u724c\u9801\u9762\u6e32\u67d3\uff08\u5305\u542b csrf_token\uff09",
+      "file_type": "rationale",
+      "source_file": "tests/test_app.py",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "tests_test_app_rationale_26",
+      "community": 4,
+      "community_name": "TestTarotApp",
+      "norm_label": "\u6e2c\u8a66\u55ae\u5f35\u724c\u9801\u9762\u6e32\u67d3(\u5305\u542b csrf_token)"
+    },
+    {
+      "label": "\u6bcf\u5f35\u724c\u90fd\u61c9\u5305\u542b 13 \u6b04 6 \u5217 sprite \u5ea7\u6a19\u3002",
+      "file_type": "rationale",
+      "source_file": "tests/test_app.py",
+      "source_location": "L56",
+      "_origin": "ast",
+      "id": "tests_test_app_rationale_56",
+      "community": 4,
+      "community_name": "TestTarotApp",
+      "norm_label": "\u6bcf\u5f35\u724c\u90fd\u61c9\u5305\u542b 13 \u6b04 6 \u5217 sprite \u5ea7\u6a19\u3002"
+    },
+    {
+      "label": "\u724c\u9762\u9806\u5e8f\u61c9\u70ba Major \u5f8c\u63a5\u56db\u7d44 Minor\u3002",
+      "file_type": "rationale",
+      "source_file": "tests/test_app.py",
+      "source_location": "L67",
+      "_origin": "ast",
+      "id": "tests_test_app_rationale_67",
+      "community": 4,
+      "community_name": "TestTarotApp",
+      "norm_label": "\u724c\u9762\u9806\u5e8f\u61c9\u70ba major \u5f8c\u63a5\u56db\u7d44 minor\u3002"
+    },
+    {
+      "label": "\u6e2c\u8a66\u7121 CSRF Token \u7684\u8acb\u6c42\u61c9\u88ab\u62d2\u7d55 (403)",
+      "file_type": "rationale",
+      "source_file": "tests/test_app.py",
+      "source_location": "L80",
+      "_origin": "ast",
+      "id": "tests_test_app_rationale_80",
+      "community": 4,
+      "community_name": "TestTarotApp",
+      "norm_label": "\u6e2c\u8a66\u7121 csrf token \u7684\u8acb\u6c42\u61c9\u88ab\u62d2\u7d55 (403)"
+    },
+    {
+      "label": "\u6e2c\u8a66\u5408\u6cd5 CSRF Token \u7684\u62bd\u724c API",
+      "file_type": "rationale",
+      "source_file": "tests/test_app.py",
+      "source_location": "L85",
+      "_origin": "ast",
+      "id": "tests_test_app_rationale_85",
+      "community": 4,
+      "community_name": "TestTarotApp",
+      "norm_label": "\u6e2c\u8a66\u5408\u6cd5 csrf token \u7684\u62bd\u724c api"
     },
     {
       "label": "test_card_flip.py",
@@ -124,7 +685,7 @@
       "_origin": "ast",
       "id": "tests_test_card_flip",
       "community": 13,
-      "community_name": "TestCardFlipCss",
+      "community_name": "TestTemplatesUseFlip",
       "norm_label": "test_card_flip.py"
     },
     {
@@ -135,7 +696,7 @@
       "_origin": "ast",
       "id": "tests_test_card_flip_testcardbacksvg",
       "community": 13,
-      "community_name": "TestCardFlipCss",
+      "community_name": "TestTemplatesUseFlip",
       "norm_label": "testcardbacksvg"
     },
     {
@@ -146,7 +707,7 @@
       "_origin": "ast",
       "id": "tests_test_card_flip_testcardbacksvg_test_svg_exists",
       "community": 13,
-      "community_name": "TestCardFlipCss",
+      "community_name": "TestTemplatesUseFlip",
       "norm_label": ".test_svg_exists()"
     },
     {
@@ -157,7 +718,7 @@
       "_origin": "ast",
       "id": "tests_test_card_flip_testcardbacksvg_test_svg_is_well_formed_xml",
       "community": 13,
-      "community_name": "TestCardFlipCss",
+      "community_name": "TestTemplatesUseFlip",
       "norm_label": ".test_svg_is_well_formed_xml()"
     },
     {
@@ -168,7 +729,7 @@
       "_origin": "ast",
       "id": "tests_test_card_flip_testcardbacksvg_test_svg_has_rose_window",
       "community": 13,
-      "community_name": "TestCardFlipCss",
+      "community_name": "TestTemplatesUseFlip",
       "norm_label": ".test_svg_has_rose_window()"
     },
     {
@@ -179,7 +740,7 @@
       "_origin": "ast",
       "id": "tests_test_card_flip_testcardflipcss",
       "community": 13,
-      "community_name": "TestCardFlipCss",
+      "community_name": "TestTemplatesUseFlip",
       "norm_label": "testcardflipcss"
     },
     {
@@ -190,7 +751,7 @@
       "_origin": "ast",
       "id": "tests_test_card_flip_testcardflipcss_setupclass",
       "community": 13,
-      "community_name": "TestCardFlipCss",
+      "community_name": "TestTemplatesUseFlip",
       "norm_label": ".setupclass()"
     },
     {
@@ -201,7 +762,7 @@
       "_origin": "ast",
       "id": "tests_test_card_flip_testcardflipcss_test_has_flip_container_rule",
       "community": 13,
-      "community_name": "TestCardFlipCss",
+      "community_name": "TestTemplatesUseFlip",
       "norm_label": ".test_has_flip_container_rule()"
     },
     {
@@ -212,7 +773,7 @@
       "_origin": "ast",
       "id": "tests_test_card_flip_testcardflipcss_test_has_flip_inner_with_3d_transform",
       "community": 13,
-      "community_name": "TestCardFlipCss",
+      "community_name": "TestTemplatesUseFlip",
       "norm_label": ".test_has_flip_inner_with_3d_transform()"
     },
     {
@@ -223,7 +784,7 @@
       "_origin": "ast",
       "id": "tests_test_card_flip_testcardflipcss_test_has_flipped_state",
       "community": 13,
-      "community_name": "TestCardFlipCss",
+      "community_name": "TestTemplatesUseFlip",
       "norm_label": ".test_has_flipped_state()"
     },
     {
@@ -234,7 +795,7 @@
       "_origin": "ast",
       "id": "tests_test_card_flip_testcardflipcss_test_has_card_face_with_backface_visibility",
       "community": 13,
-      "community_name": "TestCardFlipCss",
+      "community_name": "TestTemplatesUseFlip",
       "norm_label": ".test_has_card_face_with_backface_visibility()"
     },
     {
@@ -245,7 +806,7 @@
       "_origin": "ast",
       "id": "tests_test_card_flip_testcardflipcss_test_front_face_rotated_180",
       "community": 13,
-      "community_name": "TestCardFlipCss",
+      "community_name": "TestTemplatesUseFlip",
       "norm_label": ".test_front_face_rotated_180()"
     },
     {
@@ -255,8 +816,8 @@
       "source_location": "L64",
       "_origin": "ast",
       "id": "tests_test_card_flip_testrendercardwithflip",
-      "community": 13,
-      "community_name": "TestCardFlipCss",
+      "community": 15,
+      "community_name": "TestRenderCardWithFlip",
       "norm_label": "testrendercardwithflip"
     },
     {
@@ -266,8 +827,8 @@
       "source_location": "L66",
       "_origin": "ast",
       "id": "tests_test_card_flip_testrendercardwithflip_setupclass",
-      "community": 13,
-      "community_name": "TestCardFlipCss",
+      "community": 15,
+      "community_name": "TestRenderCardWithFlip",
       "norm_label": ".setupclass()"
     },
     {
@@ -277,8 +838,8 @@
       "source_location": "L69",
       "_origin": "ast",
       "id": "tests_test_card_flip_testrendercardwithflip_test_method_exists",
-      "community": 13,
-      "community_name": "TestCardFlipCss",
+      "community": 15,
+      "community_name": "TestRenderCardWithFlip",
       "norm_label": ".test_method_exists()"
     },
     {
@@ -288,8 +849,8 @@
       "source_location": "L73",
       "_origin": "ast",
       "id": "tests_test_card_flip_testrendercardwithflip_test_builds_flip_dom",
-      "community": 13,
-      "community_name": "TestCardFlipCss",
+      "community": 15,
+      "community_name": "TestRenderCardWithFlip",
       "norm_label": ".test_builds_flip_dom()"
     },
     {
@@ -299,8 +860,8 @@
       "source_location": "L83",
       "_origin": "ast",
       "id": "tests_test_card_flip_testrendercardwithflip_test_delegates_to_render_card",
-      "community": 13,
-      "community_name": "TestCardFlipCss",
+      "community": 15,
+      "community_name": "TestRenderCardWithFlip",
       "norm_label": ".test_delegates_to_render_card()"
     },
     {
@@ -310,8 +871,8 @@
       "source_location": "L89",
       "_origin": "ast",
       "id": "tests_test_card_flip_testrendercardwithflip_test_uses_requestanimationframe_to_defer_flip",
-      "community": 13,
-      "community_name": "TestCardFlipCss",
+      "community": 15,
+      "community_name": "TestRenderCardWithFlip",
       "norm_label": ".test_uses_requestanimationframe_to_defer_flip()"
     },
     {
@@ -321,7 +882,7 @@
       "source_location": "L94",
       "_origin": "ast",
       "id": "tests_test_card_flip_testtemplatesuseflip",
-      "community": 15,
+      "community": 13,
       "community_name": "TestTemplatesUseFlip",
       "norm_label": "testtemplatesuseflip"
     },
@@ -332,7 +893,7 @@
       "source_location": "L97",
       "_origin": "ast",
       "id": "tests_test_card_flip_testtemplatesuseflip_load",
-      "community": 15,
+      "community": 13,
       "community_name": "TestTemplatesUseFlip",
       "norm_label": "._load()"
     },
@@ -343,7 +904,7 @@
       "source_location": "L100",
       "_origin": "ast",
       "id": "tests_test_card_flip_testtemplatesuseflip_test_single_card_uses_flip",
-      "community": 15,
+      "community": 13,
       "community_name": "TestTemplatesUseFlip",
       "norm_label": ".test_single_card_uses_flip()"
     },
@@ -354,7 +915,7 @@
       "source_location": "L106",
       "_origin": "ast",
       "id": "tests_test_card_flip_testtemplatesuseflip_test_three_cards_uses_flip",
-      "community": 15,
+      "community": 13,
       "community_name": "TestTemplatesUseFlip",
       "norm_label": ".test_three_cards_uses_flip()"
     },
@@ -365,7 +926,7 @@
       "source_location": "L110",
       "_origin": "ast",
       "id": "tests_test_card_flip_testtemplatesuseflip_test_celtic_cross_uses_flip",
-      "community": 15,
+      "community": 13,
       "community_name": "TestTemplatesUseFlip",
       "norm_label": ".test_celtic_cross_uses_flip()"
     },
@@ -376,7 +937,7 @@
       "source_location": "L114",
       "_origin": "ast",
       "id": "tests_test_card_flip_testtemplatesuseflip_test_no_template_still_calls_rendercard_directly",
-      "community": 15,
+      "community": 13,
       "community_name": "TestTemplatesUseFlip",
       "norm_label": ".test_no_template_still_calls_rendercard_directly()"
     },
@@ -387,7 +948,7 @@
       "source_location": "L125",
       "_origin": "ast",
       "id": "tests_test_card_flip_testtemplatesuseflip_test_cards_respect_backface_visibility_safe_html",
-      "community": 15,
+      "community": 13,
       "community_name": "TestTemplatesUseFlip",
       "norm_label": ".test_cards_respect_backface_visibility_safe_html()"
     },
@@ -399,7 +960,7 @@
       "_origin": "ast",
       "id": "tests_test_card_flip_rationale_1",
       "community": 13,
-      "community_name": "TestCardFlipCss",
+      "community_name": "TestTemplatesUseFlip",
       "norm_label": "\u5854\u7f85\u724c\u7ffb\u724c\u52d5\u756b + \u81ea\u8a02 svg \u724c\u80cc\u6e2c\u8a66\u3002"
     },
     {
@@ -410,7 +971,7 @@
       "_origin": "ast",
       "id": "tests_test_card_flip_rationale_13",
       "community": 13,
-      "community_name": "TestCardFlipCss",
+      "community_name": "TestTemplatesUseFlip",
       "norm_label": "tarot-card-back.svg \u5fc5\u9808\u5b58\u5728\u3002"
     },
     {
@@ -421,7 +982,7 @@
       "_origin": "ast",
       "id": "tests_test_card_flip_rationale_58",
       "community": 13,
-      "community_name": "TestCardFlipCss",
+      "community_name": "TestTemplatesUseFlip",
       "norm_label": "\u6b63\u9762 .card-face-front \u5fc5\u9808\u65cb\u8f49 180deg \u4ee5\u914d\u5408\u80cc\u9762\u3002"
     },
     {
@@ -431,8 +992,8 @@
       "source_location": "L70",
       "_origin": "ast",
       "id": "tests_test_card_flip_rationale_70",
-      "community": 13,
-      "community_name": "TestCardFlipCss",
+      "community": 15,
+      "community_name": "TestRenderCardWithFlip",
       "norm_label": "divination.rendercardwithflip \u5fc5\u9808\u5b58\u5728\u3002"
     },
     {
@@ -442,8 +1003,8 @@
       "source_location": "L74",
       "_origin": "ast",
       "id": "tests_test_card_flip_rationale_74",
-      "community": 13,
-      "community_name": "TestCardFlipCss",
+      "community": 15,
+      "community_name": "TestRenderCardWithFlip",
       "norm_label": "\u65b9\u6cd5\u61c9\u63d2\u5165 .card-flip-container + .card-flip-inner + \u5169\u500b .card-face\u3002"
     },
     {
@@ -453,8 +1014,8 @@
       "source_location": "L84",
       "_origin": "ast",
       "id": "tests_test_card_flip_rationale_84",
-      "community": 13,
-      "community_name": "TestCardFlipCss",
+      "community": 15,
+      "community_name": "TestRenderCardWithFlip",
       "norm_label": "\u61c9\u5728 front face \u547c\u53eb rendercard \u4f86\u653e sprite\u3002"
     },
     {
@@ -464,8 +1025,8 @@
       "source_location": "L90",
       "_origin": "ast",
       "id": "tests_test_card_flip_rationale_90",
-      "community": 13,
-      "community_name": "TestCardFlipCss",
+      "community": 15,
+      "community_name": "TestRenderCardWithFlip",
       "norm_label": "\u61c9\u7528 requestanimationframe \u7b49\u4e00\u5e40\u624d\u89f8\u767c\u7ffb\u724c\u3002"
     },
     {
@@ -475,7 +1036,7 @@
       "source_location": "L95",
       "_origin": "ast",
       "id": "tests_test_card_flip_rationale_95",
-      "community": 15,
+      "community": 13,
       "community_name": "TestTemplatesUseFlip",
       "norm_label": "3 \u500b\u5360\u535c\u6a21\u677f\u90fd\u61c9\u547c\u53eb rendercardwithflip \u800c\u975e rendercard\u3002"
     },
@@ -486,7 +1047,7 @@
       "source_location": "L115",
       "_origin": "ast",
       "id": "tests_test_card_flip_rationale_115",
-      "community": 15,
+      "community": 13,
       "community_name": "TestTemplatesUseFlip",
       "norm_label": "\u4e0d\u518d\u6709\u300c\u88f8\u7684 rendercard(...)\u300d\u547c\u53eb,\u78ba\u4fdd\u7ffb\u724c\u52d5\u756b\u5168\u7ad9\u751f\u6548\u3002"
     },
@@ -497,7 +1058,7 @@
       "source_location": "L126",
       "_origin": "ast",
       "id": "tests_test_card_flip_rationale_126",
-      "community": 15,
+      "community": 13,
       "community_name": "TestTemplatesUseFlip",
       "norm_label": "escapehtml \u5df2\u7528\u65bc card name(keyword/position),\u7ffb\u724c\u52d5\u756b\u4e0d\u5f15\u5165 xss\u3002"
     },
@@ -783,8 +1344,8 @@
       "source_location": "L285",
       "_origin": "ast",
       "id": "tests_test_tarot_sprite_testdivinationjssprite",
-      "community": 14,
-      "community_name": "test_tarot_sprite.py",
+      "community": 21,
+      "community_name": "TestDivinationJsSprite",
       "norm_label": "testdivinationjssprite"
     },
     {
@@ -794,8 +1355,8 @@
       "source_location": "L290",
       "_origin": "ast",
       "id": "tests_test_tarot_sprite_testdivinationjssprite_test_rendercard_method_exists",
-      "community": 14,
-      "community_name": "test_tarot_sprite.py",
+      "community": 21,
+      "community_name": "TestDivinationJsSprite",
       "norm_label": ".test_rendercard_method_exists()"
     },
     {
@@ -805,8 +1366,8 @@
       "source_location": "L296",
       "_origin": "ast",
       "id": "tests_test_tarot_sprite_testdivinationjssprite_test_sets_data_card_attribute",
-      "community": 14,
-      "community_name": "test_tarot_sprite.py",
+      "community": 21,
+      "community_name": "TestDivinationJsSprite",
       "norm_label": ".test_sets_data_card_attribute()"
     },
     {
@@ -816,8 +1377,8 @@
       "source_location": "L301",
       "_origin": "ast",
       "id": "tests_test_tarot_sprite_testdivinationjssprite_test_sets_data_reversed_attribute",
-      "community": 14,
-      "community_name": "test_tarot_sprite.py",
+      "community": 21,
+      "community_name": "TestDivinationJsSprite",
       "norm_label": ".test_sets_data_reversed_attribute()"
     },
     {
@@ -827,8 +1388,8 @@
       "source_location": "L306",
       "_origin": "ast",
       "id": "tests_test_tarot_sprite_testdivinationjssprite_test_clamps_sprite_coords",
-      "community": 14,
-      "community_name": "test_tarot_sprite.py",
+      "community": 21,
+      "community_name": "TestDivinationJsSprite",
       "norm_label": ".test_clamps_sprite_coords()"
     },
     {
@@ -838,15 +1399,26 @@
       "source_location": "L312",
       "_origin": "ast",
       "id": "tests_test_tarot_sprite_testdivinationjssprite_test_handles_missing_sprite_coords",
-      "community": 14,
-      "community_name": "test_tarot_sprite.py",
+      "community": 21,
+      "community_name": "TestDivinationJsSprite",
       "norm_label": ".test_handles_missing_sprite_coords()"
+    },
+    {
+      "label": ".test_updateReadingNote_method_exists()",
+      "file_type": "code",
+      "source_file": "tests/test_tarot_sprite.py",
+      "source_location": "L317",
+      "_origin": "ast",
+      "id": "tests_test_tarot_sprite_testdivinationjssprite_test_updatereadingnote_method_exists",
+      "community": 21,
+      "community_name": "TestDivinationJsSprite",
+      "norm_label": ".test_updatereadingnote_method_exists()"
     },
     {
       "label": "TestBaseTemplateCss",
       "file_type": "code",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L318",
+      "source_location": "L325",
       "_origin": "ast",
       "id": "tests_test_tarot_sprite_testbasetemplatecss",
       "community": 14,
@@ -857,7 +1429,7 @@
       "label": ".test_base_includes_card_sprite_css()",
       "file_type": "code",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L323",
+      "source_location": "L330",
       "_origin": "ast",
       "id": "tests_test_tarot_sprite_testbasetemplatecss_test_base_includes_card_sprite_css",
       "community": 14,
@@ -868,84 +1440,84 @@
       "label": "TestDivinationPagePreload",
       "file_type": "code",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L329",
+      "source_location": "L336",
       "_origin": "ast",
       "id": "tests_test_tarot_sprite_testdivinationpagepreload",
-      "community": 16,
-      "community_name": "TestDivinationPagePreload",
+      "community": 14,
+      "community_name": "test_tarot_sprite.py",
       "norm_label": "testdivinationpagepreload"
     },
     {
       "label": "._read()",
       "file_type": "code",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L334",
+      "source_location": "L341",
       "_origin": "ast",
       "id": "tests_test_tarot_sprite_testdivinationpagepreload_read",
-      "community": 16,
-      "community_name": "TestDivinationPagePreload",
+      "community": 14,
+      "community_name": "test_tarot_sprite.py",
       "norm_label": "._read()"
     },
     {
       "label": "._assert_preload()",
       "file_type": "code",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L338",
+      "source_location": "L345",
       "_origin": "ast",
       "id": "tests_test_tarot_sprite_testdivinationpagepreload_assert_preload",
-      "community": 16,
-      "community_name": "TestDivinationPagePreload",
+      "community": 14,
+      "community_name": "test_tarot_sprite.py",
       "norm_label": "._assert_preload()"
     },
     {
       "label": ".test_single_card_has_preload()",
       "file_type": "code",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L343",
+      "source_location": "L350",
       "_origin": "ast",
       "id": "tests_test_tarot_sprite_testdivinationpagepreload_test_single_card_has_preload",
-      "community": 16,
-      "community_name": "TestDivinationPagePreload",
+      "community": 14,
+      "community_name": "test_tarot_sprite.py",
       "norm_label": ".test_single_card_has_preload()"
     },
     {
       "label": ".test_three_cards_has_preload()",
       "file_type": "code",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L349",
+      "source_location": "L356",
       "_origin": "ast",
       "id": "tests_test_tarot_sprite_testdivinationpagepreload_test_three_cards_has_preload",
-      "community": 16,
-      "community_name": "TestDivinationPagePreload",
+      "community": 14,
+      "community_name": "test_tarot_sprite.py",
       "norm_label": ".test_three_cards_has_preload()"
     },
     {
       "label": ".test_celtic_cross_has_preload()",
       "file_type": "code",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L355",
+      "source_location": "L362",
       "_origin": "ast",
       "id": "tests_test_tarot_sprite_testdivinationpagepreload_test_celtic_cross_has_preload",
-      "community": 16,
-      "community_name": "TestDivinationPagePreload",
+      "community": 14,
+      "community_name": "test_tarot_sprite.py",
       "norm_label": ".test_celtic_cross_has_preload()"
     },
     {
       "label": ".test_no_inline_card_face_rendering()",
       "file_type": "code",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L361",
+      "source_location": "L368",
       "_origin": "ast",
       "id": "tests_test_tarot_sprite_testdivinationpagepreload_test_no_inline_card_face_rendering",
-      "community": 16,
-      "community_name": "TestDivinationPagePreload",
+      "community": 14,
+      "community_name": "test_tarot_sprite.py",
       "norm_label": ".test_no_inline_card_face_rendering()"
     },
     {
       "label": "TestHistoryPageNoPreload",
       "file_type": "code",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L369",
+      "source_location": "L376",
       "_origin": "ast",
       "id": "tests_test_tarot_sprite_testhistorypagenopreload",
       "community": 14,
@@ -956,7 +1528,7 @@
       "label": ".test_history_does_not_preload_sprite()",
       "file_type": "code",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L371",
+      "source_location": "L378",
       "_origin": "ast",
       "id": "tests_test_tarot_sprite_testhistorypagenopreload_test_history_does_not_preload_sprite",
       "community": 14,
@@ -967,7 +1539,7 @@
       "label": "TestApiReturnsSpriteCoords",
       "file_type": "code",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L382",
+      "source_location": "L389",
       "_origin": "ast",
       "id": "tests_test_tarot_sprite_testapireturnsspritecoords",
       "community": 17,
@@ -978,7 +1550,7 @@
       "label": ".setUp()",
       "file_type": "code",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L391",
+      "source_location": "L398",
       "_origin": "ast",
       "id": "tests_test_tarot_sprite_testapireturnsspritecoords_setup",
       "community": 17,
@@ -989,7 +1561,7 @@
       "label": "._get_csrf_token()",
       "file_type": "code",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L395",
+      "source_location": "L402",
       "_origin": "ast",
       "id": "tests_test_tarot_sprite_testapireturnsspritecoords_get_csrf_token",
       "community": 17,
@@ -1000,7 +1572,7 @@
       "label": ".test_draw_single_includes_sprite_coords()",
       "file_type": "code",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L403",
+      "source_location": "L410",
       "_origin": "ast",
       "id": "tests_test_tarot_sprite_testapireturnsspritecoords_test_draw_single_includes_sprite_coords",
       "community": 17,
@@ -1011,7 +1583,7 @@
       "label": ".test_api_backward_compat_existing_fields()",
       "file_type": "code",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L426",
+      "source_location": "L433",
       "_origin": "ast",
       "id": "tests_test_tarot_sprite_testapireturnsspritecoords_test_api_backward_compat_existing_fields",
       "community": 17,
@@ -1066,31 +1638,31 @@
       "label": "\u9a57\u8b49\u5360\u535c\u9801\u6a21\u677f\u5305\u542b sprite sheet preload link \u8207\u5be6\u969b\u5361\u9762\u5bb9\u5668\u3002",
       "file_type": "rationale",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L330",
+      "source_location": "L337",
       "_origin": "ast",
-      "id": "tests_test_tarot_sprite_rationale_330",
-      "community": 16,
-      "community_name": "TestDivinationPagePreload",
+      "id": "tests_test_tarot_sprite_rationale_337",
+      "community": 14,
+      "community_name": "test_tarot_sprite.py",
       "norm_label": "\u9a57\u8b49\u5360\u535c\u9801\u6a21\u677f\u5305\u542b sprite sheet preload link \u8207\u5be6\u969b\u5361\u9762\u5bb9\u5668\u3002"
     },
     {
       "label": "\u820a\u7684 inline .card-face \u6e32\u67d3\u5fc5\u9808\u79fb\u9664,\u5426\u5247 sprite CSS \u4e0d\u6703\u751f\u6548\u3002",
       "file_type": "rationale",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L362",
+      "source_location": "L369",
       "_origin": "ast",
-      "id": "tests_test_tarot_sprite_rationale_362",
-      "community": 16,
-      "community_name": "TestDivinationPagePreload",
+      "id": "tests_test_tarot_sprite_rationale_369",
+      "community": 14,
+      "community_name": "test_tarot_sprite.py",
       "norm_label": "\u820a\u7684 inline .card-face \u6e32\u67d3\u5fc5\u9808\u79fb\u9664,\u5426\u5247 sprite css \u4e0d\u6703\u751f\u6548\u3002"
     },
     {
       "label": "\u9a57\u8b49 draw API \u540c\u6642\u56de\u50b3 sprite \u5ea7\u6a19,\u4e14\u65e2\u6709\u6b04\u4f4d\u672a\u6d88\u5931\u3002 \u8aaa\u660e: - app.py \u4f7f\u7528\u81ea\u8a02 CSRF middleware,token \u900f\u904e\u2026",
       "file_type": "rationale",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L383",
+      "source_location": "L390",
       "_origin": "ast",
-      "id": "tests_test_tarot_sprite_rationale_383",
+      "id": "tests_test_tarot_sprite_rationale_390",
       "community": 17,
       "community_name": "TestApiReturnsSpriteCoords",
       "norm_label": "\u9a57\u8b49 draw api \u540c\u6642\u56de\u50b3 sprite \u5ea7\u6a19,\u4e14\u65e2\u6709\u6b04\u4f4d\u672a\u6d88\u5931\u3002 \u8aaa\u660e: - app.py \u4f7f\u7528\u81ea\u8a02 csrf middleware,token \u900f\u904e..."
@@ -1099,9 +1671,9 @@
       "label": "\u5f9e /single-card \u9801\u9762\u53d6\u5f97 csrf_token\u3002",
       "file_type": "rationale",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L396",
+      "source_location": "L403",
       "_origin": "ast",
-      "id": "tests_test_tarot_sprite_rationale_396",
+      "id": "tests_test_tarot_sprite_rationale_403",
       "community": 17,
       "community_name": "TestApiReturnsSpriteCoords",
       "norm_label": "\u5f9e /single-card \u9801\u9762\u53d6\u5f97 csrf_token\u3002"
@@ -1110,199 +1682,166 @@
       "label": "\u78ba\u4fdd\u65b0\u589e sprite \u5ea7\u6a19\u5f8c,\u65e2\u6709\u6b04\u4f4d\u4ecd\u5b8c\u6574\u4fdd\u7559\u3002",
       "file_type": "rationale",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L427",
+      "source_location": "L434",
       "_origin": "ast",
-      "id": "tests_test_tarot_sprite_rationale_427",
+      "id": "tests_test_tarot_sprite_rationale_434",
       "community": 17,
       "community_name": "TestApiReturnsSpriteCoords",
       "norm_label": "\u78ba\u4fdd\u65b0\u589e sprite \u5ea7\u6a19\u5f8c,\u65e2\u6709\u6b04\u4f4d\u4ecd\u5b8c\u6574\u4fdd\u7559\u3002"
     },
     {
-      "label": "test_app.py",
+      "label": "build_sprite.py",
       "file_type": "code",
-      "source_file": "tests/test_app.py",
+      "source_file": "tools/build_sprite.py",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
-      "community_name": "TestTarotApp",
-      "norm_label": "test_app.py",
-      "id": "tests_test_app"
+      "id": "tools_build_sprite",
+      "community": 22,
+      "community_name": "build_sprite.py",
+      "norm_label": "build_sprite.py"
     },
     {
-      "label": "TestTarotApp",
+      "label": "main()",
       "file_type": "code",
-      "source_file": "tests/test_app.py",
-      "source_location": "L13",
+      "source_file": "tools/build_sprite.py",
+      "source_location": "L32",
       "_origin": "ast",
-      "community": 4,
-      "community_name": "TestTarotApp",
-      "norm_label": "testtarotapp",
-      "id": "tests_test_app_testtarotapp"
+      "id": "tools_build_sprite_main",
+      "community": 22,
+      "community_name": "build_sprite.py",
+      "norm_label": "main()"
     },
     {
-      "label": ".setUp()",
-      "file_type": "code",
-      "source_file": "tests/test_app.py",
-      "source_location": "L15",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "TestTarotApp",
-      "norm_label": ".setup()",
-      "id": "tests_test_app_testtarotapp_setup"
-    },
-    {
-      "label": ".test_index_page()",
-      "file_type": "code",
-      "source_file": "tests/test_app.py",
-      "source_location": "L19",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "TestTarotApp",
-      "norm_label": ".test_index_page()",
-      "id": "tests_test_app_testtarotapp_test_index_page"
-    },
-    {
-      "label": ".test_single_card_page()",
-      "file_type": "code",
-      "source_file": "tests/test_app.py",
-      "source_location": "L25",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "TestTarotApp",
-      "norm_label": ".test_single_card_page()",
-      "id": "tests_test_app_testtarotapp_test_single_card_page"
-    },
-    {
-      "label": ".test_three_cards_page()",
-      "file_type": "code",
-      "source_file": "tests/test_app.py",
-      "source_location": "L31",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "TestTarotApp",
-      "norm_label": ".test_three_cards_page()",
-      "id": "tests_test_app_testtarotapp_test_three_cards_page"
-    },
-    {
-      "label": ".test_celtic_cross_page()",
-      "file_type": "code",
-      "source_file": "tests/test_app.py",
-      "source_location": "L37",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "TestTarotApp",
-      "norm_label": ".test_celtic_cross_page()",
-      "id": "tests_test_app_testtarotapp_test_celtic_cross_page"
-    },
-    {
-      "label": ".test_history_page()",
-      "file_type": "code",
-      "source_file": "tests/test_app.py",
-      "source_location": "L43",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "TestTarotApp",
-      "norm_label": ".test_history_page()",
-      "id": "tests_test_app_testtarotapp_test_history_page"
-    },
-    {
-      "label": ".test_tarot_cards_have_sprite_coordinates()",
-      "file_type": "code",
-      "source_file": "tests/test_app.py",
-      "source_location": "L48",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "TestTarotApp",
-      "norm_label": ".test_tarot_cards_have_sprite_coordinates()",
-      "id": "tests_test_app_testtarotapp_test_tarot_cards_have_sprite_coordinates"
-    },
-    {
-      "label": ".test_tarot_cards_follow_sprite_order()",
-      "file_type": "code",
-      "source_file": "tests/test_app.py",
-      "source_location": "L59",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "TestTarotApp",
-      "norm_label": ".test_tarot_cards_follow_sprite_order()",
-      "id": "tests_test_app_testtarotapp_test_tarot_cards_follow_sprite_order"
-    },
-    {
-      "label": ".test_api_draw_single_without_csrf()",
-      "file_type": "code",
-      "source_file": "tests/test_app.py",
-      "source_location": "L72",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "TestTarotApp",
-      "norm_label": ".test_api_draw_single_without_csrf()",
-      "id": "tests_test_app_testtarotapp_test_api_draw_single_without_csrf"
-    },
-    {
-      "label": ".test_api_draw_single_valid_csrf()",
-      "file_type": "code",
-      "source_file": "tests/test_app.py",
-      "source_location": "L77",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "TestTarotApp",
-      "norm_label": ".test_api_draw_single_valid_csrf()",
-      "id": "tests_test_app_testtarotapp_test_api_draw_single_valid_csrf"
-    },
-    {
-      "label": "\u6e2c\u8a66\u55ae\u5f35\u724c\u9801\u9762\u6e32\u67d3\uff08\u5305\u542b csrf_token\uff09",
+      "label": "\u5f9e tools/source_cards/ \u5167 78 \u5f35\u500b\u5225\u724c\u5716\u7d44\u88dd sprite sheet\u3002 \u8f38\u5165\u6a94\u540d\u7d04\u5b9a: <card_id>.jpg (\u4f8b\u2026",
       "file_type": "rationale",
-      "source_file": "tests/test_app.py",
-      "source_location": "L26",
+      "source_file": "tools/build_sprite.py",
+      "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
-      "community_name": "TestTarotApp",
-      "norm_label": "\u6e2c\u8a66\u55ae\u5f35\u724c\u9801\u9762\u6e32\u67d3(\u5305\u542b csrf_token)",
-      "id": "tests_test_app_rationale_26"
+      "id": "tools_build_sprite_rationale_1",
+      "community": 22,
+      "community_name": "build_sprite.py",
+      "norm_label": "\u5f9e tools/source_cards/ \u5167 78 \u5f35\u500b\u5225\u724c\u5716\u7d44\u88dd sprite sheet\u3002 \u8f38\u5165\u6a94\u540d\u7d04\u5b9a: <card_id>.jpg (\u4f8b..."
     },
     {
-      "label": "\u6bcf\u5f35\u724c\u90fd\u61c9\u5305\u542b 13 \u6b04 6 \u5217 sprite \u5ea7\u6a19\u3002",
-      "file_type": "rationale",
-      "source_file": "tests/test_app.py",
-      "source_location": "L49",
+      "label": "download_sources.py",
+      "file_type": "code",
+      "source_file": "tools/download_sources.py",
+      "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
-      "community_name": "TestTarotApp",
-      "norm_label": "\u6bcf\u5f35\u724c\u90fd\u61c9\u5305\u542b 13 \u6b04 6 \u5217 sprite \u5ea7\u6a19\u3002",
-      "id": "tests_test_app_rationale_49"
+      "id": "tools_download_sources",
+      "community": 20,
+      "community_name": "download_sources.py",
+      "norm_label": "download_sources.py"
     },
     {
-      "label": "\u724c\u9762\u9806\u5e8f\u61c9\u70ba Major \u5f8c\u63a5\u56db\u7d44 Minor\u3002",
-      "file_type": "rationale",
-      "source_file": "tests/test_app.py",
-      "source_location": "L60",
+      "label": "make_major_arcana_filename()",
+      "file_type": "code",
+      "source_file": "tools/download_sources.py",
+      "source_location": "L80",
       "_origin": "ast",
-      "community": 4,
-      "community_name": "TestTarotApp",
-      "norm_label": "\u724c\u9762\u9806\u5e8f\u61c9\u70ba major \u5f8c\u63a5\u56db\u7d44 minor\u3002",
-      "id": "tests_test_app_rationale_60"
+      "id": "tools_download_sources_make_major_arcana_filename",
+      "community": 20,
+      "community_name": "download_sources.py",
+      "norm_label": "make_major_arcana_filename()"
     },
     {
-      "label": "\u6e2c\u8a66\u7121 CSRF Token \u7684\u8acb\u6c42\u61c9\u88ab\u62d2\u7d55 (403)",
-      "file_type": "rationale",
-      "source_file": "tests/test_app.py",
-      "source_location": "L73",
+      "label": "make_minor_arcana_filename()",
+      "file_type": "code",
+      "source_file": "tools/download_sources.py",
+      "source_location": "L84",
       "_origin": "ast",
-      "community": 4,
-      "community_name": "TestTarotApp",
-      "norm_label": "\u6e2c\u8a66\u7121 csrf token \u7684\u8acb\u6c42\u61c9\u88ab\u62d2\u7d55 (403)",
-      "id": "tests_test_app_rationale_73"
+      "id": "tools_download_sources_make_minor_arcana_filename",
+      "community": 20,
+      "community_name": "download_sources.py",
+      "norm_label": "make_minor_arcana_filename()"
     },
     {
-      "label": "\u6e2c\u8a66\u5408\u6cd5 CSRF Token \u7684\u62bd\u724c API",
-      "file_type": "rationale",
-      "source_file": "tests/test_app.py",
-      "source_location": "L78",
+      "label": "resolve_url()",
+      "file_type": "code",
+      "source_file": "tools/download_sources.py",
+      "source_location": "L90",
       "_origin": "ast",
+      "id": "tools_download_sources_resolve_url",
+      "community": 20,
+      "community_name": "download_sources.py",
+      "norm_label": "resolve_url()"
+    },
+    {
+      "label": "_http_get_bytes()",
+      "file_type": "code",
+      "source_file": "tools/download_sources.py",
+      "source_location": "L108",
+      "_origin": "ast",
+      "id": "tools_download_sources_http_get_bytes",
+      "community": 20,
+      "community_name": "download_sources.py",
+      "norm_label": "_http_get_bytes()"
+    },
+    {
+      "label": "download()",
+      "file_type": "code",
+      "source_file": "tools/download_sources.py",
+      "source_location": "L143",
+      "_origin": "ast",
+      "id": "tools_download_sources_download",
+      "community": 20,
+      "community_name": "download_sources.py",
+      "norm_label": "download()"
+    },
+    {
+      "label": "Path",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "path",
       "community": 4,
       "community_name": "TestTarotApp",
-      "norm_label": "\u6e2c\u8a66\u5408\u6cd5 csrf token \u7684\u62bd\u724c api",
-      "id": "tests_test_app_rationale_78"
+      "norm_label": "path"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "tools/download_sources.py",
+      "source_location": "L149",
+      "_origin": "ast",
+      "id": "tools_download_sources_main",
+      "community": 20,
+      "community_name": "download_sources.py",
+      "norm_label": "main()"
+    },
+    {
+      "label": "\u5f9e Wikimedia Commons \u4e0b\u8f09 78 \u5f35\u5854\u7f85\u724c\u539f\u5716\u81f3 tools/source_cards/\u3002 \u8cc7\u6599\u4f86\u6e90: Category:Rider-\u2026",
+      "file_type": "rationale",
+      "source_file": "tools/download_sources.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "tools_download_sources_rationale_1",
+      "community": 20,
+      "community_name": "download_sources.py",
+      "norm_label": "\u5f9e wikimedia commons \u4e0b\u8f09 78 \u5f35\u5854\u7f85\u724c\u539f\u5716\u81f3 tools/source_cards/\u3002 \u8cc7\u6599\u4f86\u6e90: category:rider-..."
+    },
+    {
+      "label": "\u900f\u904e MediaWiki API \u67e5\u8a62\u6a94\u6848\u5be6\u969b URL\u3002",
+      "file_type": "rationale",
+      "source_file": "tools/download_sources.py",
+      "source_location": "L91",
+      "_origin": "ast",
+      "id": "tools_download_sources_rationale_91",
+      "community": 20,
+      "community_name": "download_sources.py",
+      "norm_label": "\u900f\u904e mediawiki api \u67e5\u8a62\u6a94\u6848\u5be6\u969b url\u3002"
+    },
+    {
+      "label": "GET with exponential backoff on retryable HTTP errors and URLError. Retryable\u2026",
+      "file_type": "rationale",
+      "source_file": "tools/download_sources.py",
+      "source_location": "L109",
+      "_origin": "ast",
+      "id": "tools_download_sources_rationale_109",
+      "community": 20,
+      "community_name": "download_sources.py",
+      "norm_label": "get with exponential backoff on retryable http errors and urlerror. retryable..."
     },
     {
       "label": "2026-08-02-tarot-card-sprite-redesign.md",
@@ -1310,10 +1849,10 @@
       "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-redesign.md",
       "source_location": "L1",
       "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign",
       "community": 12,
       "community_name": "Tarot Card Sprite Redesign Implementation Plan",
-      "norm_label": "2026-08-02-tarot-card-sprite-redesign.md",
-      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign"
+      "norm_label": "2026-08-02-tarot-card-sprite-redesign.md"
     },
     {
       "label": "Tarot Card Sprite Redesign Implementation Plan",
@@ -1321,10 +1860,10 @@
       "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-redesign.md",
       "source_location": "L1",
       "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_tarot_card_sprite_redesign_implementation_plan",
       "community": 12,
       "community_name": "Tarot Card Sprite Redesign Implementation Plan",
-      "norm_label": "tarot card sprite redesign implementation plan",
-      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_tarot_card_sprite_redesign_implementation_plan"
+      "norm_label": "tarot card sprite redesign implementation plan"
     },
     {
       "label": "File Structure",
@@ -1332,10 +1871,10 @@
       "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-redesign.md",
       "source_location": "L13",
       "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_file_structure",
       "community": 12,
       "community_name": "Tarot Card Sprite Redesign Implementation Plan",
-      "norm_label": "file structure",
-      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_file_structure"
+      "norm_label": "file structure"
     },
     {
       "label": "Task 1: \u70ba tarot_cards.json \u52a0\u5165 sprite \u5ea7\u6a19",
@@ -1343,10 +1882,10 @@
       "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-redesign.md",
       "source_location": "L33",
       "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_1_\u70ba_tarot_cards_json_\u52a0\u5165_sprite_\u5ea7\u6a19",
       "community": 12,
       "community_name": "Tarot Card Sprite Redesign Implementation Plan",
-      "norm_label": "task 1: \u70ba tarot_cards.json \u52a0\u5165 sprite \u5ea7\u6a19",
-      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_1_\u70ba_tarot_cards_json_\u52a0\u5165_sprite_\u5ea7\u6a19"
+      "norm_label": "task 1: \u70ba tarot_cards.json \u52a0\u5165 sprite \u5ea7\u6a19"
     },
     {
       "label": "Task 2: \u5efa\u7acb sprite sheet \u7d44\u88dd\u8173\u672c",
@@ -1354,10 +1893,10 @@
       "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-redesign.md",
       "source_location": "L151",
       "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_2_\u5efa\u7acb_sprite_sheet_\u7d44\u88dd\u8173\u672c",
       "community": 12,
       "community_name": "Tarot Card Sprite Redesign Implementation Plan",
-      "norm_label": "task 2: \u5efa\u7acb sprite sheet \u7d44\u88dd\u8173\u672c",
-      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_2_\u5efa\u7acb_sprite_sheet_\u7d44\u88dd\u8173\u672c"
+      "norm_label": "task 2: \u5efa\u7acb sprite sheet \u7d44\u88dd\u8173\u672c"
     },
     {
       "label": "Task 3: \u5efa\u7acb card-sprite.css",
@@ -1365,10 +1904,10 @@
       "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-redesign.md",
       "source_location": "L293",
       "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_3_\u5efa\u7acb_card_sprite_css",
       "community": 12,
       "community_name": "Tarot Card Sprite Redesign Implementation Plan",
-      "norm_label": "task 3: \u5efa\u7acb card-sprite.css",
-      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_3_\u5efa\u7acb_card_sprite_css"
+      "norm_label": "task 3: \u5efa\u7acb card-sprite.css"
     },
     {
       "label": "Task 4: \u5728 divination.js \u65b0\u589e renderCard \u65b9\u6cd5",
@@ -1376,10 +1915,10 @@
       "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-redesign.md",
       "source_location": "L417",
       "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_4_\u5728_divination_js_\u65b0\u589e_rendercard_\u65b9\u6cd5",
       "community": 12,
       "community_name": "Tarot Card Sprite Redesign Implementation Plan",
-      "norm_label": "task 4: \u5728 divination.js \u65b0\u589e rendercard \u65b9\u6cd5",
-      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_4_\u5728_divination_js_\u65b0\u589e_rendercard_\u65b9\u6cd5"
+      "norm_label": "task 4: \u5728 divination.js \u65b0\u589e rendercard \u65b9\u6cd5"
     },
     {
       "label": "Task 5: \u5728 base.html \u8f09\u5165 card-sprite.css",
@@ -1387,10 +1926,10 @@
       "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-redesign.md",
       "source_location": "L547",
       "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_5_\u5728_base_html_\u8f09\u5165_card_sprite_css",
       "community": 12,
       "community_name": "Tarot Card Sprite Redesign Implementation Plan",
-      "norm_label": "task 5: \u5728 base.html \u8f09\u5165 card-sprite.css",
-      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_5_\u5728_base_html_\u8f09\u5165_card_sprite_css"
+      "norm_label": "task 5: \u5728 base.html \u8f09\u5165 card-sprite.css"
     },
     {
       "label": "Task 6: \u70ba\u5360\u535c\u9801\u52a0\u5165 preload link \u8207\u65b0\u5361\u9762\u5bb9\u5668",
@@ -1398,10 +1937,10 @@
       "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-redesign.md",
       "source_location": "L601",
       "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_6_\u70ba\u5360\u535c\u9801\u52a0\u5165_preload_link_\u8207\u65b0\u5361\u9762\u5bb9\u5668",
       "community": 12,
       "community_name": "Tarot Card Sprite Redesign Implementation Plan",
-      "norm_label": "task 6: \u70ba\u5360\u535c\u9801\u52a0\u5165 preload link \u8207\u65b0\u5361\u9762\u5bb9\u5668",
-      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_6_\u70ba\u5360\u535c\u9801\u52a0\u5165_preload_link_\u8207\u65b0\u5361\u9762\u5bb9\u5668"
+      "norm_label": "task 6: \u70ba\u5360\u535c\u9801\u52a0\u5165 preload link \u8207\u65b0\u5361\u9762\u5bb9\u5668"
     },
     {
       "label": "Task 7: history.html \u4e0d\u9810\u8f09 sprite",
@@ -1409,10 +1948,10 @@
       "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-redesign.md",
       "source_location": "L688",
       "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_7_history_html_\u4e0d\u9810\u8f09_sprite",
       "community": 12,
       "community_name": "Tarot Card Sprite Redesign Implementation Plan",
-      "norm_label": "task 7: history.html \u4e0d\u9810\u8f09 sprite",
-      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_7_history_html_\u4e0d\u9810\u8f09_sprite"
+      "norm_label": "task 7: history.html \u4e0d\u9810\u8f09 sprite"
     },
     {
       "label": "Task 8: API \u7aef\u9ede\u9a57\u8b49\u56de\u50b3 sprite \u5ea7\u6a19",
@@ -1420,10 +1959,10 @@
       "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-redesign.md",
       "source_location": "L732",
       "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_8_api_\u7aef\u9ede\u9a57\u8b49\u56de\u50b3_sprite_\u5ea7\u6a19",
       "community": 12,
       "community_name": "Tarot Card Sprite Redesign Implementation Plan",
-      "norm_label": "task 8: api \u7aef\u9ede\u9a57\u8b49\u56de\u50b3 sprite \u5ea7\u6a19",
-      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_8_api_\u7aef\u9ede\u9a57\u8b49\u56de\u50b3_sprite_\u5ea7\u6a19"
+      "norm_label": "task 8: api \u7aef\u9ede\u9a57\u8b49\u56de\u50b3 sprite \u5ea7\u6a19"
     },
     {
       "label": "Task 9: \u66f4\u65b0 CHANGELOG",
@@ -1431,10 +1970,10 @@
       "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-redesign.md",
       "source_location": "L809",
       "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_9_\u66f4\u65b0_changelog",
       "community": 12,
       "community_name": "Tarot Card Sprite Redesign Implementation Plan",
-      "norm_label": "task 9: \u66f4\u65b0 changelog",
-      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_9_\u66f4\u65b0_changelog"
+      "norm_label": "task 9: \u66f4\u65b0 changelog"
     },
     {
       "label": "Task 10: \u5168\u90e8\u6e2c\u8a66\u56de\u6b78",
@@ -1442,10 +1981,10 @@
       "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-redesign.md",
       "source_location": "L846",
       "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_10_\u5168\u90e8\u6e2c\u8a66\u56de\u6b78",
       "community": 12,
       "community_name": "Tarot Card Sprite Redesign Implementation Plan",
-      "norm_label": "task 10: \u5168\u90e8\u6e2c\u8a66\u56de\u6b78",
-      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_10_\u5168\u90e8\u6e2c\u8a66\u56de\u6b78"
+      "norm_label": "task 10: \u5168\u90e8\u6e2c\u8a66\u56de\u6b78"
     },
     {
       "label": "Task 11: \u624b\u52d5\u8996\u89ba\u9a57\u8b49 78 \u5f35\u724c",
@@ -1453,10 +1992,10 @@
       "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-redesign.md",
       "source_location": "L872",
       "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_11_\u624b\u52d5\u8996\u89ba\u9a57\u8b49_78_\u5f35\u724c",
       "community": 12,
       "community_name": "Tarot Card Sprite Redesign Implementation Plan",
-      "norm_label": "task 11: \u624b\u52d5\u8996\u89ba\u9a57\u8b49 78 \u5f35\u724c",
-      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_11_\u624b\u52d5\u8996\u89ba\u9a57\u8b49_78_\u5f35\u724c"
+      "norm_label": "task 11: \u624b\u52d5\u8996\u89ba\u9a57\u8b49 78 \u5f35\u724c"
     },
     {
       "label": "Task 12: \u5efa\u7acb Pull Request",
@@ -1464,10 +2003,10 @@
       "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-redesign.md",
       "source_location": "L922",
       "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_12_\u5efa\u7acb_pull_request",
       "community": 12,
       "community_name": "Tarot Card Sprite Redesign Implementation Plan",
-      "norm_label": "task 12: \u5efa\u7acb pull request",
-      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_12_\u5efa\u7acb_pull_request"
+      "norm_label": "task 12: \u5efa\u7acb pull request"
     },
     {
       "label": "Self-Review Checklist",
@@ -1475,10 +2014,197 @@
       "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-redesign.md",
       "source_location": "L987",
       "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_self_review_checklist",
       "community": 12,
       "community_name": "Tarot Card Sprite Redesign Implementation Plan",
-      "norm_label": "self-review checklist",
-      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_self_review_checklist"
+      "norm_label": "self-review checklist"
+    },
+    {
+      "label": "2026-08-02-tarot-card-sprite-visual-qa-checklist.md",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-visual-qa-checklist.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist",
+      "community": 16,
+      "community_name": "\u9a57\u8b49\u9805\u76ee",
+      "norm_label": "2026-08-02-tarot-card-sprite-visual-qa-checklist.md"
+    },
+    {
+      "label": "\u5854\u7f85\u724c Sprite Sheet \u8996\u89ba\u9a57\u8b49 Checklist",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-visual-qa-checklist.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_\u5854\u7f85\u724c_sprite_sheet_\u8996\u89ba\u9a57\u8b49_checklist",
+      "community": 16,
+      "community_name": "\u9a57\u8b49\u9805\u76ee",
+      "norm_label": "\u5854\u7f85\u724c sprite sheet \u8996\u89ba\u9a57\u8b49 checklist"
+    },
+    {
+      "label": "\u74b0\u5883\u6e96\u5099",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-visual-qa-checklist.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_\u74b0\u5883\u6e96\u5099",
+      "community": 16,
+      "community_name": "\u9a57\u8b49\u9805\u76ee",
+      "norm_label": "\u74b0\u5883\u6e96\u5099"
+    },
+    {
+      "label": "\u9a57\u8b49\u9805\u76ee",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-visual-qa-checklist.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_\u9a57\u8b49\u9805\u76ee",
+      "community": 16,
+      "community_name": "\u9a57\u8b49\u9805\u76ee",
+      "norm_label": "\u9a57\u8b49\u9805\u76ee"
+    },
+    {
+      "label": "A. \u9996\u9801 `/`",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-visual-qa-checklist.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_a_\u9996\u9801",
+      "community": 16,
+      "community_name": "\u9a57\u8b49\u9805\u76ee",
+      "norm_label": "a. \u9996\u9801 `/`"
+    },
+    {
+      "label": "B. \u55ae\u5f35\u724c `/single-card`",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-visual-qa-checklist.md",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_b_\u55ae\u5f35\u724c_single_card",
+      "community": 16,
+      "community_name": "\u9a57\u8b49\u9805\u76ee",
+      "norm_label": "b. \u55ae\u5f35\u724c `/single-card`"
+    },
+    {
+      "label": "C. \u4e09\u5f35\u724c `/three-cards`",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-visual-qa-checklist.md",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_c_\u4e09\u5f35\u724c_three_cards",
+      "community": 16,
+      "community_name": "\u9a57\u8b49\u9805\u76ee",
+      "norm_label": "c. \u4e09\u5f35\u724c `/three-cards`"
+    },
+    {
+      "label": "D. \u51f1\u723e\u7279\u5341\u5b57 `/celtic-cross`",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-visual-qa-checklist.md",
+      "source_location": "L46",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_d_\u51f1\u723e\u7279\u5341\u5b57_celtic_cross",
+      "community": 16,
+      "community_name": "\u9a57\u8b49\u9805\u76ee",
+      "norm_label": "d. \u51f1\u723e\u7279\u5341\u5b57 `/celtic-cross`"
+    },
+    {
+      "label": "E. \u6b77\u53f2\u8a18\u9304 `/history`",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-visual-qa-checklist.md",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_e_\u6b77\u53f2\u8a18\u9304_history",
+      "community": 16,
+      "community_name": "\u9a57\u8b49\u9805\u76ee",
+      "norm_label": "e. \u6b77\u53f2\u8a18\u9304 `/history`"
+    },
+    {
+      "label": "F. \u884c\u52d5\u88dd\u7f6e\u6e2c\u8a66",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-visual-qa-checklist.md",
+      "source_location": "L56",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_f_\u884c\u52d5\u88dd\u7f6e\u6e2c\u8a66",
+      "community": 16,
+      "community_name": "\u9a57\u8b49\u9805\u76ee",
+      "norm_label": "f. \u884c\u52d5\u88dd\u7f6e\u6e2c\u8a66"
+    },
+    {
+      "label": "G. \u7db2\u8def\u7bc0\u6d41\u6e2c\u8a66",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-visual-qa-checklist.md",
+      "source_location": "L65",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_g_\u7db2\u8def\u7bc0\u6d41\u6e2c\u8a66",
+      "community": 16,
+      "community_name": "\u9a57\u8b49\u9805\u76ee",
+      "norm_label": "g. \u7db2\u8def\u7bc0\u6d41\u6e2c\u8a66"
+    },
+    {
+      "label": "H. Fallback \u6e2c\u8a66 (sprite \u7f3a\u5931)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-visual-qa-checklist.md",
+      "source_location": "L71",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_h_fallback_\u6e2c\u8a66_sprite_\u7f3a\u5931",
+      "community": 16,
+      "community_name": "\u9a57\u8b49\u9805\u76ee",
+      "norm_label": "h. fallback \u6e2c\u8a66 (sprite \u7f3a\u5931)"
+    },
+    {
+      "label": "I. \u622a\u5716\u5b58\u6a94",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-visual-qa-checklist.md",
+      "source_location": "L90",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_i_\u622a\u5716\u5b58\u6a94",
+      "community": 16,
+      "community_name": "\u9a57\u8b49\u9805\u76ee",
+      "norm_label": "i. \u622a\u5716\u5b58\u6a94"
+    },
+    {
+      "label": "J. Accessibility \u7c21\u6e2c",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-visual-qa-checklist.md",
+      "source_location": "L106",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_j_accessibility_\u7c21\u6e2c",
+      "community": 16,
+      "community_name": "\u9a57\u8b49\u9805\u76ee",
+      "norm_label": "j. accessibility \u7c21\u6e2c"
+    },
+    {
+      "label": "\u5df2\u77e5\u554f\u984c(\u82e5\u767c\u73fe,\u8a18\u9304\u65bc\u6b64)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-visual-qa-checklist.md",
+      "source_location": "L113",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_\u5df2\u77e5\u554f\u984c_\u82e5\u767c\u73fe_\u8a18\u9304\u65bc\u6b64",
+      "community": 16,
+      "community_name": "\u9a57\u8b49\u9805\u76ee",
+      "norm_label": "\u5df2\u77e5\u554f\u984c(\u82e5\u767c\u73fe,\u8a18\u9304\u65bc\u6b64)"
+    },
+    {
+      "label": "\u9a57\u8b49\u7d50\u679c",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-visual-qa-checklist.md",
+      "source_location": "L119",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_\u9a57\u8b49\u7d50\u679c",
+      "community": 16,
+      "community_name": "\u9a57\u8b49\u9805\u76ee",
+      "norm_label": "\u9a57\u8b49\u7d50\u679c"
+    },
+    {
+      "label": "\u5408\u4f75\u5f8c\u6e05\u7406",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-visual-qa-checklist.md",
+      "source_location": "L128",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_\u5408\u4f75\u5f8c\u6e05\u7406",
+      "community": 16,
+      "community_name": "\u9a57\u8b49\u9805\u76ee",
+      "norm_label": "\u5408\u4f75\u5f8c\u6e05\u7406"
     },
     {
       "label": "2026-08-02-tarot-card-sprite-redesign-design.md",
@@ -1486,10 +2212,10 @@
       "source_file": "docs/superpowers/specs/2026-08-02-tarot-card-sprite-redesign-design.md",
       "source_location": "L1",
       "_origin": "ast",
+      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design",
       "community": 11,
       "community_name": "Tarot Card Sprite Redesign \u2014 \u8a2d\u8a08\u898f\u683c",
-      "norm_label": "2026-08-02-tarot-card-sprite-redesign-design.md",
-      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design"
+      "norm_label": "2026-08-02-tarot-card-sprite-redesign-design.md"
     },
     {
       "label": "Tarot Card Sprite Redesign \u2014 \u8a2d\u8a08\u898f\u683c",
@@ -1497,10 +2223,10 @@
       "source_file": "docs/superpowers/specs/2026-08-02-tarot-card-sprite-redesign-design.md",
       "source_location": "L1",
       "_origin": "ast",
+      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_tarot_card_sprite_redesign_\u8a2d\u8a08\u898f\u683c",
       "community": 11,
       "community_name": "Tarot Card Sprite Redesign \u2014 \u8a2d\u8a08\u898f\u683c",
-      "norm_label": "tarot card sprite redesign \u2014 \u8a2d\u8a08\u898f\u683c",
-      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_tarot_card_sprite_redesign_\u8a2d\u8a08\u898f\u683c"
+      "norm_label": "tarot card sprite redesign \u2014 \u8a2d\u8a08\u898f\u683c"
     },
     {
       "label": "\u76ee\u6a19",
@@ -1508,10 +2234,10 @@
       "source_file": "docs/superpowers/specs/2026-08-02-tarot-card-sprite-redesign-design.md",
       "source_location": "L9",
       "_origin": "ast",
+      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u76ee\u6a19",
       "community": 11,
       "community_name": "Tarot Card Sprite Redesign \u2014 \u8a2d\u8a08\u898f\u683c",
-      "norm_label": "\u76ee\u6a19",
-      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u76ee\u6a19"
+      "norm_label": "\u76ee\u6a19"
     },
     {
       "label": "\u80cc\u666f",
@@ -1519,10 +2245,10 @@
       "source_file": "docs/superpowers/specs/2026-08-02-tarot-card-sprite-redesign-design.md",
       "source_location": "L15",
       "_origin": "ast",
+      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u80cc\u666f",
       "community": 11,
       "community_name": "Tarot Card Sprite Redesign \u2014 \u8a2d\u8a08\u898f\u683c",
-      "norm_label": "\u80cc\u666f",
-      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u80cc\u666f"
+      "norm_label": "\u80cc\u666f"
     },
     {
       "label": "\u8a2d\u8a08\u6c7a\u7b56",
@@ -1530,10 +2256,10 @@
       "source_file": "docs/superpowers/specs/2026-08-02-tarot-card-sprite-redesign-design.md",
       "source_location": "L27",
       "_origin": "ast",
+      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u8a2d\u8a08\u6c7a\u7b56",
       "community": 11,
       "community_name": "Tarot Card Sprite Redesign \u2014 \u8a2d\u8a08\u898f\u683c",
-      "norm_label": "\u8a2d\u8a08\u6c7a\u7b56",
-      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u8a2d\u8a08\u6c7a\u7b56"
+      "norm_label": "\u8a2d\u8a08\u6c7a\u7b56"
     },
     {
       "label": "D1 \u2014 \u7d20\u6750\uff1a\u516c\u5171\u9818\u57df JPG sprite sheet",
@@ -1541,10 +2267,10 @@
       "source_file": "docs/superpowers/specs/2026-08-02-tarot-card-sprite-redesign-design.md",
       "source_location": "L29",
       "_origin": "ast",
+      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_d1_\u7d20\u6750_\u516c\u5171\u9818\u57df_jpg_sprite_sheet",
       "community": 11,
       "community_name": "Tarot Card Sprite Redesign \u2014 \u8a2d\u8a08\u898f\u683c",
-      "norm_label": "d1 \u2014 \u7d20\u6750:\u516c\u5171\u9818\u57df jpg sprite sheet",
-      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_d1_\u7d20\u6750_\u516c\u5171\u9818\u57df_jpg_sprite_sheet"
+      "norm_label": "d1 \u2014 \u7d20\u6750:\u516c\u5171\u9818\u57df jpg sprite sheet"
     },
     {
       "label": "D2 \u2014 \u8f09\u5165\u7b56\u7565\uff1aLazy load + \u9810\u8f09\u63d0\u793a",
@@ -1552,10 +2278,10 @@
       "source_file": "docs/superpowers/specs/2026-08-02-tarot-card-sprite-redesign-design.md",
       "source_location": "L42",
       "_origin": "ast",
+      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_d2_\u8f09\u5165\u7b56\u7565_lazy_load_\u9810\u8f09\u63d0\u793a",
       "community": 11,
       "community_name": "Tarot Card Sprite Redesign \u2014 \u8a2d\u8a08\u898f\u683c",
-      "norm_label": "d2 \u2014 \u8f09\u5165\u7b56\u7565:lazy load + \u9810\u8f09\u63d0\u793a",
-      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_d2_\u8f09\u5165\u7b56\u7565_lazy_load_\u9810\u8f09\u63d0\u793a"
+      "norm_label": "d2 \u2014 \u8f09\u5165\u7b56\u7565:lazy load + \u9810\u8f09\u63d0\u793a"
     },
     {
       "label": "D3 \u2014 \u6e32\u67d3\u65b9\u5f0f\uff1aCSS \u8b8a\u6578\u9a45\u52d5 background-position",
@@ -1563,10 +2289,10 @@
       "source_file": "docs/superpowers/specs/2026-08-02-tarot-card-sprite-redesign-design.md",
       "source_location": "L49",
       "_origin": "ast",
+      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_d3_\u6e32\u67d3\u65b9\u5f0f_css_\u8b8a\u6578\u9a45\u52d5_background_position",
       "community": 11,
       "community_name": "Tarot Card Sprite Redesign \u2014 \u8a2d\u8a08\u898f\u683c",
-      "norm_label": "d3 \u2014 \u6e32\u67d3\u65b9\u5f0f:css \u8b8a\u6578\u9a45\u52d5 background-position",
-      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_d3_\u6e32\u67d3\u65b9\u5f0f_css_\u8b8a\u6578\u9a45\u52d5_background_position"
+      "norm_label": "d3 \u2014 \u6e32\u67d3\u65b9\u5f0f:css \u8b8a\u6578\u9a45\u52d5 background-position"
     },
     {
       "label": "D4 \u2014 \u9006\u4f4d\uff1adata \u5c6c\u6027 + CSS transform",
@@ -1574,10 +2300,10 @@
       "source_file": "docs/superpowers/specs/2026-08-02-tarot-card-sprite-redesign-design.md",
       "source_location": "L77",
       "_origin": "ast",
+      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_d4_\u9006\u4f4d_data_\u5c6c\u6027_css_transform",
       "community": 11,
       "community_name": "Tarot Card Sprite Redesign \u2014 \u8a2d\u8a08\u898f\u683c",
-      "norm_label": "d4 \u2014 \u9006\u4f4d:data \u5c6c\u6027 + css transform",
-      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_d4_\u9006\u4f4d_data_\u5c6c\u6027_css_transform"
+      "norm_label": "d4 \u2014 \u9006\u4f4d:data \u5c6c\u6027 + css transform"
     },
     {
       "label": "D5 \u2014 \u5411\u5f8c\u76f8\u5bb9",
@@ -1585,10 +2311,10 @@
       "source_file": "docs/superpowers/specs/2026-08-02-tarot-card-sprite-redesign-design.md",
       "source_location": "L83",
       "_origin": "ast",
+      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_d5_\u5411\u5f8c\u76f8\u5bb9",
       "community": 11,
       "community_name": "Tarot Card Sprite Redesign \u2014 \u8a2d\u8a08\u898f\u683c",
-      "norm_label": "d5 \u2014 \u5411\u5f8c\u76f8\u5bb9",
-      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_d5_\u5411\u5f8c\u76f8\u5bb9"
+      "norm_label": "d5 \u2014 \u5411\u5f8c\u76f8\u5bb9"
     },
     {
       "label": "\u5143\u4ef6",
@@ -1596,10 +2322,10 @@
       "source_file": "docs/superpowers/specs/2026-08-02-tarot-card-sprite-redesign-design.md",
       "source_location": "L91",
       "_origin": "ast",
+      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u5143\u4ef6",
       "community": 11,
       "community_name": "Tarot Card Sprite Redesign \u2014 \u8a2d\u8a08\u898f\u683c",
-      "norm_label": "\u5143\u4ef6",
-      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u5143\u4ef6"
+      "norm_label": "\u5143\u4ef6"
     },
     {
       "label": "\u65b0\u589e\u6a94\u6848",
@@ -1607,10 +2333,10 @@
       "source_file": "docs/superpowers/specs/2026-08-02-tarot-card-sprite-redesign-design.md",
       "source_location": "L93",
       "_origin": "ast",
+      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u65b0\u589e\u6a94\u6848",
       "community": 11,
       "community_name": "Tarot Card Sprite Redesign \u2014 \u8a2d\u8a08\u898f\u683c",
-      "norm_label": "\u65b0\u589e\u6a94\u6848",
-      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u65b0\u589e\u6a94\u6848"
+      "norm_label": "\u65b0\u589e\u6a94\u6848"
     },
     {
       "label": "\u4fee\u6539\u6a94\u6848",
@@ -1618,10 +2344,10 @@
       "source_file": "docs/superpowers/specs/2026-08-02-tarot-card-sprite-redesign-design.md",
       "source_location": "L100",
       "_origin": "ast",
+      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u4fee\u6539\u6a94\u6848",
       "community": 11,
       "community_name": "Tarot Card Sprite Redesign \u2014 \u8a2d\u8a08\u898f\u683c",
-      "norm_label": "\u4fee\u6539\u6a94\u6848",
-      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u4fee\u6539\u6a94\u6848"
+      "norm_label": "\u4fee\u6539\u6a94\u6848"
     },
     {
       "label": "\u4fdd\u6301\u4e0d\u8b8a",
@@ -1629,10 +2355,10 @@
       "source_file": "docs/superpowers/specs/2026-08-02-tarot-card-sprite-redesign-design.md",
       "source_location": "L111",
       "_origin": "ast",
+      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u4fdd\u6301\u4e0d\u8b8a",
       "community": 11,
       "community_name": "Tarot Card Sprite Redesign \u2014 \u8a2d\u8a08\u898f\u683c",
-      "norm_label": "\u4fdd\u6301\u4e0d\u8b8a",
-      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u4fdd\u6301\u4e0d\u8b8a"
+      "norm_label": "\u4fdd\u6301\u4e0d\u8b8a"
     },
     {
       "label": "\u8cc7\u6599\u6d41\u7a0b",
@@ -1640,10 +2366,10 @@
       "source_file": "docs/superpowers/specs/2026-08-02-tarot-card-sprite-redesign-design.md",
       "source_location": "L120",
       "_origin": "ast",
+      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u8cc7\u6599\u6d41\u7a0b",
       "community": 11,
       "community_name": "Tarot Card Sprite Redesign \u2014 \u8a2d\u8a08\u898f\u683c",
-      "norm_label": "\u8cc7\u6599\u6d41\u7a0b",
-      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u8cc7\u6599\u6d41\u7a0b"
+      "norm_label": "\u8cc7\u6599\u6d41\u7a0b"
     },
     {
       "label": "\u932f\u8aa4\u8655\u7406",
@@ -1651,10 +2377,10 @@
       "source_file": "docs/superpowers/specs/2026-08-02-tarot-card-sprite-redesign-design.md",
       "source_location": "L156",
       "_origin": "ast",
+      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u932f\u8aa4\u8655\u7406",
       "community": 11,
       "community_name": "Tarot Card Sprite Redesign \u2014 \u8a2d\u8a08\u898f\u683c",
-      "norm_label": "\u932f\u8aa4\u8655\u7406",
-      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u932f\u8aa4\u8655\u7406"
+      "norm_label": "\u932f\u8aa4\u8655\u7406"
     },
     {
       "label": "\u89c0\u6e2c\u6027",
@@ -1662,10 +2388,10 @@
       "source_file": "docs/superpowers/specs/2026-08-02-tarot-card-sprite-redesign-design.md",
       "source_location": "L166",
       "_origin": "ast",
+      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u89c0\u6e2c\u6027",
       "community": 11,
       "community_name": "Tarot Card Sprite Redesign \u2014 \u8a2d\u8a08\u898f\u683c",
-      "norm_label": "\u89c0\u6e2c\u6027",
-      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u89c0\u6e2c\u6027"
+      "norm_label": "\u89c0\u6e2c\u6027"
     },
     {
       "label": "\u6e2c\u8a66",
@@ -1673,10 +2399,10 @@
       "source_file": "docs/superpowers/specs/2026-08-02-tarot-card-sprite-redesign-design.md",
       "source_location": "L175",
       "_origin": "ast",
+      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u6e2c\u8a66",
       "community": 11,
       "community_name": "Tarot Card Sprite Redesign \u2014 \u8a2d\u8a08\u898f\u683c",
-      "norm_label": "\u6e2c\u8a66",
-      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u6e2c\u8a66"
+      "norm_label": "\u6e2c\u8a66"
     },
     {
       "label": "\u55ae\u5143\u6e2c\u8a66\uff08\u64f4\u5145 `tests/test_app.py`\uff09",
@@ -1684,10 +2410,10 @@
       "source_file": "docs/superpowers/specs/2026-08-02-tarot-card-sprite-redesign-design.md",
       "source_location": "L177",
       "_origin": "ast",
+      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u55ae\u5143\u6e2c\u8a66_\u64f4\u5145_tests_test_app_py",
       "community": 11,
       "community_name": "Tarot Card Sprite Redesign \u2014 \u8a2d\u8a08\u898f\u683c",
-      "norm_label": "\u55ae\u5143\u6e2c\u8a66(\u64f4\u5145 `tests/test_app.py`)",
-      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u55ae\u5143\u6e2c\u8a66_\u64f4\u5145_tests_test_app_py"
+      "norm_label": "\u55ae\u5143\u6e2c\u8a66(\u64f4\u5145 `tests/test_app.py`)"
     },
     {
       "label": "\u6574\u5408\u6e2c\u8a66\uff08Flask test client\uff09",
@@ -1695,10 +2421,10 @@
       "source_file": "docs/superpowers/specs/2026-08-02-tarot-card-sprite-redesign-design.md",
       "source_location": "L189",
       "_origin": "ast",
+      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u6574\u5408\u6e2c\u8a66_flask_test_client",
       "community": 11,
       "community_name": "Tarot Card Sprite Redesign \u2014 \u8a2d\u8a08\u898f\u683c",
-      "norm_label": "\u6574\u5408\u6e2c\u8a66(flask test client)",
-      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u6574\u5408\u6e2c\u8a66_flask_test_client"
+      "norm_label": "\u6574\u5408\u6e2c\u8a66(flask test client)"
     },
     {
       "label": "\u932f\u8aa4\u6ce8\u5165\u6e2c\u8a66",
@@ -1706,10 +2432,10 @@
       "source_file": "docs/superpowers/specs/2026-08-02-tarot-card-sprite-redesign-design.md",
       "source_location": "L197",
       "_origin": "ast",
+      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u932f\u8aa4\u6ce8\u5165\u6e2c\u8a66",
       "community": 11,
       "community_name": "Tarot Card Sprite Redesign \u2014 \u8a2d\u8a08\u898f\u683c",
-      "norm_label": "\u932f\u8aa4\u6ce8\u5165\u6e2c\u8a66",
-      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u932f\u8aa4\u6ce8\u5165\u6e2c\u8a66"
+      "norm_label": "\u932f\u8aa4\u6ce8\u5165\u6e2c\u8a66"
     },
     {
       "label": "Manual QA Checklist",
@@ -1717,10 +2443,10 @@
       "source_file": "docs/superpowers/specs/2026-08-02-tarot-card-sprite-redesign-design.md",
       "source_location": "L203",
       "_origin": "ast",
+      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_manual_qa_checklist",
       "community": 11,
       "community_name": "Tarot Card Sprite Redesign \u2014 \u8a2d\u8a08\u898f\u683c",
-      "norm_label": "manual qa checklist",
-      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_manual_qa_checklist"
+      "norm_label": "manual qa checklist"
     },
     {
       "label": "DoD",
@@ -1728,10 +2454,10 @@
       "source_file": "docs/superpowers/specs/2026-08-02-tarot-card-sprite-redesign-design.md",
       "source_location": "L216",
       "_origin": "ast",
+      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_dod",
       "community": 11,
       "community_name": "Tarot Card Sprite Redesign \u2014 \u8a2d\u8a08\u898f\u683c",
-      "norm_label": "dod",
-      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_dod"
+      "norm_label": "dod"
     },
     {
       "label": "Out of Scope",
@@ -1739,10 +2465,10 @@
       "source_file": "docs/superpowers/specs/2026-08-02-tarot-card-sprite-redesign-design.md",
       "source_location": "L227",
       "_origin": "ast",
+      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_out_of_scope",
       "community": 11,
       "community_name": "Tarot Card Sprite Redesign \u2014 \u8a2d\u8a08\u898f\u683c",
-      "norm_label": "out of scope",
-      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_out_of_scope"
+      "norm_label": "out of scope"
     },
     {
       "label": "\u5f85\u91d0\u6e05\u554f\u984c",
@@ -1750,351 +2476,10 @@
       "source_file": "docs/superpowers/specs/2026-08-02-tarot-card-sprite-redesign-design.md",
       "source_location": "L237",
       "_origin": "ast",
+      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u5f85\u91d0\u6e05\u554f\u984c",
       "community": 11,
       "community_name": "Tarot Card Sprite Redesign \u2014 \u8a2d\u8a08\u898f\u683c",
-      "norm_label": "\u5f85\u91d0\u6e05\u554f\u984c",
-      "id": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u5f85\u91d0\u6e05\u554f\u984c"
-    },
-    {
-      "label": "app.py",
-      "file_type": "code",
-      "source_file": "app.py",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "app.py",
-      "community_name": "app.py",
-      "id": "app"
-    },
-    {
-      "label": "get_version()",
-      "file_type": "code",
-      "source_file": "app.py",
-      "source_location": "L62",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "get_version()",
-      "community_name": "app.py",
-      "id": "app_get_version"
-    },
-    {
-      "label": "generate_csrf_token()",
-      "file_type": "code",
-      "source_file": "app.py",
-      "source_location": "L73",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "generate_csrf_token()",
-      "community_name": "app.py",
-      "id": "app_generate_csrf_token"
-    },
-    {
-      "label": "validate_csrf_token()",
-      "file_type": "code",
-      "source_file": "app.py",
-      "source_location": "L85",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "validate_csrf_token()",
-      "community_name": "app.py",
-      "id": "app_validate_csrf_token"
-    },
-    {
-      "label": "load_tarot_cards()",
-      "file_type": "code",
-      "source_file": "app.py",
-      "source_location": "L91",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "load_tarot_cards()",
-      "community_name": "app.py",
-      "id": "app_load_tarot_cards"
-    },
-    {
-      "label": "route",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "route",
-      "community_name": "app.py",
-      "id": "route"
-    },
-    {
-      "label": "index()",
-      "file_type": "code",
-      "source_file": "app.py",
-      "source_location": "L103",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "index()",
-      "community_name": "app.py",
-      "id": "app_index"
-    },
-    {
-      "label": "single_card()",
-      "file_type": "code",
-      "source_file": "app.py",
-      "source_location": "L111",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "single_card()",
-      "community_name": "app.py",
-      "id": "app_single_card"
-    },
-    {
-      "label": "three_cards()",
-      "file_type": "code",
-      "source_file": "app.py",
-      "source_location": "L119",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "three_cards()",
-      "community_name": "app.py",
-      "id": "app_three_cards"
-    },
-    {
-      "label": "history()",
-      "file_type": "code",
-      "source_file": "app.py",
-      "source_location": "L127",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "history()",
-      "community_name": "app.py",
-      "id": "app_history"
-    },
-    {
-      "label": "celtic_cross()",
-      "file_type": "code",
-      "source_file": "app.py",
-      "source_location": "L135",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "celtic_cross()",
-      "community_name": "app.py",
-      "id": "app_celtic_cross"
-    },
-    {
-      "label": "draw_single_card()",
-      "file_type": "code",
-      "source_file": "app.py",
-      "source_location": "L143",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "draw_single_card()",
-      "community_name": "app.py",
-      "id": "app_draw_single_card"
-    },
-    {
-      "label": "draw_three_cards()",
-      "file_type": "code",
-      "source_file": "app.py",
-      "source_location": "L179",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "draw_three_cards()",
-      "community_name": "app.py",
-      "id": "app_draw_three_cards"
-    },
-    {
-      "label": "draw_celtic_cross()",
-      "file_type": "code",
-      "source_file": "app.py",
-      "source_location": "L223",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "draw_celtic_cross()",
-      "community_name": "app.py",
-      "id": "app_draw_celtic_cross"
-    },
-    {
-      "label": "get_card_info()",
-      "file_type": "code",
-      "source_file": "app.py",
-      "source_location": "L270",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "get_card_info()",
-      "community_name": "app.py",
-      "id": "app_get_card_info"
-    },
-    {
-      "label": "save_reading()",
-      "file_type": "code",
-      "source_file": "app.py",
-      "source_location": "L295",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "save_reading()",
-      "community_name": "app.py",
-      "id": "app_save_reading"
-    },
-    {
-      "label": "\u751f\u6210 CSRF token \u4e26\u5b58\u5165 session",
-      "file_type": "rationale",
-      "source_file": "app.py",
-      "source_location": "L74",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "\u751f\u6210 csrf token \u4e26\u5b58\u5165 session",
-      "community_name": "app.py",
-      "id": "app_rationale_74"
-    },
-    {
-      "label": "\u9a57\u8b49 CSRF token\uff0c\u5931\u8d25\u6642\u56de\u50b3 False",
-      "file_type": "rationale",
-      "source_file": "app.py",
-      "source_location": "L86",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "\u9a57\u8b49 csrf token,\u5931\u8d25\u6642\u56de\u50b3 false",
-      "community_name": "app.py",
-      "id": "app_rationale_86"
-    },
-    {
-      "label": "setup_git_sync.ps1",
-      "file_type": "code",
-      "source_file": "setup_git_sync.ps1",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 10,
-      "norm_label": "setup_git_sync.ps1",
-      "community_name": "setup_git_sync.ps1",
-      "id": "setup_git_sync"
-    },
-    {
-      "label": "main.js",
-      "file_type": "code",
-      "source_file": "static/js/main.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "main.js",
-      "community_name": "main.js",
-      "id": "static_js_main"
-    },
-    {
-      "label": "CONSTANTS",
-      "file_type": "code",
-      "source_file": "static/js/main.js",
-      "source_location": "L4",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "constants",
-      "community_name": "main.js",
-      "id": "static_js_main_constants"
-    },
-    {
-      "label": "shareResult()",
-      "file_type": "code",
-      "source_file": "static/js/main.js",
-      "source_location": "L26",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "shareresult()",
-      "community_name": "main.js",
-      "id": "static_js_main_shareresult"
-    },
-    {
-      "label": "initializePage()",
-      "file_type": "code",
-      "source_file": "static/js/main.js",
-      "source_location": "L51",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "initializepage()",
-      "community_name": "main.js",
-      "id": "static_js_main_initializepage"
-    },
-    {
-      "label": "addAnimationEffects()",
-      "file_type": "code",
-      "source_file": "static/js/main.js",
-      "source_location": "L56",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "addanimationeffects()",
-      "community_name": "main.js",
-      "id": "static_js_main_addanimationeffects"
-    },
-    {
-      "label": "setupEventListeners()",
-      "file_type": "code",
-      "source_file": "static/js/main.js",
-      "source_location": "L82",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "setupeventlisteners()",
-      "community_name": "main.js",
-      "id": "static_js_main_setupeventlisteners"
-    },
-    {
-      "label": "goToSingleCard()",
-      "file_type": "code",
-      "source_file": "static/js/main.js",
-      "source_location": "L107",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "gotosinglecard()",
-      "community_name": "main.js",
-      "id": "static_js_main_gotosinglecard"
-    },
-    {
-      "label": "goToThreeCards()",
-      "file_type": "code",
-      "source_file": "static/js/main.js",
-      "source_location": "L111",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "gotothreecards()",
-      "community_name": "main.js",
-      "id": "static_js_main_gotothreecards"
-    },
-    {
-      "label": "goToCelticCross()",
-      "file_type": "code",
-      "source_file": "static/js/main.js",
-      "source_location": "L115",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "gotocelticcross()",
-      "community_name": "main.js",
-      "id": "static_js_main_gotocelticcross"
-    },
-    {
-      "label": "animateCardDraw()",
-      "file_type": "code",
-      "source_file": "static/js/main.js",
-      "source_location": "L120",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "animatecarddraw()",
-      "community_name": "main.js",
-      "id": "static_js_main_animatecarddraw"
-    },
-    {
-      "label": "animateResultShow()",
-      "file_type": "code",
-      "source_file": "static/js/main.js",
-      "source_location": "L133",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "animateresultshow()",
-      "community_name": "main.js",
-      "id": "static_js_main_animateresultshow"
-    },
-    {
-      "label": "style",
-      "file_type": "code",
-      "source_file": "static/js/main.js",
-      "source_location": "L147",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "style",
-      "community_name": "main.js",
-      "id": "static_js_main_style"
+      "norm_label": "\u5f85\u91d0\u6e05\u554f\u984c"
     },
     {
       "label": "Agent Task State",
@@ -2941,6 +3326,398 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L143",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app",
+      "target": "app_celtic_cross",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L231",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app",
+      "target": "app_draw_celtic_cross",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L151",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app",
+      "target": "app_draw_single_card",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L187",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app",
+      "target": "app_draw_three_cards",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "indirect_call",
+      "confidence": "INFERRED",
+      "source_file": "app.py",
+      "source_location": "L81",
+      "weight": 1.0,
+      "_origin": "ast",
+      "context": "assignment",
+      "source": "app",
+      "target": "app_generate_csrf_token",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L278",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app",
+      "target": "app_get_card_info",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L62",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app",
+      "target": "app_get_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L127",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app",
+      "target": "app_guide",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L135",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app",
+      "target": "app_history",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L103",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app",
+      "target": "app_index",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L91",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app",
+      "target": "app_load_tarot_cards",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L303",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app",
+      "target": "app_save_reading",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L111",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app",
+      "target": "app_single_card",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L119",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app",
+      "target": "app_three_cards",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L85",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app",
+      "target": "app_validate_csrf_token",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_app.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tests_test_app",
+      "target": "app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_tarot_sprite.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tests_test_tarot_sprite",
+      "target": "app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L74",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app_rationale_74",
+      "target": "app_generate_csrf_token",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L233",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app_draw_celtic_cross",
+      "target": "app_validate_csrf_token",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L153",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app_draw_single_card",
+      "target": "app_validate_csrf_token",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L189",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app_draw_three_cards",
+      "target": "app_validate_csrf_token",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L86",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app_rationale_86",
+      "target": "app_validate_csrf_token",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L305",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app_save_reading",
+      "target": "app_validate_csrf_token",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L142",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "app_celtic_cross",
+      "target": "route",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L230",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "app_draw_celtic_cross",
+      "target": "route",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L150",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "app_draw_single_card",
+      "target": "route",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L186",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "app_draw_three_cards",
+      "target": "route",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L277",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "app_get_card_info",
+      "target": "route",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L126",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "app_guide",
+      "target": "route",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L134",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "app_history",
+      "target": "route",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L102",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "app_index",
+      "target": "route",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L302",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "app_save_reading",
+      "target": "route",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L110",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "app_single_card",
+      "target": "route",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L118",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "app_three_cards",
+      "target": "route",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "static/js/divination.js",
       "source_location": "L3",
       "weight": 1.0,
@@ -2953,11 +3730,348 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "static/js/divination.js",
-      "source_location": "L330",
+      "source_location": "L345",
       "weight": 1.0,
       "_origin": "ast",
       "source": "static_js_divination",
       "target": "static_js_divination_divinationstyle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "static/js/main.js",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "static_js_main",
+      "target": "static_js_main_addanimationeffects",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "indirect_call",
+      "confidence": "INFERRED",
+      "source_file": "static/js/main.js",
+      "source_location": "L170",
+      "weight": 1.0,
+      "_origin": "ast",
+      "context": "collection",
+      "source": "static_js_main",
+      "target": "static_js_main_animatecarddraw",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "indirect_call",
+      "confidence": "INFERRED",
+      "source_file": "static/js/main.js",
+      "source_location": "L171",
+      "weight": 1.0,
+      "_origin": "ast",
+      "context": "collection",
+      "source": "static_js_main",
+      "target": "static_js_main_animateresultshow",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "static/js/main.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "static_js_main",
+      "target": "static_js_main_constants",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "static/js/main.js",
+      "source_location": "L115",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "static_js_main",
+      "target": "static_js_main_gotocelticcross",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "indirect_call",
+      "confidence": "INFERRED",
+      "source_file": "static/js/main.js",
+      "source_location": "L168",
+      "weight": 1.0,
+      "_origin": "ast",
+      "context": "collection",
+      "source": "static_js_main",
+      "target": "static_js_main_gotosinglecard",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "indirect_call",
+      "confidence": "INFERRED",
+      "source_file": "static/js/main.js",
+      "source_location": "L169",
+      "weight": 1.0,
+      "_origin": "ast",
+      "context": "collection",
+      "source": "static_js_main",
+      "target": "static_js_main_gotothreecards",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "static/js/main.js",
+      "source_location": "L51",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "static_js_main",
+      "target": "static_js_main_initializepage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "static/js/main.js",
+      "source_location": "L82",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "static_js_main",
+      "target": "static_js_main_setupeventlisteners",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "indirect_call",
+      "confidence": "INFERRED",
+      "source_file": "static/js/main.js",
+      "source_location": "L167",
+      "weight": 1.0,
+      "_origin": "ast",
+      "context": "collection",
+      "source": "static_js_main",
+      "target": "static_js_main_shareresult",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "static/js/main.js",
+      "source_location": "L147",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "static_js_main",
+      "target": "static_js_main_style",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_app.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tests_test_app",
+      "target": "tests_test_app_testtarotapp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_app.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tests_test_app_testtarotapp",
+      "target": "tests_test_app_testtarotapp_setup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_app.py",
+      "source_location": "L84",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tests_test_app_testtarotapp",
+      "target": "tests_test_app_testtarotapp_test_api_draw_single_valid_csrf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_app.py",
+      "source_location": "L79",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tests_test_app_testtarotapp",
+      "target": "tests_test_app_testtarotapp_test_api_draw_single_without_csrf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_app.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tests_test_app_testtarotapp",
+      "target": "tests_test_app_testtarotapp_test_celtic_cross_page",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_app.py",
+      "source_location": "L48",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tests_test_app_testtarotapp",
+      "target": "tests_test_app_testtarotapp_test_guide_page",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_app.py",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tests_test_app_testtarotapp",
+      "target": "tests_test_app_testtarotapp_test_history_page",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_app.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tests_test_app_testtarotapp",
+      "target": "tests_test_app_testtarotapp_test_index_page",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_app.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tests_test_app_testtarotapp",
+      "target": "tests_test_app_testtarotapp_test_single_card_page",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_app.py",
+      "source_location": "L66",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tests_test_app_testtarotapp",
+      "target": "tests_test_app_testtarotapp_test_tarot_cards_follow_sprite_order",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_app.py",
+      "source_location": "L55",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tests_test_app_testtarotapp",
+      "target": "tests_test_app_testtarotapp_test_tarot_cards_have_sprite_coordinates",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_app.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tests_test_app_testtarotapp",
+      "target": "tests_test_app_testtarotapp_test_three_cards_page",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_app.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tests_test_app_rationale_26",
+      "target": "tests_test_app_testtarotapp_test_single_card_page",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_app.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tests_test_app_rationale_56",
+      "target": "tests_test_app_testtarotapp_test_tarot_cards_have_sprite_coordinates",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "tests/test_app.py",
+      "source_location": "L57",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tests_test_app_testtarotapp_test_tarot_cards_have_sprite_coordinates",
+      "target": "path"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_app.py",
+      "source_location": "L67",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tests_test_app_rationale_67",
+      "target": "tests_test_app_testtarotapp_test_tarot_cards_follow_sprite_order",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "tests/test_app.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tests_test_app_testtarotapp_test_tarot_cards_follow_sprite_order",
+      "target": "path"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_app.py",
+      "source_location": "L80",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tests_test_app_rationale_80",
+      "target": "tests_test_app_testtarotapp_test_api_draw_single_without_csrf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_app.py",
+      "source_location": "L85",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tests_test_app_rationale_85",
+      "target": "tests_test_app_testtarotapp_test_api_draw_single_valid_csrf",
       "confidence_score": 1.0
     },
     {
@@ -3383,22 +4497,10 @@
       "confidence_score": 1.0
     },
     {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L11",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_tarot_sprite",
-      "target": "app",
-      "confidence_score": 1.0
-    },
-    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L382",
+      "source_location": "L389",
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_tarot_sprite",
@@ -3409,7 +4511,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L318",
+      "source_location": "L325",
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_tarot_sprite",
@@ -3453,7 +4555,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L329",
+      "source_location": "L336",
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_tarot_sprite",
@@ -3475,7 +4577,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L369",
+      "source_location": "L376",
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_tarot_sprite",
@@ -3816,7 +4918,18 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L323",
+      "source_location": "L317",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tests_test_tarot_sprite_testdivinationjssprite",
+      "target": "tests_test_tarot_sprite_testdivinationjssprite_test_updatereadingnote_method_exists",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_tarot_sprite.py",
+      "source_location": "L330",
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_tarot_sprite_testbasetemplatecss",
@@ -3827,10 +4940,10 @@
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L330",
+      "source_location": "L337",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "tests_test_tarot_sprite_rationale_330",
+      "source": "tests_test_tarot_sprite_rationale_337",
       "target": "tests_test_tarot_sprite_testdivinationpagepreload",
       "confidence_score": 1.0
     },
@@ -3838,7 +4951,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L338",
+      "source_location": "L345",
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_tarot_sprite_testdivinationpagepreload",
@@ -3849,7 +4962,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L334",
+      "source_location": "L341",
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_tarot_sprite_testdivinationpagepreload",
@@ -3860,7 +4973,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L355",
+      "source_location": "L362",
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_tarot_sprite_testdivinationpagepreload",
@@ -3871,7 +4984,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L361",
+      "source_location": "L368",
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_tarot_sprite_testdivinationpagepreload",
@@ -3882,7 +4995,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L343",
+      "source_location": "L350",
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_tarot_sprite_testdivinationpagepreload",
@@ -3893,7 +5006,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L349",
+      "source_location": "L356",
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_tarot_sprite_testdivinationpagepreload",
@@ -3905,7 +5018,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L356",
+      "source_location": "L363",
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_tarot_sprite_testdivinationpagepreload_test_celtic_cross_has_preload",
@@ -3917,7 +5030,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L364",
+      "source_location": "L371",
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_tarot_sprite_testdivinationpagepreload_test_no_inline_card_face_rendering",
@@ -3929,22 +5042,10 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L344",
+      "source_location": "L351",
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_tarot_sprite_testdivinationpagepreload_test_single_card_has_preload",
-      "target": "tests_test_tarot_sprite_testdivinationpagepreload_read",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L350",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "tests_test_tarot_sprite_testdivinationpagepreload_test_three_cards_has_preload",
       "target": "tests_test_tarot_sprite_testdivinationpagepreload_read",
       "confidence_score": 1.0
     },
@@ -3956,6 +5057,18 @@
       "source_location": "L357",
       "weight": 1.0,
       "_origin": "ast",
+      "source": "tests_test_tarot_sprite_testdivinationpagepreload_test_three_cards_has_preload",
+      "target": "tests_test_tarot_sprite_testdivinationpagepreload_read",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_tarot_sprite.py",
+      "source_location": "L364",
+      "weight": 1.0,
+      "_origin": "ast",
       "source": "tests_test_tarot_sprite_testdivinationpagepreload_test_celtic_cross_has_preload",
       "target": "tests_test_tarot_sprite_testdivinationpagepreload_assert_preload",
       "confidence_score": 1.0
@@ -3965,7 +5078,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L345",
+      "source_location": "L352",
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_tarot_sprite_testdivinationpagepreload_test_single_card_has_preload",
@@ -3977,7 +5090,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L351",
+      "source_location": "L358",
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_tarot_sprite_testdivinationpagepreload_test_three_cards_has_preload",
@@ -3988,10 +5101,10 @@
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L362",
+      "source_location": "L369",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "tests_test_tarot_sprite_rationale_362",
+      "source": "tests_test_tarot_sprite_rationale_369",
       "target": "tests_test_tarot_sprite_testdivinationpagepreload_test_no_inline_card_face_rendering",
       "confidence_score": 1.0
     },
@@ -3999,7 +5112,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L371",
+      "source_location": "L378",
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_tarot_sprite_testhistorypagenopreload",
@@ -4010,10 +5123,10 @@
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L383",
+      "source_location": "L390",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "tests_test_tarot_sprite_rationale_383",
+      "source": "tests_test_tarot_sprite_rationale_390",
       "target": "tests_test_tarot_sprite_testapireturnsspritecoords",
       "confidence_score": 1.0
     },
@@ -4021,7 +5134,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L395",
+      "source_location": "L402",
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_tarot_sprite_testapireturnsspritecoords",
@@ -4032,7 +5145,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L391",
+      "source_location": "L398",
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_tarot_sprite_testapireturnsspritecoords",
@@ -4043,7 +5156,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L426",
+      "source_location": "L433",
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_tarot_sprite_testapireturnsspritecoords",
@@ -4054,7 +5167,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L403",
+      "source_location": "L410",
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_tarot_sprite_testapireturnsspritecoords",
@@ -4065,10 +5178,10 @@
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L396",
+      "source_location": "L403",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "tests_test_tarot_sprite_rationale_396",
+      "source": "tests_test_tarot_sprite_rationale_403",
       "target": "tests_test_tarot_sprite_testapireturnsspritecoords_get_csrf_token",
       "confidence_score": 1.0
     },
@@ -4077,7 +5190,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L428",
+      "source_location": "L435",
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_tarot_sprite_testapireturnsspritecoords_test_api_backward_compat_existing_fields",
@@ -4089,7 +5202,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L404",
+      "source_location": "L411",
       "weight": 1.0,
       "_origin": "ast",
       "source": "tests_test_tarot_sprite_testapireturnsspritecoords_test_draw_single_includes_sprite_coords",
@@ -4100,200 +5213,205 @@
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "tests/test_tarot_sprite.py",
-      "source_location": "L427",
+      "source_location": "L434",
       "weight": 1.0,
       "_origin": "ast",
-      "source": "tests_test_tarot_sprite_rationale_427",
+      "source": "tests_test_tarot_sprite_rationale_434",
       "target": "tests_test_tarot_sprite_testapireturnsspritecoords_test_api_backward_compat_existing_fields",
       "confidence_score": 1.0
     },
     {
-      "relation": "imports_from",
-      "context": "import",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "tests/test_app.py",
-      "source_location": "L10",
+      "source_file": "tools/build_sprite.py",
+      "source_location": "L32",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "tests_test_app",
-      "target": "app"
+      "source": "tools_build_sprite",
+      "target": "tools_build_sprite_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/build_sprite.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tools_build_sprite_rationale_1",
+      "target": "tools_build_sprite",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "tests/test_app.py",
-      "source_location": "L13",
+      "source_file": "tools/download_sources.py",
+      "source_location": "L143",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "tests_test_app",
-      "target": "tests_test_app_testtarotapp"
+      "source": "tools_download_sources",
+      "target": "tools_download_sources_download",
+      "confidence_score": 1.0
     },
     {
-      "relation": "method",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "tests/test_app.py",
-      "source_location": "L15",
+      "source_file": "tools/download_sources.py",
+      "source_location": "L108",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "tests_test_app_testtarotapp",
-      "target": "tests_test_app_testtarotapp_setup"
+      "source": "tools_download_sources",
+      "target": "tools_download_sources_http_get_bytes",
+      "confidence_score": 1.0
     },
     {
-      "relation": "method",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "tests/test_app.py",
-      "source_location": "L77",
+      "source_file": "tools/download_sources.py",
+      "source_location": "L149",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "tests_test_app_testtarotapp",
-      "target": "tests_test_app_testtarotapp_test_api_draw_single_valid_csrf"
+      "source": "tools_download_sources",
+      "target": "tools_download_sources_main",
+      "confidence_score": 1.0
     },
     {
-      "relation": "method",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "tests/test_app.py",
-      "source_location": "L72",
+      "source_file": "tools/download_sources.py",
+      "source_location": "L80",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "tests_test_app_testtarotapp",
-      "target": "tests_test_app_testtarotapp_test_api_draw_single_without_csrf"
+      "source": "tools_download_sources",
+      "target": "tools_download_sources_make_major_arcana_filename",
+      "confidence_score": 1.0
     },
     {
-      "relation": "method",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "tests/test_app.py",
-      "source_location": "L37",
+      "source_file": "tools/download_sources.py",
+      "source_location": "L84",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "tests_test_app_testtarotapp",
-      "target": "tests_test_app_testtarotapp_test_celtic_cross_page"
+      "source": "tools_download_sources",
+      "target": "tools_download_sources_make_minor_arcana_filename",
+      "confidence_score": 1.0
     },
     {
-      "relation": "method",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "tests/test_app.py",
-      "source_location": "L43",
+      "source_file": "tools/download_sources.py",
+      "source_location": "L90",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "tests_test_app_testtarotapp",
-      "target": "tests_test_app_testtarotapp_test_history_page"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/test_app.py",
-      "source_location": "L19",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "tests_test_app_testtarotapp",
-      "target": "tests_test_app_testtarotapp_test_index_page"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/test_app.py",
-      "source_location": "L25",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "tests_test_app_testtarotapp",
-      "target": "tests_test_app_testtarotapp_test_single_card_page"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/test_app.py",
-      "source_location": "L59",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "tests_test_app_testtarotapp",
-      "target": "tests_test_app_testtarotapp_test_tarot_cards_follow_sprite_order"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/test_app.py",
-      "source_location": "L48",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "tests_test_app_testtarotapp",
-      "target": "tests_test_app_testtarotapp_test_tarot_cards_have_sprite_coordinates"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/test_app.py",
-      "source_location": "L31",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "tests_test_app_testtarotapp",
-      "target": "tests_test_app_testtarotapp_test_three_cards_page"
+      "source": "tools_download_sources",
+      "target": "tools_download_sources_resolve_url",
+      "confidence_score": 1.0
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "tests/test_app.py",
-      "source_location": "L26",
+      "source_file": "tools/download_sources.py",
+      "source_location": "L1",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "tests_test_app_rationale_26",
-      "target": "tests_test_app_testtarotapp_test_single_card_page"
+      "source": "tools_download_sources_rationale_1",
+      "target": "tools_download_sources",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/download_sources.py",
+      "source_location": "L163",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tools_download_sources_main",
+      "target": "tools_download_sources_make_major_arcana_filename",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/download_sources.py",
+      "source_location": "L165",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tools_download_sources_main",
+      "target": "tools_download_sources_make_minor_arcana_filename",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/download_sources.py",
+      "source_location": "L168",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tools_download_sources_main",
+      "target": "tools_download_sources_resolve_url",
+      "confidence_score": 1.0
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "tests/test_app.py",
-      "source_location": "L49",
+      "source_file": "tools/download_sources.py",
+      "source_location": "L91",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "tests_test_app_rationale_49",
-      "target": "tests_test_app_testtarotapp_test_tarot_cards_have_sprite_coordinates"
+      "source": "tools_download_sources_rationale_91",
+      "target": "tools_download_sources_resolve_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/download_sources.py",
+      "source_location": "L144",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tools_download_sources_download",
+      "target": "tools_download_sources_http_get_bytes",
+      "confidence_score": 1.0
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "tests/test_app.py",
-      "source_location": "L60",
+      "source_file": "tools/download_sources.py",
+      "source_location": "L109",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "tests_test_app_rationale_60",
-      "target": "tests_test_app_testtarotapp_test_tarot_cards_follow_sprite_order"
+      "source": "tools_download_sources_rationale_109",
+      "target": "tools_download_sources_http_get_bytes",
+      "confidence_score": 1.0
     },
     {
-      "relation": "rationale_for",
+      "relation": "references",
+      "context": "parameter_type",
       "confidence": "EXTRACTED",
-      "source_file": "tests/test_app.py",
-      "source_location": "L73",
+      "source_file": "tools/download_sources.py",
+      "source_location": "L143",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "tests_test_app_rationale_73",
-      "target": "tests_test_app_testtarotapp_test_api_draw_single_without_csrf"
+      "source": "tools_download_sources_download",
+      "target": "path",
+      "confidence_score": 1.0
     },
     {
-      "relation": "rationale_for",
+      "relation": "calls",
+      "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "tests/test_app.py",
-      "source_location": "L78",
+      "source_file": "tools/download_sources.py",
+      "source_location": "L169",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "tests_test_app_rationale_78",
-      "target": "tests_test_app_testtarotapp_test_api_draw_single_valid_csrf"
+      "source": "tools_download_sources_main",
+      "target": "tools_download_sources_download",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4302,9 +5420,9 @@
       "source_location": "L1",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign",
-      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_tarot_card_sprite_redesign_implementation_plan"
+      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_tarot_card_sprite_redesign_implementation_plan",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4313,9 +5431,9 @@
       "source_location": "L13",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_tarot_card_sprite_redesign_implementation_plan",
-      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_file_structure"
+      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_file_structure",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4324,9 +5442,9 @@
       "source_location": "L987",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_tarot_card_sprite_redesign_implementation_plan",
-      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_self_review_checklist"
+      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_self_review_checklist",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4335,9 +5453,9 @@
       "source_location": "L846",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_tarot_card_sprite_redesign_implementation_plan",
-      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_10_\u5168\u90e8\u6e2c\u8a66\u56de\u6b78"
+      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_10_\u5168\u90e8\u6e2c\u8a66\u56de\u6b78",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4346,9 +5464,9 @@
       "source_location": "L872",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_tarot_card_sprite_redesign_implementation_plan",
-      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_11_\u624b\u52d5\u8996\u89ba\u9a57\u8b49_78_\u5f35\u724c"
+      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_11_\u624b\u52d5\u8996\u89ba\u9a57\u8b49_78_\u5f35\u724c",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4357,9 +5475,9 @@
       "source_location": "L922",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_tarot_card_sprite_redesign_implementation_plan",
-      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_12_\u5efa\u7acb_pull_request"
+      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_12_\u5efa\u7acb_pull_request",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4368,9 +5486,9 @@
       "source_location": "L33",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_tarot_card_sprite_redesign_implementation_plan",
-      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_1_\u70ba_tarot_cards_json_\u52a0\u5165_sprite_\u5ea7\u6a19"
+      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_1_\u70ba_tarot_cards_json_\u52a0\u5165_sprite_\u5ea7\u6a19",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4379,9 +5497,9 @@
       "source_location": "L151",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_tarot_card_sprite_redesign_implementation_plan",
-      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_2_\u5efa\u7acb_sprite_sheet_\u7d44\u88dd\u8173\u672c"
+      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_2_\u5efa\u7acb_sprite_sheet_\u7d44\u88dd\u8173\u672c",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4390,9 +5508,9 @@
       "source_location": "L293",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_tarot_card_sprite_redesign_implementation_plan",
-      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_3_\u5efa\u7acb_card_sprite_css"
+      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_3_\u5efa\u7acb_card_sprite_css",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4401,9 +5519,9 @@
       "source_location": "L417",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_tarot_card_sprite_redesign_implementation_plan",
-      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_4_\u5728_divination_js_\u65b0\u589e_rendercard_\u65b9\u6cd5"
+      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_4_\u5728_divination_js_\u65b0\u589e_rendercard_\u65b9\u6cd5",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4412,9 +5530,9 @@
       "source_location": "L547",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_tarot_card_sprite_redesign_implementation_plan",
-      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_5_\u5728_base_html_\u8f09\u5165_card_sprite_css"
+      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_5_\u5728_base_html_\u8f09\u5165_card_sprite_css",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4423,9 +5541,9 @@
       "source_location": "L601",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_tarot_card_sprite_redesign_implementation_plan",
-      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_6_\u70ba\u5360\u535c\u9801\u52a0\u5165_preload_link_\u8207\u65b0\u5361\u9762\u5bb9\u5668"
+      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_6_\u70ba\u5360\u535c\u9801\u52a0\u5165_preload_link_\u8207\u65b0\u5361\u9762\u5bb9\u5668",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4434,9 +5552,9 @@
       "source_location": "L688",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_tarot_card_sprite_redesign_implementation_plan",
-      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_7_history_html_\u4e0d\u9810\u8f09_sprite"
+      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_7_history_html_\u4e0d\u9810\u8f09_sprite",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4445,9 +5563,9 @@
       "source_location": "L732",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_tarot_card_sprite_redesign_implementation_plan",
-      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_8_api_\u7aef\u9ede\u9a57\u8b49\u56de\u50b3_sprite_\u5ea7\u6a19"
+      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_8_api_\u7aef\u9ede\u9a57\u8b49\u56de\u50b3_sprite_\u5ea7\u6a19",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4456,9 +5574,185 @@
       "source_location": "L809",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_tarot_card_sprite_redesign_implementation_plan",
-      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_9_\u66f4\u65b0_changelog"
+      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_redesign_task_9_\u66f4\u65b0_changelog",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-visual-qa-checklist.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist",
+      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_\u5854\u7f85\u724c_sprite_sheet_\u8996\u89ba\u9a57\u8b49_checklist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-visual-qa-checklist.md",
+      "source_location": "L128",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_\u5854\u7f85\u724c_sprite_sheet_\u8996\u89ba\u9a57\u8b49_checklist",
+      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_\u5408\u4f75\u5f8c\u6e05\u7406",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-visual-qa-checklist.md",
+      "source_location": "L113",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_\u5854\u7f85\u724c_sprite_sheet_\u8996\u89ba\u9a57\u8b49_checklist",
+      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_\u5df2\u77e5\u554f\u984c_\u82e5\u767c\u73fe_\u8a18\u9304\u65bc\u6b64",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-visual-qa-checklist.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_\u5854\u7f85\u724c_sprite_sheet_\u8996\u89ba\u9a57\u8b49_checklist",
+      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_\u74b0\u5883\u6e96\u5099",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-visual-qa-checklist.md",
+      "source_location": "L119",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_\u5854\u7f85\u724c_sprite_sheet_\u8996\u89ba\u9a57\u8b49_checklist",
+      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_\u9a57\u8b49\u7d50\u679c",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-visual-qa-checklist.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_\u5854\u7f85\u724c_sprite_sheet_\u8996\u89ba\u9a57\u8b49_checklist",
+      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_\u9a57\u8b49\u9805\u76ee",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-visual-qa-checklist.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_\u9a57\u8b49\u9805\u76ee",
+      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_a_\u9996\u9801",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-visual-qa-checklist.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_\u9a57\u8b49\u9805\u76ee",
+      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_b_\u55ae\u5f35\u724c_single_card",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-visual-qa-checklist.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_\u9a57\u8b49\u9805\u76ee",
+      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_c_\u4e09\u5f35\u724c_three_cards",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-visual-qa-checklist.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_\u9a57\u8b49\u9805\u76ee",
+      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_d_\u51f1\u723e\u7279\u5341\u5b57_celtic_cross",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-visual-qa-checklist.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_\u9a57\u8b49\u9805\u76ee",
+      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_e_\u6b77\u53f2\u8a18\u9304_history",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-visual-qa-checklist.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_\u9a57\u8b49\u9805\u76ee",
+      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_f_\u884c\u52d5\u88dd\u7f6e\u6e2c\u8a66",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-visual-qa-checklist.md",
+      "source_location": "L65",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_\u9a57\u8b49\u9805\u76ee",
+      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_g_\u7db2\u8def\u7bc0\u6d41\u6e2c\u8a66",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-visual-qa-checklist.md",
+      "source_location": "L71",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_\u9a57\u8b49\u9805\u76ee",
+      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_h_fallback_\u6e2c\u8a66_sprite_\u7f3a\u5931",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-visual-qa-checklist.md",
+      "source_location": "L90",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_\u9a57\u8b49\u9805\u76ee",
+      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_i_\u622a\u5716\u5b58\u6a94",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-08-02-tarot-card-sprite-visual-qa-checklist.md",
+      "source_location": "L106",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_\u9a57\u8b49\u9805\u76ee",
+      "target": "docs_superpowers_plans_2026_08_02_tarot_card_sprite_visual_qa_checklist_j_accessibility_\u7c21\u6e2c",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4467,9 +5761,9 @@
       "source_location": "L1",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design",
-      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_tarot_card_sprite_redesign_\u8a2d\u8a08\u898f\u683c"
+      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_tarot_card_sprite_redesign_\u8a2d\u8a08\u898f\u683c",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4478,9 +5772,9 @@
       "source_location": "L216",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_tarot_card_sprite_redesign_\u8a2d\u8a08\u898f\u683c",
-      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_dod"
+      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_dod",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4489,9 +5783,9 @@
       "source_location": "L227",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_tarot_card_sprite_redesign_\u8a2d\u8a08\u898f\u683c",
-      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_out_of_scope"
+      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_out_of_scope",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4500,9 +5794,9 @@
       "source_location": "L91",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_tarot_card_sprite_redesign_\u8a2d\u8a08\u898f\u683c",
-      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u5143\u4ef6"
+      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u5143\u4ef6",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4511,9 +5805,9 @@
       "source_location": "L237",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_tarot_card_sprite_redesign_\u8a2d\u8a08\u898f\u683c",
-      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u5f85\u91d0\u6e05\u554f\u984c"
+      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u5f85\u91d0\u6e05\u554f\u984c",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4522,9 +5816,9 @@
       "source_location": "L175",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_tarot_card_sprite_redesign_\u8a2d\u8a08\u898f\u683c",
-      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u6e2c\u8a66"
+      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u6e2c\u8a66",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4533,9 +5827,9 @@
       "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_tarot_card_sprite_redesign_\u8a2d\u8a08\u898f\u683c",
-      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u76ee\u6a19"
+      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u76ee\u6a19",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4544,9 +5838,9 @@
       "source_location": "L15",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_tarot_card_sprite_redesign_\u8a2d\u8a08\u898f\u683c",
-      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u80cc\u666f"
+      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u80cc\u666f",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4555,9 +5849,9 @@
       "source_location": "L27",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_tarot_card_sprite_redesign_\u8a2d\u8a08\u898f\u683c",
-      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u8a2d\u8a08\u6c7a\u7b56"
+      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u8a2d\u8a08\u6c7a\u7b56",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4566,9 +5860,9 @@
       "source_location": "L120",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_tarot_card_sprite_redesign_\u8a2d\u8a08\u898f\u683c",
-      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u8cc7\u6599\u6d41\u7a0b"
+      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u8cc7\u6599\u6d41\u7a0b",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4577,9 +5871,9 @@
       "source_location": "L156",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_tarot_card_sprite_redesign_\u8a2d\u8a08\u898f\u683c",
-      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u932f\u8aa4\u8655\u7406"
+      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u932f\u8aa4\u8655\u7406",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4588,9 +5882,9 @@
       "source_location": "L29",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u8a2d\u8a08\u6c7a\u7b56",
-      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_d1_\u7d20\u6750_\u516c\u5171\u9818\u57df_jpg_sprite_sheet"
+      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_d1_\u7d20\u6750_\u516c\u5171\u9818\u57df_jpg_sprite_sheet",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4599,9 +5893,9 @@
       "source_location": "L42",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u8a2d\u8a08\u6c7a\u7b56",
-      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_d2_\u8f09\u5165\u7b56\u7565_lazy_load_\u9810\u8f09\u63d0\u793a"
+      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_d2_\u8f09\u5165\u7b56\u7565_lazy_load_\u9810\u8f09\u63d0\u793a",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4610,9 +5904,9 @@
       "source_location": "L49",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u8a2d\u8a08\u6c7a\u7b56",
-      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_d3_\u6e32\u67d3\u65b9\u5f0f_css_\u8b8a\u6578\u9a45\u52d5_background_position"
+      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_d3_\u6e32\u67d3\u65b9\u5f0f_css_\u8b8a\u6578\u9a45\u52d5_background_position",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4621,9 +5915,9 @@
       "source_location": "L77",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u8a2d\u8a08\u6c7a\u7b56",
-      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_d4_\u9006\u4f4d_data_\u5c6c\u6027_css_transform"
+      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_d4_\u9006\u4f4d_data_\u5c6c\u6027_css_transform",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4632,9 +5926,9 @@
       "source_location": "L83",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u8a2d\u8a08\u6c7a\u7b56",
-      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_d5_\u5411\u5f8c\u76f8\u5bb9"
+      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_d5_\u5411\u5f8c\u76f8\u5bb9",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4643,9 +5937,9 @@
       "source_location": "L111",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u5143\u4ef6",
-      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u4fdd\u6301\u4e0d\u8b8a"
+      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u4fdd\u6301\u4e0d\u8b8a",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4654,9 +5948,9 @@
       "source_location": "L100",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u5143\u4ef6",
-      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u4fee\u6539\u6a94\u6848"
+      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u4fee\u6539\u6a94\u6848",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4665,9 +5959,9 @@
       "source_location": "L93",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u5143\u4ef6",
-      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u65b0\u589e\u6a94\u6848"
+      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u65b0\u589e\u6a94\u6848",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4676,9 +5970,9 @@
       "source_location": "L166",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u932f\u8aa4\u8655\u7406",
-      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u89c0\u6e2c\u6027"
+      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u89c0\u6e2c\u6027",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4687,9 +5981,9 @@
       "source_location": "L203",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u6e2c\u8a66",
-      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_manual_qa_checklist"
+      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_manual_qa_checklist",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4698,9 +5992,9 @@
       "source_location": "L177",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u6e2c\u8a66",
-      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u55ae\u5143\u6e2c\u8a66_\u64f4\u5145_tests_test_app_py"
+      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u55ae\u5143\u6e2c\u8a66_\u64f4\u5145_tests_test_app_py",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4709,9 +6003,9 @@
       "source_location": "L189",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u6e2c\u8a66",
-      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u6574\u5408\u6e2c\u8a66_flask_test_client"
+      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u6574\u5408\u6e2c\u8a66_flask_test_client",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4720,480 +6014,9 @@
       "source_location": "L197",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u6e2c\u8a66",
-      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u932f\u8aa4\u6ce8\u5165\u6e2c\u8a66"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app.py",
-      "source_location": "L135",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "app",
-      "target": "app_celtic_cross"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app.py",
-      "source_location": "L223",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "app",
-      "target": "app_draw_celtic_cross"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app.py",
-      "source_location": "L143",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "app",
-      "target": "app_draw_single_card"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app.py",
-      "source_location": "L179",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "app",
-      "target": "app_draw_three_cards"
-    },
-    {
-      "relation": "indirect_call",
-      "confidence": "INFERRED",
-      "source_file": "app.py",
-      "source_location": "L81",
-      "weight": 1.0,
-      "_origin": "ast",
-      "context": "assignment",
-      "confidence_score": 0.5,
-      "source": "app",
-      "target": "app_generate_csrf_token"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app.py",
-      "source_location": "L270",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "app",
-      "target": "app_get_card_info"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app.py",
-      "source_location": "L62",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "app",
-      "target": "app_get_version"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app.py",
-      "source_location": "L127",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "app",
-      "target": "app_history"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app.py",
-      "source_location": "L103",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "app",
-      "target": "app_index"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app.py",
-      "source_location": "L91",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "app",
-      "target": "app_load_tarot_cards"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app.py",
-      "source_location": "L295",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "app",
-      "target": "app_save_reading"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app.py",
-      "source_location": "L111",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "app",
-      "target": "app_single_card"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app.py",
-      "source_location": "L119",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "app",
-      "target": "app_three_cards"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app.py",
-      "source_location": "L85",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "app",
-      "target": "app_validate_csrf_token"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "app.py",
-      "source_location": "L74",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "app_rationale_74",
-      "target": "app_generate_csrf_token"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app.py",
-      "source_location": "L225",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "app_draw_celtic_cross",
-      "target": "app_validate_csrf_token"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app.py",
-      "source_location": "L145",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "app_draw_single_card",
-      "target": "app_validate_csrf_token"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app.py",
-      "source_location": "L181",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "app_draw_three_cards",
-      "target": "app_validate_csrf_token"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "app.py",
-      "source_location": "L86",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "app_rationale_86",
-      "target": "app_validate_csrf_token"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app.py",
-      "source_location": "L297",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "app_save_reading",
-      "target": "app_validate_csrf_token"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "app.py",
-      "source_location": "L134",
-      "weight": 1.0,
-      "context": "decorator",
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "app_celtic_cross",
-      "target": "route"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "app.py",
-      "source_location": "L222",
-      "weight": 1.0,
-      "context": "decorator",
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "app_draw_celtic_cross",
-      "target": "route"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "app.py",
-      "source_location": "L142",
-      "weight": 1.0,
-      "context": "decorator",
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "app_draw_single_card",
-      "target": "route"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "app.py",
-      "source_location": "L178",
-      "weight": 1.0,
-      "context": "decorator",
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "app_draw_three_cards",
-      "target": "route"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "app.py",
-      "source_location": "L269",
-      "weight": 1.0,
-      "context": "decorator",
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "app_get_card_info",
-      "target": "route"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "app.py",
-      "source_location": "L126",
-      "weight": 1.0,
-      "context": "decorator",
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "app_history",
-      "target": "route"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "app.py",
-      "source_location": "L102",
-      "weight": 1.0,
-      "context": "decorator",
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "app_index",
-      "target": "route"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "app.py",
-      "source_location": "L294",
-      "weight": 1.0,
-      "context": "decorator",
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "app_save_reading",
-      "target": "route"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "app.py",
-      "source_location": "L110",
-      "weight": 1.0,
-      "context": "decorator",
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "app_single_card",
-      "target": "route"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "app.py",
-      "source_location": "L118",
-      "weight": 1.0,
-      "context": "decorator",
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "app_three_cards",
-      "target": "route"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "static/js/main.js",
-      "source_location": "L56",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "static_js_main",
-      "target": "static_js_main_addanimationeffects"
-    },
-    {
-      "relation": "indirect_call",
-      "confidence": "INFERRED",
-      "source_file": "static/js/main.js",
-      "source_location": "L170",
-      "weight": 1.0,
-      "_origin": "ast",
-      "context": "collection",
-      "confidence_score": 0.5,
-      "source": "static_js_main",
-      "target": "static_js_main_animatecarddraw"
-    },
-    {
-      "relation": "indirect_call",
-      "confidence": "INFERRED",
-      "source_file": "static/js/main.js",
-      "source_location": "L171",
-      "weight": 1.0,
-      "_origin": "ast",
-      "context": "collection",
-      "confidence_score": 0.5,
-      "source": "static_js_main",
-      "target": "static_js_main_animateresultshow"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "static/js/main.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "static_js_main",
-      "target": "static_js_main_constants"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "static/js/main.js",
-      "source_location": "L115",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "static_js_main",
-      "target": "static_js_main_gotocelticcross"
-    },
-    {
-      "relation": "indirect_call",
-      "confidence": "INFERRED",
-      "source_file": "static/js/main.js",
-      "source_location": "L168",
-      "weight": 1.0,
-      "_origin": "ast",
-      "context": "collection",
-      "confidence_score": 0.5,
-      "source": "static_js_main",
-      "target": "static_js_main_gotosinglecard"
-    },
-    {
-      "relation": "indirect_call",
-      "confidence": "INFERRED",
-      "source_file": "static/js/main.js",
-      "source_location": "L169",
-      "weight": 1.0,
-      "_origin": "ast",
-      "context": "collection",
-      "confidence_score": 0.5,
-      "source": "static_js_main",
-      "target": "static_js_main_gotothreecards"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "static/js/main.js",
-      "source_location": "L51",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "static_js_main",
-      "target": "static_js_main_initializepage"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "static/js/main.js",
-      "source_location": "L82",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "static_js_main",
-      "target": "static_js_main_setupeventlisteners"
-    },
-    {
-      "relation": "indirect_call",
-      "confidence": "INFERRED",
-      "source_file": "static/js/main.js",
-      "source_location": "L167",
-      "weight": 1.0,
-      "_origin": "ast",
-      "context": "collection",
-      "confidence_score": 0.5,
-      "source": "static_js_main",
-      "target": "static_js_main_shareresult"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "static/js/main.js",
-      "source_location": "L147",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "static_js_main",
-      "target": "static_js_main_style"
+      "target": "docs_superpowers_specs_2026_08_02_tarot_card_sprite_redesign_design_\u932f\u8aa4\u6ce8\u5165\u6e2c\u8a66",
+      "confidence_score": 1.0
     },
     {
       "relation": "semantically_similar_to",
@@ -6195,5 +7018,5 @@
       "source_file": "images/Tarot01.jpg"
     }
   ],
-  "built_at_commit": "5800a0b8f0d939a738d7c8f17022d4fd87e32f7d"
+  "built_at_commit": "d8423339d11dbfe027f83a46307c6f47afdf3488"
 }
