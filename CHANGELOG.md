@@ -37,6 +37,8 @@
 - CHANGELOG 加入繁體中文條目（本 commit）
 - `.gitignore` 新增 graphify-out 本機狀態與 workflow temp 排除規則（追蹤核心產物）
 - `.gitignore` 新增 `.claude/` 排除（Claude Code 本機設定）
+- `.gitignore` 新增 `graphify-out/*/` 排除，僅追蹤根目錄核心產物，不再追蹤每日快照目錄
+- 取消追蹤 `graphify-out/2026-08-02/`、`2026-08-04/` 舊快照（工作區檔案保留）
 - `tools/download_sources.py`：`_http_get_bytes` 退避機制從僅 429 擴展到 HTTP 5xx (500/502/503/504) 與 `urllib.error.URLError`，仍採 2s→4s→8s→16s 指數退避
 - `tools/download_sources.py`：User-Agent 由瀏覽器偽裝 (`Mozilla/5.0 ...`) 改為符合 Wikimedia User-Agent 政策的識別型 UA (`VibeCodingTarot/1.0 (https://github.com/chiisen/VibeCodingTarot; sprite rebuild tool)`)
 - `tools/build_sprite.py`：缺圖時由 `print(WARN)` 改為 `sys.exit(1)`，並刪除任何已存在的 stale sprite，避免占卜頁使用半殘 sprite 出現黑色格子
