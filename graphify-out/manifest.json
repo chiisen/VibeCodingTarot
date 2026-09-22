@@ -5,9 +5,9 @@
     "semantic_hash": "8a36ef7e695b9f15dae9846f3b3c7079"
   },
   "app.py": {
-    "mtime": 1785649483.163372,
-    "ast_hash": "8e0cb3330e66acba619fd367e7568d8b",
-    "semantic_hash": "8e0cb3330e66acba619fd367e7568d8b"
+    "mtime": 1786039498.981858,
+    "ast_hash": "6c3d028ec01d07080f3261512cab890c",
+    "semantic_hash": ""
   },
   "data/tarot_cards.json": {
     "mtime": 1785775844.3094757,
@@ -20,8 +20,8 @@
     "semantic_hash": "c345d68e1baaf8bca7d65b95838bf07f"
   },
   "static/js/divination.js": {
-    "mtime": 1785776594.8839202,
-    "ast_hash": "27c810d02760db09a749c9df6dcf3c66",
+    "mtime": 1786039498.9852397,
+    "ast_hash": "eca1b7d0df84a6bcbfbb14108fa9980b",
     "semantic_hash": ""
   },
   "static/js/main.js": {
@@ -30,8 +30,8 @@
     "semantic_hash": "ae1d9a1f3841d21b3f7678ddebc91073"
   },
   "tests/test_app.py": {
-    "mtime": 1785687390.4755576,
-    "ast_hash": "8baaddcf3f466f27a5324ec70f66adcd",
+    "mtime": 1786039498.9898057,
+    "ast_hash": "7e7a2b47b3b663f992c17abd0e932145",
     "semantic_hash": ""
   },
   ".agent_task_state.md": {
@@ -55,8 +55,8 @@
     "semantic_hash": "089bfdc595878857e4554d0a384d567e"
   },
   "CHANGELOG.md": {
-    "mtime": 1785776790.5195198,
-    "ast_hash": "595066d4d7f08ede9626255377d1c3af",
+    "mtime": 1790037234.8167696,
+    "ast_hash": "8df3de3c5d7feb08e4d34bf1e66385fa",
     "semantic_hash": ""
   },
   "CLAUDE.md": {
@@ -105,8 +105,8 @@
     "semantic_hash": "9f5bf8e1286e70f492a62955bb578d46"
   },
   "templates/base.html": {
-    "mtime": 1785775844.3235881,
-    "ast_hash": "4f2560297e0e4dcea2ef7326decd6b44",
+    "mtime": 1786039498.987036,
+    "ast_hash": "87dcf04d97eec812e613430577a90669",
     "semantic_hash": ""
   },
   "templates/celtic_cross.html": {
@@ -115,9 +115,9 @@
     "semantic_hash": ""
   },
   "templates/history.html": {
-    "mtime": 1785644497.4717755,
-    "ast_hash": "8b6ec6d58ae968bab0367cfa021ef061",
-    "semantic_hash": "8b6ec6d58ae968bab0367cfa021ef061"
+    "mtime": 1786039498.9881332,
+    "ast_hash": "e0dfda2ff074e7206344e48b854917c3",
+    "semantic_hash": ""
   },
   "templates/index.html": {
     "mtime": 1785649894.8074589,
@@ -155,8 +155,8 @@
     "semantic_hash": ""
   },
   "tests/test_tarot_sprite.py": {
-    "mtime": 1785776772.332191,
-    "ast_hash": "fd054ba5f2ba4eee0457d601bf5d81cf",
+    "mtime": 1786039498.9913852,
+    "ast_hash": "b4d0f82e9a84f9d3089e2ca364f89e63",
     "semantic_hash": ""
   },
   "tools/build_sprite.py": {
@@ -192,6 +192,11 @@
   "static/img/tarot-card-back.svg": {
     "mtime": 1785776575.6409092,
     "ast_hash": "e711a4315885ab71c62a933ff04915c2",
+    "semantic_hash": ""
+  },
+  "templates/guide.html": {
+    "mtime": 1786039498.9875903,
+    "ast_hash": "263ac8df7725d5a64a342292b06b5772",
     "semantic_hash": ""
   }
 }
